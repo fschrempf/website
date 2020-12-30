@@ -1,0 +1,108 @@
+// sass-lint:disable no-css-comments, no-color-hex, no-color-literals
+
+// Site custom styles
+body {
+  background-color: #fff;
+}
+
+// The style for the header site title
+.header__site-name {
+  font-family: OverpassHeavy, sans-serif;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+}
+
+.header__site-name-light {
+  font-family: OverpassBold, sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.header__site-name * {
+  vertical-align: middle;
+}
+
+.header__site-name :hover {
+  text-decoration: none;
+}
+
+// The style for the search and language selector
+.search-form {
+  float: left;
+}
+
+.language-selector {
+  @include padding(0.7 0);
+  float: left;
+}
+
+// The style for the navigation menu
+.main-menu {
+  margin-top: 0;
+
+  ul {
+    border-top: 2px solid;
+    //border-bottom: 2px solid;
+  }
+
+  li {
+    @include margin-top(0.5);
+    @include margin-bottom(0.5);
+  }
+
+  a {
+    display: block;
+    background-color: $brand-alt;
+    color: $text-bg;
+    padding: 2px 8px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: $brand-dark;
+    }
+
+    &:active,
+    &.active {
+      background-color: $brand;
+      text-decoration: none;
+    }
+  }
+}
+
+// The style for the home page content
+.home-content {
+  text-align: center;
+
+  .name-wrap {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .home-links {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 400px;
+
+    a {
+      flex-grow: 1;
+      margin: 0.5rem;
+    }
+  }
+}
+
+/*
+.main-menu li a {
+    text-decoration: none;
+    background-color: #818181;
+}
+
+.main-menu li a.active {
+    text-decoration: none;
+    background-color: #333;
+}
+
+.main-menu li a:hover {
+    text-decoration: none;
+}
+*/

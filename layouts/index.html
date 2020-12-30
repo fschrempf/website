@@ -1,0 +1,32 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "main" -}}
+<main class="main layout__main">
+<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
+<div class="content home-content">
+<h1>
+    <span class="name-wrap"><span class="header__site-name">Fri</span><span class="header__site-name header__site-name-light">eder</span></span>
+    <span class="name-wrap"><span class="header__site-name">S</span><span class="header__site-name header__site-name-light">chrempf</span></span>
+</h1>
+
+<h4>Electrical Engineer & Software Developer</h4>
+
+<div class="home-links">
+{{ range .Params.links }}
+<a target="_blank" href="{{ .url }}">{{ .text }}</a>
+{{ end }}
+</div>
+
+{{ .Content }}
+</div>
+</article>
+
+{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ $paginator := .Paginate $pages -}}
+{{ range $paginator.Pages -}}
+{{ .Render "summary"}}
+{{ end -}}
+
+{{ partial "pagination.html" . }}
+</main>
+{{ end }}
