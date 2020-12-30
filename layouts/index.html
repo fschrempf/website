@@ -13,7 +13,7 @@
 
 <div class="home-links">
 {{ range .Params.links }}
-<a target="_blank" href="{{ .url }}">{{ .text }}</a>
+<a {{ if hasPrefix .url "http" }}target="_blank"{{ end }} href="{{ .url | safeURL }}">{{ .text }}</a>
 {{ end }}
 </div>
 
