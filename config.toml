@@ -17,7 +17,7 @@ DefaultContentLanguage = "en"
   copyright = "© 2020 Frieder Schrempf"
   #copyright = "This site is licensed under a <a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Creative Commons Attribution-ShareAlike 4.0 International License</a>."
   dateformat = ""            # Set the date format, default to "2 January, 2006"
-  description = ""           # Set site description, used in meta tags and JSON-LD
+  description = "Frieder Schrempf - Electrical Engineer & Software Developer"
   favicon = ""               # Relative path to favicon in json feed, no leading slash.
   feedlinks = false          # Show feed links in the footer.
   #footer = "A [example.org](https://example.org/) production."
