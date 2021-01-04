@@ -9,4 +9,6 @@ links:
     url: https://github.com/fschrempf
   - text: GitLab
     url: https://gitlab.com/fschrempf
+  - text: Codeberg
+    url: https://codeberg.org/fschrempf
 ---
