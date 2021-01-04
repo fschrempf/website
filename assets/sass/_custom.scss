@@ -87,6 +87,14 @@ body {
     a {
       flex-grow: 1;
       margin: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 1.5rem;
+        margin-right: 0.5rem;
+      }
     }
   }
 }

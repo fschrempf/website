@@ -13,7 +13,10 @@
 
 <div class="home-links">
 {{ range .Params.links }}
-<a {{ if hasPrefix .url "http" }}target="_blank"{{ end }} href="{{ .url | safeURL }}">{{ .text }}</a>
+<a {{ if hasPrefix .url "http" }}target="_blank"{{ end }} href="{{ .url | safeURL }}">
+    {{ with .icon }}{{ readFile (print "/static/svg/" .) | safeHTML }}{{ end }}
+    <span>{{ .text }}</span>
+</a>
 {{ end }}
 </div>
 
