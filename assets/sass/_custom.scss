@@ -80,20 +80,25 @@ body {
 
   .home-links {
     display: inline-flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 400px;
+    flex-direction: column;
 
-    a {
-      flex-grow: 1;
-      margin: 0.5rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .home-links-row {
+      display: inline-flex;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 600px;
 
-      svg {
-        width: 1.5rem;
-        margin-right: 0.5rem;
+      a {
+        flex-grow: 1;
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+          width: 1.5rem;
+          margin-right: 0.5rem;
+        }
       }
     }
   }

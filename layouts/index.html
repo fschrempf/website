@@ -12,12 +12,22 @@
 <h4>Electrical Engineer & Software Developer</h4>
 
 <div class="home-links">
-{{ range .Params.links }}
-<a {{ if hasPrefix .url "http" }}target="_blank"{{ end }} href="{{ .url | safeURL }}">
-    {{ with .icon }}{{ readFile (print "/static/svg/" .) | safeHTML }}{{ end }}
-    <span>{{ .text }}</span>
-</a>
-{{ end }}
+    <div class="home-links-row">
+        {{ range .Params.links_comm }}
+        <a {{ if hasPrefix .url "http" }}target="_blank"{{ end }} href="{{ .url | safeURL }}">
+            {{ with .icon }}{{ readFile (print "/static/svg/" .) | safeHTML }}{{ end }}
+            <span>{{ .text }}</span>
+        </a>
+        {{ end }}
+    </div>
+    <div class="home-links-row">
+        {{ range .Params.links }}
+        <a {{ if hasPrefix .url "http" }}target="_blank"{{ end }} href="{{ .url | safeURL }}">
+            {{ with .icon }}{{ readFile (print "/static/svg/" .) | safeHTML }}{{ end }}
+            <span>{{ .text }}</span>
+        </a>
+        {{ end }}
+    </div>
 </div>
 
 {{ .Content }}
