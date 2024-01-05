@@ -3,13 +3,17 @@
 // Site custom styles
 body {
   background-color: #fff;
+
+  header {
+    padding-block-end: 0 !important;
+  }
 }
+
 
 // The style for the header site title
 .header__site-name {
   font-family: OverpassHeavy, sans-serif;
   letter-spacing: 0.2em;
-  text-decoration: none;
 }
 
 .header__site-name-light {
@@ -19,6 +23,7 @@ body {
 
 .header__site-name * {
   vertical-align: middle;
+  text-decoration: none;
 }
 
 .header__site-name :hover {
@@ -51,19 +56,19 @@ body {
 
   a {
     display: block;
-    background-color: $brand-alt;
-    color: $text-bg;
+    background-color: var(--color-brand-alt);
+    color: var(--color-text-bg);
     padding: 2px 8px;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      background-color: $brand-dark;
+      background-color: var(--color-brand-dark);
     }
 
     &:active,
     &.active {
-      background-color: $brand;
+      background-color: var(--color-brand);
       text-decoration: none;
     }
   }
@@ -72,6 +77,13 @@ body {
 // The style for the home page content
 .home-content {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+    max-width: unset !important;
+  }
 
   .name-wrap {
     display: inline-block;
@@ -100,6 +112,22 @@ body {
           margin-right: 0.5rem;
         }
       }
+    }
+  }
+}
+
+// The style for the contributions page
+.contributions-content {
+  ul {
+    font-family: monospace;
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none !important;
+      margin: 0;
+      padding: 0;
     }
   }
 }
