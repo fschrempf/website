@@ -14,7 +14,7 @@ DefaultContentLanguage = "en"
     dateformat = ""
 
 [params]
-  copyright = "© 2021 Frieder Schrempf"
+  copyright = "© 2024 Frieder Schrempf"
   #copyright = "This site is licensed under a <a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Creative Commons Attribution-ShareAlike 4.0 International License</a>."
   dateformat = ""            # Set the date format, default to "2 January, 2006"
   description = "Frieder Schrempf - Electrical Engineer & Software Developer"
