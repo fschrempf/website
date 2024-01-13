@@ -1,0 +1,105 @@
+document:
+  title: "Frieder's Open Source Contributions"
+  author:
+    name: "Frieder Schrempf"
+    email: "frieder@fris.de"
+
+parser:
+  github:
+    token: ${GITHUB_APITOKEN}
+
+projects:
+  Linux Kernel:
+    description: Free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel
+    url: https://kernel.org/
+    giturl: https://github.com/torvalds/linux
+    gitweburl: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=%COMMIT-ID%
+    parser: github
+  U-Boot:
+    description: '"Das U-Boot" Bootloader'
+    url: https://docs.u-boot.org
+    giturl: https://github.com/u-boot/u-boot
+    gitweburl: https://source.denx.de/u-boot/u-boot/-/commit/%COMMIT-ID%
+    parser: github
+  ESPuino:
+    url: https://github.com/biologist79/ESPuino
+    giturl: https://github.com/biologist79/ESPuino
+    gitweburl: https://github.com/biologist79/ESPuino/commit/%COMMIT-ID%
+    parser: github
+  meta-linux-mainline:
+    url: https://github.com/betafive/meta-linux-mainline
+    giturl: https://github.com/betafive/meta-linux-mainline
+    gitweburl: https://github.com/betafive/meta-linux-mainline/commit/%COMMIT-ID%
+    parser: github
+  ChurchToolsAPI:
+    url: https://github.com/bensteUEM/ChurchToolsAPI
+    giturl: https://github.com/bensteUEM/ChurchToolsAPI
+    gitweburl: https://github.com/bensteUEM/ChurchToolsAPI/commit/%COMMIT-ID%
+    parser: github
+  nextcloud-async:
+    url: https://github.com/aaronsegura/nextcloud-async
+    giturl: https://github.com/aaronsegura/nextcloud-async
+    gitweburl: https://github.com/aaronsegura/nextcloud-async/commit/%COMMIT-ID%
+    parser: github
+  libubootenv:
+    url: https://github.com/sbabic/libubootenv
+    giturl: https://github.com/sbabic/libubootenv
+    gitweburl: https://github.com/sbabic/libubootenv/commit/%COMMIT-ID%
+    parser: github
+  meta-freescale:
+    url: https://github.com/Freescale/meta-freescale
+    giturl: https://github.com/Freescale/meta-freescale
+    gitweburl: https://github.com/Freescale/meta-freescale/%COMMIT-ID%
+    parser: github
+  docker-borgmatic:
+    url: https://github.com/borgmatic-collective/docker-borgmatic
+    giturl: https://github.com/borgmatic-collective/docker-borgmatic
+    gitweburl: https://github.com/borgmatic-collective/docker-borgmatic/commit/%COMMIT-ID%
+    parser: github
+  tasks:
+    url: https://tasks.org/
+    giturl: https://github.com/tasks/tasks
+    gitweburl: https://github.com/tasks/tasks/commit/%COMMIT-ID%
+    parser: github
+  dokuwiki-plugin-struct:
+    url: https://www.dokuwiki.org/plugin:struct
+    giturl: https://github.com/cosmocode/dokuwiki-plugin-struct
+    gitweburl: https://github.com/cosmocode/dokuwiki-plugin-struct/commit/%COMMIT-ID%
+    parser: github
+  groupfolders:
+    description: Admin-configured folders for Nextcloud
+    url: https://github.com/nextcloud/groupfolders
+    giturl: https://github.com/nextcloud/groupfolders
+    gitweburl: https://github.com/nextcloud/groupfolders/commit/%COMMIT-ID%
+    parser: github
+  hugo-theme-zen:
+    url: https://github.com/frjo/hugo-theme-zen
+    giturl: https://github.com/frjo/hugo-theme-zen
+    gitweburl: https://github.com/frjo/hugo-theme-zen/commit/%COMMIT-ID%
+    parser: github
+  docsy:
+    url: https://www.docsy.dev/
+    giturl: https://github.com/google/docsy
+    gitweburl: https://github.com/google/docsy/commit/%COMMIT-ID%
+    parser: github
+  KiCost:
+    url: https://hildogjr.github.io/KiCost
+    giturl: https://github.com/hildogjr/KiCost
+    gitweburl: https://github.com/hildogjr/KiCost/commit/%COMMIT-ID%
+    parser: github
+  SermonSpeaker:
+    url: https://www.sermonspeaker.net/
+    giturl: https://github.com/Bakual/SermonSpeaker
+    gitweburl: https://github.com/Bakual/SermonSpeaker/commit/%COMMIT-ID%
+    parser: github
+
+authors:
+  Frieder Schrempf:
+    emails:
+      - frieder@fris.de
+      - dev@fris.de
+      - frieder.schrempf@kontron.de
+      - frieder.schrempf@exceet.de
+      - fr.sc@online.de
+      - frieder.schrempf@online.de
+      - 34034373+fschrempf@users.noreply.github.com

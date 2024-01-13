@@ -3,6 +3,12 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:0.121.1
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  RUN_CONTRIPY_BOT:
+    description: "Enable contripy job"
+    value: "false"
+    options:
+      - "false"
+      - "true"
 
 test:
   script:
@@ -18,3 +24,36 @@ pages:
       - public
   only:
     - master
+
+.contripy-rules: &contripy-rules
+  rules:
+    - if: $RUN_CONTRIPY_BOT == "true"
+    - changes:
+        - contripy.yml
+    - when: never
+
+contripy:
+  image: registry.gitlab.com/fschrempf/contripy/contripy:latest
+  script:
+    - /app/./contripy -c contripy.yaml -o data/contributions.json --from=2010-01-01
+  <<: *contripy-rules
+  artifacts:
+    paths:
+      - data/contributions.json
+
+commit-contributions:
+  image:
+    name: alpine/git
+    entrypoint: [""]
+  needs: [contripy]
+  <<: *contripy-rules
+  before_script:
+    - git config --global user.email "contripy-bot@${CI_SERVER_HOST}"
+    - git config --global user.name "Contripy Bot"
+  script:
+    - git status || true
+    - '! git diff --exit-code || exit 0'
+    - git remote set-url origin https://contripy-bot:${PROJECT_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}
+    - git add .
+    - 'git commit -m "Contripy Bot: Update contributions data"'
+    - git push
