@@ -6,15 +6,15 @@ variables:
 
 test:
   script:
-  - hugo
+    - hugo
   except:
-  - master
+    - master
 
 pages:
   script:
-  - hugo --baseURL="https://fris.de/"
+    - hugo --baseURL="https://fris.de/"
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master
