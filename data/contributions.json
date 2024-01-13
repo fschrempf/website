@@ -1,0 +1,29 @@
+{
+  "period": {
+    "start": "2010-01-01",
+    "end": "2024-01-13"
+  },
+  "authors": {
+    "Frieder Schrempf": {
+      "name": "Frieder Schrempf",
+      "emails": [
+        "frieder@fris.de",
+        "dev@fris.de",
+        "frieder.schrempf@kontron.de",
+        "frieder.schrempf@exceet.de",
+        "fr.sc@online.de",
+        "frieder.schrempf@online.de",
+        "34034373+fschrempf@users.noreply.github.com"
+      ],
+      "projects": {}
+    }
+  },
+  "projects": {},
+  "document": {
+    "title": "Frieder's Open Source Contributions",
+    "author": {
+      "name": "Frieder Schrempf",
+      "email": "frieder@fris.de"
+    }
+  }
+}

@@ -125,9 +125,10 @@ body {
     padding: 0;
 
     li {
-      list-style-type: none !important;
-      margin: 0;
-      padding: 0;
+      max-width: 90%;
+      text-overflow: clip;
+      overflow: hidden;
+      white-space: nowrap;
     }
   }
 }

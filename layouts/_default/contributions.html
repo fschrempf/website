@@ -1,0 +1,65 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "main" -}}
+
+{{ $author := "Frieder Schrempf" }}
+{{ $visible_commits_per_project := 10 }}
+
+<main class="main layout__main">
+<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
+<div class="content contributions-content">
+
+{{ .Content }}
+
+{{ $project_index := 0 }}
+{{ $author := index $.Site.Data.contributions.authors $author }}
+
+{{ $projects := slice }}
+{{ range $name, $project := $author.projects }}
+    {{ $project = merge $project (dict "name" $name "totalContributionsAuthored" (len $project.authored)) }}
+    {{ $projects = $projects | append $project }}
+{{ end }}
+
+{{ $projects := sort $projects "totalContributionsAuthored" "desc" }}
+
+{{ range $project := $projects }}
+
+    {{ $project_meta := index $.Site.Data.contributions.projects $project.name }}
+
+    <h2>
+        {{ $project_meta.name }}
+        <small>
+            <a href="{{ $project_meta.url }}" target="_blank">(Link)</a>
+        </small>
+    </h2>
+    <h3>{{ $project_meta.description }}</h3>
+    <h4>Total Number of Contributions: {{ len $project.authored }}</h4>
+    <ul>
+    {{ range $i, $commit := $project.authored }}
+    <li class='{{ if gt (add $i 1) $visible_commits_per_project }}hidden list-item-truncated{{ end }}'
+        data-project-id="{{ $project_index }}">
+        {{ $date := time.Format "2006-01-06" .date }}
+        {{ printf "%s:" $date}}
+        {{ with .link }}
+            <a href="{{ . }}" target="_blank">
+        {{ end }}
+        {{ .subject }}
+        {{ if .link }}
+            </a>
+        {{ end }}
+    </li>
+    {{ end }}
+
+    {{ if gt (len $project.authored) $visible_commits_per_project }}
+    <li>
+        <a class='show-list-anchor' data-project-id="{{ $project_index }}"
+        href="#" target="_blank">Show More...</a>
+    </li>
+    {{ end }}
+    </ul>
+    {{ $project_index = add $project_index 1 }}
+{{ end }}
+</div>
+</article>
+</main>
+{{ end }}

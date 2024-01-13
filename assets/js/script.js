@@ -1,4 +1,3 @@
-<!--
 function UnCryptMailto( s )
 {
     var n = 0;
@@ -19,12 +18,30 @@ function linkTo_UnCryptMailto( s )
 {
     location.href=UnCryptMailto( s );
 }
-// -->
 
 (function ($) {
 
-  'use strict';
+    'use strict';
 
-  // Place your code here.
+    let anchors = document.getElementsByClassName("show-list-anchor");
+    for (var i = 0; i < anchors.length; i++) {
+        let pid = anchors.item(i).getAttribute('data-project-id');
+        anchors.item(i).onclick = function(e) {
+            if (e.srcElement.innerHTML == "Show More...") {
+                e.srcElement.innerHTML = "Show Less";
+            } else {
+                e.srcElement.innerHTML = "Show More...";
+            }
 
-})(u);
+            let items = document.querySelectorAll(".list-item-truncated[data-project-id='" + pid + "']");
+            for (var f = 0; f < items.length; f++) {
+                if (items.item(f).classList.contains("hidden")) {
+                    items.item(f).classList.remove("hidden");
+                } else {
+                    items.item(f).classList.add("hidden");
+                }
+            }
+            return false;
+        };
+    }
+})();
