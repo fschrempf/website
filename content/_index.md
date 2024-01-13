@@ -7,6 +7,9 @@ links_comm:
   - text: Matrix
     url: https://matrix.to/#/@f.schrempf:matrix.org
     icon: matrix.svg
+  - text: Mastodon
+    url: https://mastodon.social/@frisch
+    icon: mastodon.svg
 links:
   - text: GitHub
     url: https://github.com/fschrempf
