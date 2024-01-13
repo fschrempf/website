@@ -5,10 +5,10 @@ theme = "zen"
 DefaultContentLanguage = "en"
 
 [markup.goldmark.renderer]
-  unsafe= true
+  unsafe = true
 
 [languages]
-  [languages.en]
+  [languages.en.params]
     weight = 1
     languageName = "EN"
     dateformat = ""
@@ -27,7 +27,7 @@ DefaultContentLanguage = "en"
   jquery = true              # Add jQuery
   languageDir = ""           # Set ltr or rtl, defaults to ltr.
   logo = false               # Turn off the logo.
-  menuShowHome = false       # Show the home page in the main menu
+  menuShowHome = true        # Show the home page in the main menu
   microUsername = ""         # Your micro.blog username.
   mobileMenu = false         # Turn on a mobile menu on small screens.
   plausibleSiteID = "fris.de" # Plausible site id/domain.

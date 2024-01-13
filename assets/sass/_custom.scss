@@ -7,8 +7,11 @@ body {
   header {
     padding-block-end: 0 !important;
   }
-}
 
+  footer {
+    margin-top: var(--gutters);
+  }
+}
 
 // The style for the header site title
 .header__site-name {
@@ -21,13 +24,9 @@ body {
   letter-spacing: 0.2em;
 }
 
-.header__site-name * {
-  vertical-align: middle;
-  text-decoration: none;
-}
-
-.header__site-name :hover {
-  text-decoration: none;
+.header__site-name *, .header__site-link * {
+  vertical-align: middle !important;
+  text-decoration: none !important;
 }
 
 // The style for the search and language selector
@@ -125,9 +124,10 @@ body {
     padding: 0;
 
     li {
-      list-style-type: none !important;
-      margin: 0;
-      padding: 0;
+      max-width: 90%;
+      text-overflow: clip;
+      overflow: hidden;
+      white-space: nowrap;
     }
   }
 }

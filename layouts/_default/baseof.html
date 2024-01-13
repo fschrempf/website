@@ -15,7 +15,6 @@
 <body class="{{ if .IsPage }}single-page{{ else }}list-page{{ end }}{{ if .IsHome }} front{{ end }}">
 <div class="page layout__page{{ if $.Param "sidebar" | default true }} layout__sidebar-second{{ end }}">
 <header class="header layout__header">
-{{ if $.Param "logo" | default true }}<a href="{{ "/" | relLangURL }}" title="Home" rel="home" class="header__logo"><img src="{{ "/images/logo.png" | relURL }}" alt="Home" class="header__logo-image"></a>{{ end }}
 <h1 class="header__site-name">
 <a href="{{ "/" | relLangURL }}" title="Home" rel="home"><span class="header__site-name">FriS</span><span class="header__site-name header__site-name-light">.de</span></a>
 </h1>
