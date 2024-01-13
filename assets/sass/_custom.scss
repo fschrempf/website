@@ -7,6 +7,10 @@ body {
   header {
     padding-block-end: 0 !important;
   }
+
+  footer {
+    margin-top: var(--gutters);
+  }
 }
 
 
