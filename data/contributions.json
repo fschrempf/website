@@ -15,10 +15,2108 @@
         "frieder.schrempf@online.de",
         "34034373+fschrempf@users.noreply.github.com"
       ],
-      "projects": {}
+      "projects": {
+        "Linux Kernel": {
+          "authored": [
+            {
+              "id": "20c827683de05a6c7e7ae7fae586899690693251",
+              "subject": "drm: bridge: samsung-dsim: Fix init during host transfer",
+              "date": "2023-08-18T08:38:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=20c827683de05a6c7e7ae7fae586899690693251"
+            },
+            {
+              "id": "dd9e329af7236e34c566d3705ea32a63069b9b13",
+              "subject": "drm/bridge: ti-sn65dsi83: Fix enable/disable flow to meet spec",
+              "date": "2023-05-25T16:16:32Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=dd9e329af7236e34c566d3705ea32a63069b9b13"
+            },
+            {
+              "id": "0c14d3130654fe459fca3067d2d4317fc607bc71",
+              "subject": "drm: bridge: samsung-dsim: Fix i.MX8M enable flow to meet spec",
+              "date": "2023-05-25T16:16:32Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0c14d3130654fe459fca3067d2d4317fc607bc71"
+            },
+            {
+              "id": "a56b3e151e30da1f71fcb0b5726bb592ee4e30b6",
+              "subject": "media: imx: imx7-media-csi: Fix error handling in imx7_csi_async_regi\u2026",
+              "date": "2023-04-11T16:11:53Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a56b3e151e30da1f71fcb0b5726bb592ee4e30b6"
+            },
+            {
+              "id": "ac9e22f446e4a01caebf6470e35b75191ae9f9b1",
+              "subject": "arm64: dts: imx8mm-kontron: Add RTC aliases",
+              "date": "2022-12-31T11:59:02Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ac9e22f446e4a01caebf6470e35b75191ae9f9b1"
+            },
+            {
+              "id": "4b03d5e0d3e86ee492d54254927d020dc0fe8acf",
+              "subject": "drm/bridge: ti-sn65dsi83: Fix delay after reset deassert to match spec",
+              "date": "2022-11-24T12:13:06Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4b03d5e0d3e86ee492d54254927d020dc0fe8acf"
+            },
+            {
+              "id": "db2d2dc9a0b58c6faefb6b002fdbed4f0362d1a4",
+              "subject": "spi: spi-imx: Fix spi_bus_clk if requested clock is higher than input\u2026",
+              "date": "2022-11-16T11:40:00Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=db2d2dc9a0b58c6faefb6b002fdbed4f0362d1a4"
+            },
+            {
+              "id": "de9618e84f763a0236679d2eb5c9a6207ec2eb92",
+              "subject": "arm64: dts: Add support for Kontron SL/BL i.MX8MM OSM-S",
+              "date": "2022-09-17T08:34:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=de9618e84f763a0236679d2eb5c9a6207ec2eb92"
+            },
+            {
+              "id": "b63791966edff822297f6690c67dbba3f032be73",
+              "subject": "arm64: dts: imx8mm-kontron: Add SPI NOR partition layout",
+              "date": "2022-09-17T08:34:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b63791966edff822297f6690c67dbba3f032be73"
+            },
+            {
+              "id": "9cb41873f8e1e91422ec591910124ea6094ede3f",
+              "subject": "arm64: dts: imx8mm-kontron: Use voltage rail names from schematic for\u2026",
+              "date": "2022-09-17T08:34:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9cb41873f8e1e91422ec591910124ea6094ede3f"
+            },
+            {
+              "id": "3e44946da2273d84107823838f6a40588dc2b2a7",
+              "subject": "arm64: dts: imx8mm-kontron: Remove low DDRC operating point",
+              "date": "2022-09-17T08:34:22Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3e44946da2273d84107823838f6a40588dc2b2a7"
+            },
+            {
+              "id": "eef2c0217e02b6c7ed5b10b82ea944127145e113",
+              "subject": "arm64: dts: imx8mm-kontron: Use the VSELECT signal to switch SD card \u2026",
+              "date": "2022-09-17T08:34:22Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=eef2c0217e02b6c7ed5b10b82ea944127145e113"
+            },
+            {
+              "id": "587c1fed72b314003c9f0346a6466158fa20563f",
+              "subject": "arm64: dts: imx8mm-kontron: Adjust compatibles, file names and model \u2026",
+              "date": "2022-09-17T08:34:22Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=587c1fed72b314003c9f0346a6466158fa20563f"
+            },
+            {
+              "id": "25b189646787271116a856840700efbf31f14551",
+              "subject": "dt-bindings: arm: fsl: Add Kontron BL i.MX8MM OSM-S board",
+              "date": "2022-09-17T08:25:49Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=25b189646787271116a856840700efbf31f14551"
+            },
+            {
+              "id": "9d820e6581a87060eb6269acebc608ccdf5aa8b3",
+              "subject": "dt-bindings: arm: fsl: Rename compatibles for Kontron i.MX8MM SoM/board",
+              "date": "2022-09-17T08:25:49Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9d820e6581a87060eb6269acebc608ccdf5aa8b3"
+            },
+            {
+              "id": "3627a8139da7584f4227d475963de558a842a31f",
+              "subject": "dt-bindings: arm: fsl: imx6ul-kontron: Update bindings",
+              "date": "2022-09-17T08:25:48Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3627a8139da7584f4227d475963de558a842a31f"
+            },
+            {
+              "id": "7e4bf4d8debc51810cc3ed2c0d3f0c21d2c41dd5",
+              "subject": "ARM: dts: imx6ul-kontron: Add imx6ull-kontron-bl to Makefile",
+              "date": "2022-08-22T02:22:43Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7e4bf4d8debc51810cc3ed2c0d3f0c21d2c41dd5"
+            },
+            {
+              "id": "0fcf85d89de30ad2d9d9836376aacaf329d1b022",
+              "subject": "ARM: dts: imx6ul-kontron: Simplify devicetree structure",
+              "date": "2022-08-22T02:22:34Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0fcf85d89de30ad2d9d9836376aacaf329d1b022"
+            },
+            {
+              "id": "b0de7fa706506bf0591037908376351beda8c5d6",
+              "subject": "regulator: pca9450: Remove restrictions for regulator-name",
+              "date": "2022-08-02T13:38:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b0de7fa706506bf0591037908376351beda8c5d6"
+            },
+            {
+              "id": "0b28c41e3c951ea3d4f012cfa9da5ebd6512cf6e",
+              "subject": "arm64: dts: imx8mm-kontron: Fix connection type for VSC8531 RGMII PHY",
+              "date": "2021-10-16T07:30:00Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0b28c41e3c951ea3d4f012cfa9da5ebd6512cf6e"
+            },
+            {
+              "id": "ca6f9d85d5944046a241b325700c1ca395651c28",
+              "subject": "arm64: dts: imx8mm-kontron: Fix CAN SPI clock frequency",
+              "date": "2021-10-16T07:29:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ca6f9d85d5944046a241b325700c1ca395651c28"
+            },
+            {
+              "id": "6562d6e350284307e33ea10c7f46a6661ff22770",
+              "subject": "arm64: dts: imx8mm-kontron: Fix polarity of reg_rst_eth2",
+              "date": "2021-10-16T07:29:54Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6562d6e350284307e33ea10c7f46a6661ff22770"
+            },
+            {
+              "id": "256a24eba7f897c817fb0103dac73467d3789202",
+              "subject": "arm64: dts: imx8mm-kontron: Set lower limit of VDD_SNVS to 800 mV",
+              "date": "2021-10-16T07:29:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=256a24eba7f897c817fb0103dac73467d3789202"
+            },
+            {
+              "id": "82a4f329b133ad0de66bee12c0be5c67bb8aa188",
+              "subject": "arm64: dts: imx8mm-kontron: Make sure SOC and DRAM supply voltages ar\u2026",
+              "date": "2021-10-16T07:29:34Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=82a4f329b133ad0de66bee12c0be5c67bb8aa188"
+            },
+            {
+              "id": "ec1e91d400bf21def54c441552bdf2976ce36e3b",
+              "subject": "arm64: dts: imx8mm-kontron: Add support for ultra high speed modes on\u2026",
+              "date": "2021-10-16T07:28:27Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ec1e91d400bf21def54c441552bdf2976ce36e3b"
+            },
+            {
+              "id": "315e7b884190a6c9c28e95ad3b724dde9e922b99",
+              "subject": "arm64: dts: imx8mm-kontron: Fix reset delays for ethernet PHY",
+              "date": "2021-10-05T07:24:06Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=315e7b884190a6c9c28e95ad3b724dde9e922b99"
+            },
+            {
+              "id": "4523be8e46beb8a0992f31f53218d3f9ec267816",
+              "subject": "arm64: dts: imx8mm: Add GPU nodes for 2D and 3D core",
+              "date": "2021-10-05T06:38:48Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4523be8e46beb8a0992f31f53218d3f9ec267816"
+            },
+            {
+              "id": "abb7c7c2f025e5f5f80359809e5c73549614306b",
+              "subject": "media: adv7180: Add optional reset GPIO",
+              "date": "2021-07-22T09:40:46Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=abb7c7c2f025e5f5f80359809e5c73549614306b"
+            },
+            {
+              "id": "03c427147b2d3e503af258711af4fc792b89b0af",
+              "subject": "can: mcp251x: fix resume from sleep before interface was brought up",
+              "date": "2021-05-06T07:24:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=03c427147b2d3e503af258711af4fc792b89b0af"
+            },
+            {
+              "id": "98b94b6e38ca0c4eeb29949c656f6a315000c23e",
+              "subject": "regulator: pca9450: Clear PRESET_EN bit to fix BUCK1/2/3 voltage setting",
+              "date": "2021-03-10T12:22:26Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=98b94b6e38ca0c4eeb29949c656f6a315000c23e"
+            },
+            {
+              "id": "5fe5f17dc59e508cae1ec2a898a0801f54aeeaae",
+              "subject": "regulator: pca9450: Fix return value when failing to get sd-vsel GPIO",
+              "date": "2021-03-10T12:22:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5fe5f17dc59e508cae1ec2a898a0801f54aeeaae"
+            },
+            {
+              "id": "ef4848a6532ba0b241d3b6cad70378ff2c5615ca",
+              "subject": "regulator: pca9450: Fix return value when failing to get sd-vsel GPIO",
+              "date": "2021-02-24T13:24:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ef4848a6532ba0b241d3b6cad70378ff2c5615ca"
+            },
+            {
+              "id": "27866e3e8a7e93494f8374f48061aa73ee46ceb2",
+              "subject": "regulator: pca9450: Add sd-vsel GPIO",
+              "date": "2021-02-11T13:11:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=27866e3e8a7e93494f8374f48061aa73ee46ceb2"
+            },
+            {
+              "id": "f7684f5a048febd2a7bc98ee81d6dce52f7268b8",
+              "subject": "regulator: pca9450: Enable system reset on WDOG_B assertion",
+              "date": "2021-02-11T13:11:35Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f7684f5a048febd2a7bc98ee81d6dce52f7268b8"
+            },
+            {
+              "id": "8c67a11bae889f51fe5054364c3c789dfae3ad73",
+              "subject": "regulator: pca9450: Add SD_VSEL GPIO for LDO5",
+              "date": "2021-02-11T13:11:34Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8c67a11bae889f51fe5054364c3c789dfae3ad73"
+            },
+            {
+              "id": "59f96cf6ba88c64278c35d11957a36faaca33de7",
+              "subject": "NFC: nxp-nci: Make firmware GPIO pin optional",
+              "date": "2020-12-02T19:58:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=59f96cf6ba88c64278c35d11957a36faaca33de7"
+            },
+            {
+              "id": "8668d8b2e67fe7cf65f02becd5d67c0636689e82",
+              "subject": "arm64: dts: Add the Kontron i.MX8M Mini SoMs and baseboards",
+              "date": "2020-10-30T07:01:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8668d8b2e67fe7cf65f02becd5d67c0636689e82"
+            },
+            {
+              "id": "a687b55e10e9aaed1b1c9637771938db995cba52",
+              "subject": "dt-bindings: arm: fsl: Add Kontron i.MX8M Mini SoMs and boards",
+              "date": "2020-10-30T07:01:22Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a687b55e10e9aaed1b1c9637771938db995cba52"
+            },
+            {
+              "id": "482dcb2a04fdf6d4306e40f2b0537a313a466558",
+              "subject": "mtd: spi-nor: macronix: Add support for MX25R1635F",
+              "date": "2020-07-03T10:19:31Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=482dcb2a04fdf6d4306e40f2b0537a313a466558"
+            },
+            {
+              "id": "d22a16cc92e04d053fd807ef3587e4f135e4206f",
+              "subject": "ARM: dts: imx6ul-kontron: Change WDOG_ANY signal from push-pull to op\u2026",
+              "date": "2020-06-23T03:39:35Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d22a16cc92e04d053fd807ef3587e4f135e4206f"
+            },
+            {
+              "id": "04a2c05179b732a4c097f0a9c701ef4c9a37e1e3",
+              "subject": "ARM: dts: imx6ul-kontron: Move watchdog from Kontron i.MX6UL/ULL boar\u2026",
+              "date": "2020-06-23T03:39:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=04a2c05179b732a4c097f0a9c701ef4c9a37e1e3"
+            },
+            {
+              "id": "b645ad39d56846618704e463b24bb994c9585c7f",
+              "subject": "mtd: spinand: Do not erase the block before writing a bad block marker",
+              "date": "2020-03-11T15:17:54Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b645ad39d56846618704e463b24bb994c9585c7f"
+            },
+            {
+              "id": "621a7b780bd8b7054647d53d5071961f2c9e0873",
+              "subject": "mtd: spinand: Explicitly use MTD_OPS_RAW to write the bad block marke\u2026",
+              "date": "2020-03-11T15:17:54Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=621a7b780bd8b7054647d53d5071961f2c9e0873"
+            },
+            {
+              "id": "2148937501ee3d663e0010e519a553fea67ad103",
+              "subject": "mtd: spinand: Stop using spinand->oobbuf for buffering bad block markers",
+              "date": "2020-03-11T15:17:54Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2148937501ee3d663e0010e519a553fea67ad103"
+            },
+            {
+              "id": "25962e1a7f1d522f1b57ead2f266fab570042a70",
+              "subject": "dmaengine: imx-sdma: Fix the event id check to include RX event for U\u2026",
+              "date": "2020-02-25T08:45:26Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=25962e1a7f1d522f1b57ead2f266fab570042a70"
+            },
+            {
+              "id": "2728c4a124a10e96891e93748471f8e2398c266f",
+              "subject": "arm64: dts: imx8mm: Add missing mux options for UART1 and UART2 signals",
+              "date": "2019-12-23T03:41:38Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2728c4a124a10e96891e93748471f8e2398c266f"
+            },
+            {
+              "id": "bb40c3f7d63afaf7665effaf2e75a9f5563e560a",
+              "subject": "dt-bindings: arm: fsl: Add more Kontron i.MX6UL/ULL compatibles",
+              "date": "2019-11-04T14:37:56Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=bb40c3f7d63afaf7665effaf2e75a9f5563e560a"
+            },
+            {
+              "id": "cc55c85d257e5d8435592643f4aeee683a8fa46f",
+              "subject": "ARM: dts: imx6ul-kontron-n6x1x-s: Remove an obsolete comment and fix \u2026",
+              "date": "2019-11-04T14:34:10Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cc55c85d257e5d8435592643f4aeee683a8fa46f"
+            },
+            {
+              "id": "43584861ce20fd95d31d665b84ac89dc76c4c8bd",
+              "subject": "ARM: dts: imx6ul-kontron-n6x1x-s: Add vbus-supply and overcurrent pol\u2026",
+              "date": "2019-11-04T14:34:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=43584861ce20fd95d31d665b84ac89dc76c4c8bd"
+            },
+            {
+              "id": "36f42bb4d7f90cea20bfb56dd7ab2aa8d0929ca7",
+              "subject": "ARM: dts: imx6ul-kontron-n6x1x: Add 'chosen' node with 'stdout-path'",
+              "date": "2019-11-04T14:34:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=36f42bb4d7f90cea20bfb56dd7ab2aa8d0929ca7"
+            },
+            {
+              "id": "2e426b2bdc69721723016f1067a77bb66ab90a27",
+              "subject": "ARM: dts: Add support for two more Kontron evalkit boards 'N6311 S' a\u2026",
+              "date": "2019-11-04T14:34:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2e426b2bdc69721723016f1067a77bb66ab90a27"
+            },
+            {
+              "id": "3b5212cc2af7160a591bd5d32acbf39ec719023f",
+              "subject": "ARM: dts: imx6ul-kontron-n6310-s: Move common nodes to a separate file",
+              "date": "2019-11-04T14:34:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3b5212cc2af7160a591bd5d32acbf39ec719023f"
+            },
+            {
+              "id": "0ccafdf3e81bb40fe415ea13e1f42b19c585f0a0",
+              "subject": "ARM: dts: imx6ul-kontron-n6310-s: Disable the snvs-poweroff driver",
+              "date": "2019-11-04T14:33:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0ccafdf3e81bb40fe415ea13e1f42b19c585f0a0"
+            },
+            {
+              "id": "6dd2ed73f4f6a17cb3c753dd75579942fc644a90",
+              "subject": "ARM: dts: Add support for two more Kontron SoMs N6311 and N6411",
+              "date": "2019-11-04T14:33:55Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6dd2ed73f4f6a17cb3c753dd75579942fc644a90"
+            },
+            {
+              "id": "b419b89b20ccb7b2c7adcbcb9ce42a27ea542c43",
+              "subject": "ARM: dts: imx6ul-kontron-n6310: Move common SoM nodes to a separate file",
+              "date": "2019-11-04T14:33:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b419b89b20ccb7b2c7adcbcb9ce42a27ea542c43"
+            },
+            {
+              "id": "f6910679e17ad4915f008bd2c614d38052426f7c",
+              "subject": "spi: spi-fsl-qspi: Clear TDH bits in FLSHCR register",
+              "date": "2019-10-08T16:35:29Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f6910679e17ad4915f008bd2c614d38052426f7c"
+            },
+            {
+              "id": "3d7514da039186729f823db789193002730151c7",
+              "subject": "serial: 8250: Don't check for mctrl_gpio_init() returning -ENOSYS",
+              "date": "2019-09-04T10:43:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3d7514da039186729f823db789193002730151c7"
+            },
+            {
+              "id": "e55a09732be9b4e13cf3b5d2b9bb41b3e60e5ea6",
+              "subject": "serial: sh-sci: Don't check for mctrl_gpio_init() returning -ENOSYS",
+              "date": "2019-09-04T10:43:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e55a09732be9b4e13cf3b5d2b9bb41b3e60e5ea6"
+            },
+            {
+              "id": "e8b2a6187544e79fbc4863fe5cc746de8bba07ff",
+              "subject": "serial: mctrl_gpio: Avoid probe failures in case of missing gpiolib",
+              "date": "2019-09-04T10:43:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e8b2a6187544e79fbc4863fe5cc746de8bba07ff"
+            },
+            {
+              "id": "a126483e82957172b8a93ebb1d30fb2b1df3cbbc",
+              "subject": "mtd: spinand: Fix max_bad_eraseblocks_per_lun info in memorg",
+              "date": "2019-07-01T12:50:20Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a126483e82957172b8a93ebb1d30fb2b1df3cbbc"
+            },
+            {
+              "id": "598dce7068179d49b78d116fcb74422beeb3efd7",
+              "subject": "mtd: rawnand: AMD: Also use the last page for bad block markers",
+              "date": "2019-04-18T06:54:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=598dce7068179d49b78d116fcb74422beeb3efd7"
+            },
+            {
+              "id": "7a1894a955cc3bf0be0851421d6603c3b5c78323",
+              "subject": "mtd: rawnand: ESMT: Also use the last page for bad block markers",
+              "date": "2019-04-18T06:54:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7a1894a955cc3bf0be0851421d6603c3b5c78323"
+            },
+            {
+              "id": "f90da7818b141e856b723085328d23b36351849d",
+              "subject": "mtd: rawnand: Support bad block markers in first, second or last page",
+              "date": "2019-04-18T06:54:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f90da7818b141e856b723085328d23b36351849d"
+            },
+            {
+              "id": "bb5925480b13f52ad2e29ab20695c7f27e10f382",
+              "subject": "mtd: nand: Make flags for bad block marker position more granular",
+              "date": "2019-04-18T06:54:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=bb5925480b13f52ad2e29ab20695c7f27e10f382"
+            },
+            {
+              "id": "c902467cda2d927dba0d6bd2c2efc1988720b8d6",
+              "subject": "mtd: nand: Cleanup flags and fields for bad block marker position",
+              "date": "2019-04-18T06:54:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c902467cda2d927dba0d6bd2c2efc1988720b8d6"
+            },
+            {
+              "id": "bfd15c904ac584dfacfafb1e382c158f6db73d2a",
+              "subject": "mtd: onenand: Store bad block marker position in chip struct",
+              "date": "2019-04-18T06:54:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=bfd15c904ac584dfacfafb1e382c158f6db73d2a"
+            },
+            {
+              "id": "04649ec1335f2289c230f080e52e09f7b9c95c4a",
+              "subject": "mtd: rawnand: Always store info about bad block markers in chip struct",
+              "date": "2019-04-18T06:54:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=04649ec1335f2289c230f080e52e09f7b9c95c4a"
+            },
+            {
+              "id": "e4282ddbd2a8065e883475f2849dc1687aa57125",
+              "subject": "arm64: dts: fsl: Remove unused properties from FSL QSPI nodes",
+              "date": "2019-03-22T02:20:38Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e4282ddbd2a8065e883475f2849dc1687aa57125"
+            },
+            {
+              "id": "26d459398a7ced52ff640bc1cf1cf6fc3f4b5fc8",
+              "subject": "ARM: dts: ls1021a: Remove unused properties from QSPI node",
+              "date": "2019-03-22T02:20:04Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=26d459398a7ced52ff640bc1cf1cf6fc3f4b5fc8"
+            },
+            {
+              "id": "e36bb65e5d0cf3233d4da6af4a03d802af51a376",
+              "subject": "mtd: spi-nor: Add support for MX25V8035F",
+              "date": "2019-02-21T07:52:58Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e36bb65e5d0cf3233d4da6af4a03d802af51a376"
+            },
+            {
+              "id": "08326d8a9472c0bb98f0ba455c6d781951530dc1",
+              "subject": "mtd: spi-nor: Add support for EN25Q80A",
+              "date": "2019-02-21T07:52:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=08326d8a9472c0bb98f0ba455c6d781951530dc1"
+            },
+            {
+              "id": "fcf85e5c2ac0e57430f065c77407e33c7b036a9d",
+              "subject": "MAINTAINERS: Move the Freescale QSPI driver to the SPI framework",
+              "date": "2019-01-07T16:57:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fcf85e5c2ac0e57430f065c77407e33c7b036a9d"
+            },
+            {
+              "id": "50f1242c674226dd866949f24043f5a1076ee242",
+              "subject": "mtd: fsl-quadspi: Remove the driver as it was replaced by spi-fsl-qspi.c",
+              "date": "2019-01-07T16:56:55Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=50f1242c674226dd866949f24043f5a1076ee242"
+            },
+            {
+              "id": "78df30808961cd32f0517c7469886386b0680852",
+              "subject": "dt-bindings: spi: Adjust the bindings for the FSL QSPI driver",
+              "date": "2019-01-07T16:56:48Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=78df30808961cd32f0517c7469886386b0680852"
+            },
+            {
+              "id": "80261459804507a349daf754d6e5d835bb8578ae",
+              "subject": "dt-bindings: spi: Move the bindings for the FSL QSPI driver",
+              "date": "2019-01-07T16:56:40Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=80261459804507a349daf754d6e5d835bb8578ae"
+            },
+            {
+              "id": "84d043185dbe0d1b4f6db575bd91c834d37e2f78",
+              "subject": "spi: Add a driver for the Freescale/NXP QuadSPI controller",
+              "date": "2019-01-07T16:56:24Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=84d043185dbe0d1b4f6db575bd91c834d37e2f78"
+            },
+            {
+              "id": "30648e9f864774388d261f42e79955362f4739e7",
+              "subject": "arm64: dts: Add spi-[tx/rx]-bus-width for the FSL QSPI controller",
+              "date": "2018-12-16T08:24:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=30648e9f864774388d261f42e79955362f4739e7"
+            },
+            {
+              "id": "a0578d2419e1833b3014c6ef63ba8139549d875b",
+              "subject": "arm64: dts: Remove unused properties from FSL QSPI driver nodes",
+              "date": "2018-12-16T08:24:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a0578d2419e1833b3014c6ef63ba8139549d875b"
+            },
+            {
+              "id": "4f15a4e0d21b9b171aaa78efde2fd60f44f2e62c",
+              "subject": "ARM: dts: Add spi-[tx/rx]-bus-width for the FSL QSPI controller",
+              "date": "2018-12-16T08:23:37Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4f15a4e0d21b9b171aaa78efde2fd60f44f2e62c"
+            },
+            {
+              "id": "00b79b07cb2aab508e00d4a80ba2525e34b8b9c6",
+              "subject": "ARM: dts: imx6sx-sdb: Fix the reg properties for the FSL QSPI nodes",
+              "date": "2018-12-16T08:23:37Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=00b79b07cb2aab508e00d4a80ba2525e34b8b9c6"
+            },
+            {
+              "id": "63f2d2a34011e8326c18d691b7c6261624e39667",
+              "subject": "ARM: dts: Remove unused properties from FSL QSPI driver nodes",
+              "date": "2018-12-16T08:23:37Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=63f2d2a34011e8326c18d691b7c6261624e39667"
+            },
+            {
+              "id": "4ca7dbdb06c1eda3ba68846c78ebbaefd70c55c0",
+              "subject": "ARM: dts: imx: Add dummy PHYs for HSIC-only USB controllers",
+              "date": "2018-12-10T02:02:24Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4ca7dbdb06c1eda3ba68846c78ebbaefd70c55c0"
+            },
+            {
+              "id": "10949af1681d5bb5cdbcc012815c6e40eec17d02",
+              "subject": "mtd: spinand: Add initial support for Toshiba TC58CVG2S0H",
+              "date": "2018-12-07T09:38:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.De",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=10949af1681d5bb5cdbcc012815c6e40eec17d02"
+            },
+            {
+              "id": "40b412897ccb4b98b2cfb2a0aaabed58dd9e2086",
+              "subject": "mtd: nand: Fix memory allocation in nanddev_bbt_init()",
+              "date": "2018-11-28T14:41:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=40b412897ccb4b98b2cfb2a0aaabed58dd9e2086"
+            },
+            {
+              "id": "7b900ead6cc66b2ee873cb042dfba169aa68b56c",
+              "subject": "usbnet: smsc95xx: disable carrier check while suspending",
+              "date": "2018-11-03T06:49:15Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7b900ead6cc66b2ee873cb042dfba169aa68b56c"
+            },
+            {
+              "id": "b02b17f55b2e789b9747cf4dd2eaaa110439a4cc",
+              "subject": "mtd: m25p80: Call spi_mem_get_name() to let controller set a custom name",
+              "date": "2018-08-02T14:35:42Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@exceet.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b02b17f55b2e789b9747cf4dd2eaaa110439a4cc"
+            },
+            {
+              "id": "5d27a9c8ea9e967d00b92a76d4bb242bf7692f2b",
+              "subject": "spi: spi-mem: Extend the SPI mem interface to set a custom memory name",
+              "date": "2018-08-02T14:35:41Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@exceet.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5d27a9c8ea9e967d00b92a76d4bb242bf7692f2b"
+            },
+            {
+              "id": "06bcb5168d7d49aa3ed449ff13a6d13c30afc3f0",
+              "subject": "spi: spi-mem: Fix a typo in the documentation of struct spi_mem",
+              "date": "2018-08-02T14:35:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@exceet.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=06bcb5168d7d49aa3ed449ff13a6d13c30afc3f0"
+            },
+            {
+              "id": "1075492bb9e26312bc8ddeec1a93e2de5f9c76b4",
+              "subject": "mtd: spinand: Add initial support for Winbond W25M02GV",
+              "date": "2018-07-18T07:24:11Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@exceet.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=1075492bb9e26312bc8ddeec1a93e2de5f9c76b4"
+            }
+          ]
+        },
+        "U-Boot": {
+          "authored": [
+            {
+              "id": "28b395ccc42cb7301733d8eb46a360189308bd71",
+              "subject": "MAINTAINERS: Rename NAND FLASH to RAW NAND",
+              "date": "2023-04-16T10:24:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/28b395ccc42cb7301733d8eb46a360189308bd71"
+            },
+            {
+              "id": "175bc1c65b39be0f5251bc3141b699cf39d63cdc",
+              "subject": "MAINTAINERS: Add entry for SPI NAND framework and drivers",
+              "date": "2023-04-16T10:24:33Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/175bc1c65b39be0f5251bc3141b699cf39d63cdc"
+            },
+            {
+              "id": "db869a278526020779cf1c855c353e92ba31733c",
+              "subject": "doc: sl-mx8mm: Fix mistake in merge conflict resolution",
+              "date": "2023-03-30T06:40:27Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/db869a278526020779cf1c855c353e92ba31733c"
+            },
+            {
+              "id": "747c2e613b9efd8034d35f568e206b7e95bad65b",
+              "subject": "imx: imx6ul: kontron-sl-mx6ul: Disable CONFIG_FSL_QSPI_AHB_FULL_MAP t\u2026",
+              "date": "2023-01-31T14:46:39Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/747c2e613b9efd8034d35f568e206b7e95bad65b"
+            },
+            {
+              "id": "6e91c06a73547d165bdede2b57af4acd66c0d40f",
+              "subject": "arm64: dts: imx8mm-kontron: Add RTC aliases",
+              "date": "2023-01-30T22:23:02Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/6e91c06a73547d165bdede2b57af4acd66c0d40f"
+            },
+            {
+              "id": "1402f1dcee07bd87953f247cd61d1ebc00ae2d1f",
+              "subject": "doc: sl-mx8mm: Add CROSS_COMPILE to U-Boot make call and improve comment",
+              "date": "2023-01-27T17:31:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/1402f1dcee07bd87953f247cd61d1ebc00ae2d1f"
+            },
+            {
+              "id": "888ff2eae7417c6fbc1521332836cbebb66d2af1",
+              "subject": "doc: sl-mx8mm: Add guide for copying the bootloader to SPI NOR",
+              "date": "2023-01-27T17:31:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/888ff2eae7417c6fbc1521332836cbebb66d2af1"
+            },
+            {
+              "id": "5800fb8c7ad895fd1220288e4f0772d280d3f4d1",
+              "subject": "doc: sl-mx8mm: Update references to latest DDR firmware 8.18",
+              "date": "2023-01-27T17:31:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/5800fb8c7ad895fd1220288e4f0772d280d3f4d1"
+            },
+            {
+              "id": "a93985ddfcc3bab7cd066a9452453384e3398ae3",
+              "subject": "doc: sl-mx8mm: Update the NXP TF-A source reference",
+              "date": "2023-01-27T17:31:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/a93985ddfcc3bab7cd066a9452453384e3398ae3"
+            },
+            {
+              "id": "4a30efa264d82e1c3c33e96a5440acd6bb604058",
+              "subject": "doc: sl-mx8mm: Add note about using cross toolchain",
+              "date": "2023-01-27T17:31:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/4a30efa264d82e1c3c33e96a5440acd6bb604058"
+            },
+            {
+              "id": "0f3cd9e6df957caa1d677d949aa360c9e898236c",
+              "subject": "doc: sl-mx8mm: Mention OSM 1.1 support",
+              "date": "2023-01-27T17:31:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/0f3cd9e6df957caa1d677d949aa360c9e898236c"
+            },
+            {
+              "id": "5bc21d386993023690b8d65a05829fba55053f95",
+              "subject": "imx: kontron-sl-mx8mm: Prepare for I2C display detection in environme\u2026",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/5bc21d386993023690b8d65a05829fba55053f95"
+            },
+            {
+              "id": "ba30cc222748ac6686531acac490f06a2bdf9e5b",
+              "subject": "imx: kontron-sl-mx8mm: Add support for Kontron Electronics SoM SL i.M\u2026",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/ba30cc222748ac6686531acac490f06a2bdf9e5b"
+            },
+            {
+              "id": "c25c906c7b11e6b20a664e796a2a34a3c0d2a413",
+              "subject": "imx: kontron-sl-mx8mm: Simplify code in spl.c",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/c25c906c7b11e6b20a664e796a2a34a3c0d2a413"
+            },
+            {
+              "id": "b314c0980a80e5991d59d0324d4806a08107d37b",
+              "subject": "imx: kontron-sl-mx8mm: Use voltage rail names from schematic for PMIC\u2026",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/b314c0980a80e5991d59d0324d4806a08107d37b"
+            },
+            {
+              "id": "8fd4c05ceca279630b547262e6584655e5c6d37f",
+              "subject": "imx: kontron-sl-mx8mm: Use the VSELECT signal to switch SD card IO vo\u2026",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/8fd4c05ceca279630b547262e6584655e5c6d37f"
+            },
+            {
+              "id": "dfbdc69c5d8c8b7ddd467191317d19c8bc038676",
+              "subject": "imx: kontron-sl-mx8mm: Adjust devicetree names, compatibles and model\u2026",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/dfbdc69c5d8c8b7ddd467191317d19c8bc038676"
+            },
+            {
+              "id": "3b846df8ab46d1c40514747b9de6aef97460467d",
+              "subject": "imx: kontron-sl-mx8mm: Prepare for other i.MX8MM SoM types",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/3b846df8ab46d1c40514747b9de6aef97460467d"
+            },
+            {
+              "id": "3a683aefdf523b9f32de2fe74ce82a9ce2476a2a",
+              "subject": "imx: kontron-sl-mx8mm: Use new LPDDR4 config parameters",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/3a683aefdf523b9f32de2fe74ce82a9ce2476a2a"
+            },
+            {
+              "id": "8dd0924ea084cb3da608051a5047cb49701ab3c4",
+              "subject": "imx: kontron-sl-mx8mm: Remove 100mt DDR setpoint",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/8dd0924ea084cb3da608051a5047cb49701ab3c4"
+            },
+            {
+              "id": "890022f0cf622608b1d43e8b44eda67e62104891",
+              "subject": "imx: kontron-sl-mx8mm: lpddr4_timing.c: Add spaces for proper alignment",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/890022f0cf622608b1d43e8b44eda67e62104891"
+            },
+            {
+              "id": "e8d1efe8e88707754946ba0d03b577cdc1593f74",
+              "subject": "imx: kontron-sl-mx8mm: Enable bootaux command",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/e8d1efe8e88707754946ba0d03b577cdc1593f74"
+            },
+            {
+              "id": "27effdd16b94e32fb6f6288ed197e06e0600b044",
+              "subject": "imx: kontron-sl-mx8mm: Migrate to use CONFIG_EXTRA_ENV_TEXT",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/27effdd16b94e32fb6f6288ed197e06e0600b044"
+            },
+            {
+              "id": "3f7f73165379feaf002e07b4ed676e36992173f7",
+              "subject": "imx: kontron-sl-mx8mm: Enable environment in MMC",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/3f7f73165379feaf002e07b4ed676e36992173f7"
+            },
+            {
+              "id": "2a6f0230619a821eae034c741fc20d586776b9ad",
+              "subject": "imx: kontron-sl-mx8mm: Add redundant environment and SPI NOR partitions",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/2a6f0230619a821eae034c741fc20d586776b9ad"
+            },
+            {
+              "id": "0761beef9826085fb604502eb76e95b829b9e183",
+              "subject": "imx: kontron-sl-mx8mm: Enable MTD command",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/0761beef9826085fb604502eb76e95b829b9e183"
+            },
+            {
+              "id": "42b200fa8fdef4c47f17881dee7c4750392392d8",
+              "subject": "imx: kontron-sl-mx8mm: Increase CONFIG_SYS_CBSIZE to 2K",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/42b200fa8fdef4c47f17881dee7c4750392392d8"
+            },
+            {
+              "id": "ba7cd39e2262d47745372ced6f591567453711f1",
+              "subject": "imx: kontron-sl-mx8mm: Remove custom board_boot_order() workaround",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/ba7cd39e2262d47745372ced6f591567453711f1"
+            },
+            {
+              "id": "b39ff4d22afa8a7c3fa70d288724c18e1c98cbc2",
+              "subject": "imx: kontron-sl-mx8mm: Add support for loading from SPI NOR in SPL",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/b39ff4d22afa8a7c3fa70d288724c18e1c98cbc2"
+            },
+            {
+              "id": "a06c6b2130d4f12c4a836c628d26a40fc4343ac9",
+              "subject": "imx: kontron-sl-mx8mm: Remove LVDS board type and devicetrees",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/a06c6b2130d4f12c4a836c628d26a40fc4343ac9"
+            },
+            {
+              "id": "9ab520462874d264d3ffcd518c14acd97d5bd498",
+              "subject": "imx: imx6ul: kontron-sl-mx6ul: Sync devicetrees",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/9ab520462874d264d3ffcd518c14acd97d5bd498"
+            },
+            {
+              "id": "7dd6af85bc1c798108561a162aa7aba21d054b6a",
+              "subject": "imx: imx6ul: kontron-sl-mx6ul: Migrate to use CONFIG_EXTRA_ENV_TEXT",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/7dd6af85bc1c798108561a162aa7aba21d054b6a"
+            },
+            {
+              "id": "93935acc6f1d5b928f8552e767638e94a82793da",
+              "subject": "imx: imx6ul: kontron-sl-mx6ul: Select correct boot and env device",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/93935acc6f1d5b928f8552e767638e94a82793da"
+            },
+            {
+              "id": "234b3be98efe21d04f623b0a67eead321a3da6c1",
+              "subject": "imx: imx6ul: kontron-sl-mx6ul: Fix CONFIG_ENV_SPI_BUS",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/234b3be98efe21d04f623b0a67eead321a3da6c1"
+            },
+            {
+              "id": "679356c0b2603995db387cab514de535988fa904",
+              "subject": "imx: imx6ul: kontron-sl-mx6ul: Enable migrated Kconfig options",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/679356c0b2603995db387cab514de535988fa904"
+            },
+            {
+              "id": "c3587197c0c99e646dd4c2f555fe5ed9826de802",
+              "subject": "Makefile: Make flash.bin target available for all platforms",
+              "date": "2022-10-20T15:35:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/c3587197c0c99e646dd4c2f555fe5ed9826de802"
+            },
+            {
+              "id": "1af2d4697a3b229e84901d2bdd4ffba0eb2217de",
+              "subject": "imx: kontron-sl-mx8mm: Enable PCA9450 regulator driver and fix SD car\u2026",
+              "date": "2022-06-28T13:24:31Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/1af2d4697a3b229e84901d2bdd4ffba0eb2217de"
+            },
+            {
+              "id": "2add0511757e2c5897a88b57c5ea8c912140e60f",
+              "subject": "pmic: pca9450: Add optional SD_VSEL GPIO for LDO5",
+              "date": "2022-06-28T13:24:31Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/2add0511757e2c5897a88b57c5ea8c912140e60f"
+            },
+            {
+              "id": "c0b71a1731d99e98ba011ecb0b6fca880bdbe71d",
+              "subject": "imx: kontron-sl-mx8mm: Remove deprecated phy-mode property",
+              "date": "2022-06-23T12:25:02Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/c0b71a1731d99e98ba011ecb0b6fca880bdbe71d"
+            },
+            {
+              "id": "fecfe77c48ac53908f08cd2f013a23e8b87d9842",
+              "subject": "imx: kontron-sl-mx8mm: Sync dts files and fix ethernet",
+              "date": "2022-06-23T12:24:49Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/fecfe77c48ac53908f08cd2f013a23e8b87d9842"
+            },
+            {
+              "id": "f06add11f073b0a6cffff6c4c3aa4c91378c035b",
+              "subject": "doc: board: kontron: sl28: Reduce section levels and change title",
+              "date": "2021-11-09T09:20:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/f06add11f073b0a6cffff6c4c3aa4c91378c035b"
+            },
+            {
+              "id": "9cab87f184bc7689fba1c856c3c8af0c7b4566ed",
+              "subject": "imx: imx8mm: Add support for Kontron Electronics SL/BL i.MX8M-Mini bo\u2026",
+              "date": "2021-10-07T15:31:58Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/9cab87f184bc7689fba1c856c3c8af0c7b4566ed"
+            },
+            {
+              "id": "e6f48aad153ae901ca3340b3207968e2f9c47f66",
+              "subject": "imx: imx6ul: Add support for Kontron Electronics SL/BL i.MX6UL/ULL bo\u2026",
+              "date": "2021-10-07T14:53:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/e6f48aad153ae901ca3340b3207968e2f9c47f66"
+            },
+            {
+              "id": "6b86554865ad271a71e93c125594335721b615c9",
+              "subject": "spi: fsl_qspi: Build driver only if DM_SPI is available",
+              "date": "2021-07-10T14:53:34Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/6b86554865ad271a71e93c125594335721b615c9"
+            },
+            {
+              "id": "e27bddff4b97598baaa7186196ebfb28075f702c",
+              "subject": "imx8m: Restrict usable memory to space below 4G boundary",
+              "date": "2021-07-10T14:03:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/e27bddff4b97598baaa7186196ebfb28075f702c"
+            },
+            {
+              "id": "ef62fff2698a425cc6628a9696e8ee1cae725f32",
+              "subject": "clk: imx8mm: Add SPI clocks",
+              "date": "2021-07-10T14:03:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/ef62fff2698a425cc6628a9696e8ee1cae725f32"
+            },
+            {
+              "id": "2a7977506915dba43c4dfe56b3054041881bfc2f",
+              "subject": "mtd: spi-nor-ids: Add support for Macronix MX25V8035F and MX25R1635F",
+              "date": "2021-07-10T13:59:20Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/2a7977506915dba43c4dfe56b3054041881bfc2f"
+            },
+            {
+              "id": "3bbe1a7fafc0b3e3524e590a09792b6adb9c3aa8",
+              "subject": "Respect that some compression algos can be enabled separately for SPL",
+              "date": "2021-03-01T09:21:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/3bbe1a7fafc0b3e3524e590a09792b6adb9c3aa8"
+            },
+            {
+              "id": "031b89e51b0fde5aabc258c2eb9c3f913f375f65",
+              "subject": "mtd: spinand: Do not erase the block before writing a bad block marker",
+              "date": "2020-12-18T10:46:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/031b89e51b0fde5aabc258c2eb9c3f913f375f65"
+            },
+            {
+              "id": "e6108004e66b7f0a8a2b9109d339558a1043b7de",
+              "subject": "mtd: spinand: Explicitly use MTD_OPS_RAW to write the bad block marke\u2026",
+              "date": "2020-12-18T10:46:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/e6108004e66b7f0a8a2b9109d339558a1043b7de"
+            },
+            {
+              "id": "987f1e56edb161431175a4bdb058870d1e4da541",
+              "subject": "mtd: spinand: Stop using spinand->oobbuf for buffering bad block markers",
+              "date": "2020-12-18T10:46:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/987f1e56edb161431175a4bdb058870d1e4da541"
+            },
+            {
+              "id": "291e3ab9044f65209043195ca22a97626d3402f7",
+              "subject": "imx8mm/mn: Add missing root clock entry for ARM core clock",
+              "date": "2020-03-09T14:06:15Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/291e3ab9044f65209043195ca22a97626d3402f7"
+            },
+            {
+              "id": "83083febf55679ee0fc68ba55e9af43add277b58",
+              "subject": "ddr: imx8m: Return error values from LPDDR4 training",
+              "date": "2020-01-07T09:26:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/83083febf55679ee0fc68ba55e9af43add277b58"
+            },
+            {
+              "id": "162c72c80445636ec73f8833b9e91f0128d21b8f",
+              "subject": "tools: imx8m_image: Change source path for DDR firmware to build dir",
+              "date": "2020-01-07T09:26:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/162c72c80445636ec73f8833b9e91f0128d21b8f"
+            },
+            {
+              "id": "f5edb0d86dd4dc32e95120d58202470c93b1487f",
+              "subject": "clk: imx: imx8mm: Fix the first root clock in imx8mm_ahb_sels[]",
+              "date": "2019-12-06T12:57:42Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/f5edb0d86dd4dc32e95120d58202470c93b1487f"
+            },
+            {
+              "id": "832ce20278db00aeeed5576f1296a6d905d31563",
+              "subject": "mtd: spi: Clean up usage of CONFIG_SPI_FLASH_MTD",
+              "date": "2019-10-24T19:18:32Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/832ce20278db00aeeed5576f1296a6d905d31563"
+            },
+            {
+              "id": "a9ec8423a9c3d2c076ba7706f43859e025e44781",
+              "subject": "stm32mp1: configs: Add CONFIG_SPL_SPI_FLASH_MTD",
+              "date": "2019-10-24T19:18:32Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/a9ec8423a9c3d2c076ba7706f43859e025e44781"
+            },
+            {
+              "id": "64f736c9013b059696a9c0370e152c1ab6a8f89e",
+              "subject": "mtd: spi: Add a new option SPL_SPI_FLASH_MTD to Kconfig",
+              "date": "2019-10-24T19:18:31Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/64f736c9013b059696a9c0370e152c1ab6a8f89e"
+            },
+            {
+              "id": "fa99af41e0da803d42ea90e688aa8d8fc371feea",
+              "subject": "imx: mkimage_fit_atf: Fix FIT image for correct boot order",
+              "date": "2019-10-08T14:36:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/fa99af41e0da803d42ea90e688aa8d8fc371feea"
+            },
+            {
+              "id": "a239b82dad03ad942aaf5fbbda672e882968488c",
+              "subject": "spl: atf: Fix uninitialized pointer to bl31_image_info",
+              "date": "2019-07-02T02:30:02Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/a239b82dad03ad942aaf5fbbda672e882968488c"
+            },
+            {
+              "id": "2c72ead7387404eba16c556d2f204c52c36c27f9",
+              "subject": "usb: gadget: f_sdp: Allow SPL to load and boot FIT via SDP",
+              "date": "2019-06-27T11:50:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/2c72ead7387404eba16c556d2f204c52c36c27f9"
+            },
+            {
+              "id": "3181c0a622d35bd8e6d4407458e7204d4df5a8c1",
+              "subject": "mtd: spinand: Add initial support for Winbond W25M02GV",
+              "date": "2018-09-20T14:40:49Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@exceet.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/3181c0a622d35bd8e6d4407458e7204d4df5a8c1"
+            }
+          ]
+        },
+        "ESPuino": {
+          "authored": [
+            {
+              "id": "4c49facacfe5a7f05edeacb6f31f0aebbe2d3af3",
+              "subject": ".editorconfig: Fix tab width and remove duplicate setting from VSCode\u2026",
+              "date": "2023-11-01T09:00:56Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/biologist79/ESPuino/commit/4c49facacfe5a7f05edeacb6f31f0aebbe2d3af3"
+            },
+            {
+              "id": "b0ea7b922c0d6ce132d8fbdbe3b5f64b0d2faa65",
+              "subject": "README.md: Add information about code formatting",
+              "date": "2023-10-29T21:39:33Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/b0ea7b922c0d6ce132d8fbdbe3b5f64b0d2faa65"
+            },
+            {
+              "id": "e3f0cb21ee137eb983974bc9cd64d2e84819a79c",
+              "subject": "Prepare config files for ignoring commits in 'git blame'",
+              "date": "2023-10-29T21:39:33Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/e3f0cb21ee137eb983974bc9cd64d2e84819a79c"
+            },
+            {
+              "id": "d1f82a7c93f160f9197c8b4e14e5a984ac6f9449",
+              "subject": "Run auto formatter (clang-format) on all files in src dir",
+              "date": "2023-10-29T21:39:33Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/d1f82a7c93f160f9197c8b4e14e5a984ac6f9449"
+            },
+            {
+              "id": "c14c55b4164202b4f3a6e951b772564e02a00aff",
+              "subject": "Exclude settings header files from clang code formatting",
+              "date": "2023-10-29T20:49:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/c14c55b4164202b4f3a6e951b772564e02a00aff"
+            },
+            {
+              "id": "7474f2eff1a7a2b6d02b7f48b25cb6b0fdf970c2",
+              "subject": "VSCode: Set default tab width to 4 in settings.json",
+              "date": "2023-10-29T20:48:20Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/7474f2eff1a7a2b6d02b7f48b25cb6b0fdf970c2"
+            },
+            {
+              "id": "3d70cbcb040e33a124c0754555902602db165695",
+              "subject": "Bluetooth.cpp: Fix logging crash in sink mode (#238)",
+              "date": "2023-05-09T20:52:22Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/biologist79/ESPuino/commit/3d70cbcb040e33a124c0754555902602db165695"
+            },
+            {
+              "id": "a5c5ddcef8ccaaadf77a1e5ae02d84ca57cf30ee",
+              "subject": "README.md: Improve style, language and content",
+              "date": "2023-05-06T19:43:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/a5c5ddcef8ccaaadf77a1e5ae02d84ca57cf30ee"
+            },
+            {
+              "id": "fb80a7dc4e017a419f8ded93fa6874fa9e4aa264",
+              "subject": "README.md: Improve formatting",
+              "date": "2023-05-06T19:34:40Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/fb80a7dc4e017a419f8ded93fa6874fa9e4aa264"
+            },
+            {
+              "id": "6d7fb7083c61f9b9dfbd44971bb5ee6f9361527c",
+              "subject": ".editorconfig: Add maximum line length of 100 for markdown files",
+              "date": "2023-05-06T19:34:40Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/6d7fb7083c61f9b9dfbd44971bb5ee6f9361527c"
+            },
+            {
+              "id": "d842e2d82f1bae7478d98461e3f8114bb345f17e",
+              "subject": "build.yml: Trigger workflow for all branches",
+              "date": "2023-03-31T18:50:06Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/d842e2d82f1bae7478d98461e3f8114bb345f17e"
+            },
+            {
+              "id": "b31496d514f002dd7f48d58de56fa3d5953bb3e2",
+              "subject": "Led.cpp: Fix warnings for unused or uninitialized variables",
+              "date": "2023-03-21T19:50:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/b31496d514f002dd7f48d58de56fa3d5953bb3e2"
+            },
+            {
+              "id": "deae84cabb71260b113b54e49192a8049f2fca42",
+              "subject": "Led.cpp: Constify startNewAnimation parameter",
+              "date": "2023-03-18T21:06:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/deae84cabb71260b113b54e49192a8049f2fca42"
+            },
+            {
+              "id": "053dd0e0c05200384d790edac9e94403a3b53873",
+              "subject": "Led.cpp: Simplify animation function calls",
+              "date": "2023-03-18T21:05:15Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/053dd0e0c05200384d790edac9e94403a3b53873"
+            },
+            {
+              "id": "58b1c2027cdf1e338076856247932e2f5648d667",
+              "subject": "Button.cpp: Fix headphone detection while controls are locked",
+              "date": "2022-12-28T10:45:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/58b1c2027cdf1e338076856247932e2f5648d667"
+            },
+            {
+              "id": "1d1e5c6b40587a8295e242b581273d2b2450fa48",
+              "subject": "Settings: Add setting to exclude rotary encoder from controls lock",
+              "date": "2022-12-27T11:15:53Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/1d1e5c6b40587a8295e242b581273d2b2450fa48"
+            },
+            {
+              "id": "b0bc60903cc753da3068d016c7943c27a8ccd1d2",
+              "subject": "Settings: Add setting to lock controls by default",
+              "date": "2022-12-27T11:15:42Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/b0bc60903cc753da3068d016c7943c27a8ccd1d2"
+            },
+            {
+              "id": "71a1307be6fc353123e5284cb7448757a7895a14",
+              "subject": "Led.cpp: Fix glitch when starting to change volume in idle mode",
+              "date": "2022-12-25T21:32:55Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/71a1307be6fc353123e5284cb7448757a7895a14"
+            },
+            {
+              "id": "6c99bffbdfe8f9626f43c50a7401d70f9cc9431e",
+              "subject": "Led.cpp: Get rid of notificationShown and ledBusyShown",
+              "date": "2022-12-25T21:32:55Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/6c99bffbdfe8f9626f43c50a7401d70f9cc9431e"
+            },
+            {
+              "id": "7e88ede39d9fa662f86f7075196a7d710be86f9a",
+              "subject": "Led.cpp: Refactor volume level indication and fix small glitch",
+              "date": "2022-12-25T21:32:55Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/7e88ede39d9fa662f86f7075196a7d710be86f9a"
+            },
+            {
+              "id": "04576d3df16a79c93a02dea0fe8a3a1509af1cf9",
+              "subject": "Led.cpp: Move condition check for progress redraw to separate function",
+              "date": "2022-12-25T19:32:41Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/biologist79/ESPuino/commit/04576d3df16a79c93a02dea0fe8a3a1509af1cf9"
+            }
+          ]
+        },
+        "meta-linux-mainline": {
+          "authored": [
+            {
+              "id": "29aca7d0ca6bc98eef56bb6e5a598a666d25751a",
+              "subject": "kas: Add config fragment for Linux 6.6",
+              "date": "2023-11-21T17:28:15Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/betafive/meta-linux-mainline/commit/29aca7d0ca6bc98eef56bb6e5a598a666d25751a"
+            },
+            {
+              "id": "3b52627417d3d40989324fd4bab2790cbfcac8ee",
+              "subject": "conf: lts: Switch to 6.6 series",
+              "date": "2023-11-21T17:27:18Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/betafive/meta-linux-mainline/commit/3b52627417d3d40989324fd4bab2790cbfcac8ee"
+            }
+          ]
+        },
+        "ChurchToolsAPI": {
+          "authored": [
+            {
+              "id": "2fa193cc86e3f32e317707a9e2f4f21468eacfe5",
+              "subject": "Implement get_global_permissions()  - Fixes #76",
+              "date": "2023-10-01T16:25:33Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/2fa193cc86e3f32e317707a9e2f4f21468eacfe5"
+            },
+            {
+              "id": "186518fe0af8c3f3a86ff4b6cdcec6c3c5c75709",
+              "subject": "Implement update_group()  - Fixes #75",
+              "date": "2023-10-01T16:16:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/186518fe0af8c3f3a86ff4b6cdcec6c3c5c75709"
+            },
+            {
+              "id": "fd358135456e424a0cd2451f6b578d5e1dd8249f",
+              "subject": "Implement get_group_permissions()  - Fixes #74",
+              "date": "2023-10-01T15:49:38Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/fd358135456e424a0cd2451f6b578d5e1dd8249f"
+            },
+            {
+              "id": "5ffa080b7597b77fe776ead3b3dee0ab1441a020",
+              "subject": "Implement get_grouptypes() - fixes #73",
+              "date": "2023-10-01T15:46:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/5ffa080b7597b77fe776ead3b3dee0ab1441a020"
+            },
+            {
+              "id": "8d547091e8fd706d576cf8a8404a27f23747acdc",
+              "subject": "Implement get_groups_hierarchies() #72",
+              "date": "2023-10-01T15:43:42Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/8d547091e8fd706d576cf8a8404a27f23747acdc"
+            }
+          ]
+        },
+        "nextcloud-async": {
+          "authored": [
+            {
+              "id": "51bc9a3dca84c3dc623bcdc2669ecdd4ac6fa8c5",
+              "subject": "Files: Implement endpoints for managing groupfolder ACL rules (#21)",
+              "date": "2023-09-16T11:10:45Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/aaronsegura/nextcloud-async/commit/51bc9a3dca84c3dc623bcdc2669ecdd4ac6fa8c5"
+            }
+          ]
+        },
+        "libubootenv": {
+          "authored": [
+            {
+              "id": "eac01b42da9d949b1a5aa4760a3e972b1e9cd515",
+              "subject": "docs: fw_env_config.md: Add info about namespace selection in YAML co\u2026",
+              "date": "2023-09-02T13:32:16Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/sbabic/libubootenv/commit/eac01b42da9d949b1a5aa4760a3e972b1e9cd515"
+            },
+            {
+              "id": "13db2877acd0e38ef96ad20897184da85950cc81",
+              "subject": "docs: fw_env_config.md: Limit line length",
+              "date": "2023-09-02T13:32:15Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/sbabic/libubootenv/commit/13db2877acd0e38ef96ad20897184da85950cc81"
+            },
+            {
+              "id": "3210931b435a8a9d0505a88c6a0a5613f84d1ef9",
+              "subject": "Try to autoselect namespace based on DT property",
+              "date": "2023-09-02T13:32:14Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/sbabic/libubootenv/commit/3210931b435a8a9d0505a88c6a0a5613f84d1ef9"
+            }
+          ]
+        },
+        "meta-freescale": {
+          "authored": [
+            {
+              "id": "5d9d243c9a73a008423e8baeeb934bd3c3998bc8",
+              "subject": "imx-base.inc: Make UBOOT_ENTRYPOINT overwriteable",
+              "date": "2023-01-17T08:20:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/Freescale/meta-freescale/5d9d243c9a73a008423e8baeeb934bd3c3998bc8"
+            },
+            {
+              "id": "1cd3a109c723f755203c9967144b2d352096987c",
+              "subject": "linux-mfgtool.inc: Fix KERNEL_PACKAGE_NAME",
+              "date": "2022-10-11T15:53:45Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/Freescale/meta-freescale/1cd3a109c723f755203c9967144b2d352096987c"
+            },
+            {
+              "id": "380656c4de55951b787aa6b2c73b3c36cd0fb2e8",
+              "subject": "mesa: Allow to use Etnaviv with i.MX8",
+              "date": "2020-02-15T18:33:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/Freescale/meta-freescale/380656c4de55951b787aa6b2c73b3c36cd0fb2e8"
+            },
+            {
+              "id": "dd691a76052b761b44832c153a5740d420ffde1d",
+              "subject": "mesa: Use PACKAGECONFIG to enable Gallium drivers",
+              "date": "2020-02-15T18:33:36Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/Freescale/meta-freescale/dd691a76052b761b44832c153a5740d420ffde1d"
+            },
+            {
+              "id": "1c62a8f1dfe90433b8823ce71866a9824702e1c1",
+              "subject": "image_types_fsl.bbclass: make mkfs.vfat use FAT32 in all cases",
+              "date": "2016-04-19T18:03:20Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@exceet.de",
+              "link": "https://github.com/Freescale/meta-freescale/1c62a8f1dfe90433b8823ce71866a9824702e1c1"
+            }
+          ]
+        },
+        "docker-borgmatic": {
+          "authored": [
+            {
+              "id": "a8b37fe0966340ecb855e2fb25472ac8c569c527",
+              "subject": "base: README.md: Recommend *_everything hooks for docker stop/restart",
+              "date": "2022-04-01T19:48:24Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/a8b37fe0966340ecb855e2fb25472ac8c569c527"
+            },
+            {
+              "id": "bd1334601fa88c08775690654ea893c6f0108db5",
+              "subject": "base: README.md: Add link to borgmatic hooks docs",
+              "date": "2022-04-01T19:47:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/bd1334601fa88c08775690654ea893c6f0108db5"
+            },
+            {
+              "id": "c7ef86e1f78147b2ed75b6ee05baf7eeb1ac7fd6",
+              "subject": "base: README.md: Fix typo",
+              "date": "2022-04-01T19:46:30Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/c7ef86e1f78147b2ed75b6ee05baf7eeb1ac7fd6"
+            },
+            {
+              "id": "22c6e5d042a29fb5d8906d5c40415ed18385c2dd",
+              "subject": "base: README.md: Wrap long lines",
+              "date": "2022-04-01T19:34:53Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/22c6e5d042a29fb5d8906d5c40415ed18385c2dd"
+            },
+            {
+              "id": "49ef249675aad6a6918b275456428bf55bf95ba3",
+              "subject": "msmtp: README.md: Adjust documentation for new notification script an\u2026",
+              "date": "2022-03-24T18:16:02Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/49ef249675aad6a6918b275456428bf55bf95ba3"
+            },
+            {
+              "id": "b90fc3c88ad9da3ba6a8e433236fb3697fb91f46",
+              "subject": "msmtp: README.md: Improve style and spelling of README file",
+              "date": "2022-03-24T18:16:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/b90fc3c88ad9da3ba6a8e433236fb3697fb91f46"
+            },
+            {
+              "id": "4a3f1d41d16053d9ef8c73c778d4577540cba5a8",
+              "subject": "Send e-mail reports with more appealing subject line",
+              "date": "2022-03-24T18:16:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/4a3f1d41d16053d9ef8c73c778d4577540cba5a8"
+            },
+            {
+              "id": "b7f9e31267284d3e6ed9c949560248ee80ee32b8",
+              "subject": "Move backup command from crontab to separate script file run.sh",
+              "date": "2022-03-24T18:16:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/b7f9e31267284d3e6ed9c949560248ee80ee32b8"
+            },
+            {
+              "id": "b9f608111906d4d12010e38474f1765a3142d623",
+              "subject": "Add note to automatically created files",
+              "date": "2022-03-24T18:16:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/b9f608111906d4d12010e38474f1765a3142d623"
+            },
+            {
+              "id": "20c5758cc5fa101f48f2344a2caa6293450ceb1a",
+              "subject": "Add MAIL_TO and MAIL_SUBJECT env variables and store them in /etc/mai\u2026",
+              "date": "2022-03-24T18:16:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/20c5758cc5fa101f48f2344a2caa6293450ceb1a"
+            },
+            {
+              "id": "2bd5259f22172bb205e537b3229513e749e9878d",
+              "subject": "README: Add example for controlling other containers from borgmatic h\u2026",
+              "date": "2021-10-30T11:02:25Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/borgmatic-collective/docker-borgmatic/commit/2bd5259f22172bb205e537b3229513e749e9878d"
+            }
+          ]
+        },
+        "tasks": {
+          "authored": [
+            {
+              "id": "d70ec00ea23aa7b7b0c2d89752dae76dba48f02c",
+              "subject": "Fix chunking of SQLite queries in case of task deletion",
+              "date": "2021-10-26T17:13:35Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/tasks/tasks/commit/d70ec00ea23aa7b7b0c2d89752dae76dba48f02c"
+            }
+          ]
+        },
+        "dokuwiki-plugin-struct": {
+          "authored": [
+            {
+              "id": "3f640228fdb9065bb71e558f8f86b81f0dcc1d2f",
+              "subject": "Add render format to context of event PLUGIN_STRUCT_RENDER_AGGREGATIO\u2026",
+              "date": "2021-08-11T11:50:15Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/3f640228fdb9065bb71e558f8f86b81f0dcc1d2f"
+            },
+            {
+              "id": "8a30dd7dbe102ef10154085983ffe3285372cd93",
+              "subject": "Add config option to show data on the top of the page (#550)",
+              "date": "2021-04-18T18:40:25Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/8a30dd7dbe102ef10154085983ffe3285372cd93"
+            },
+            {
+              "id": "0280da9a6b8efd1ff3fdf4a414ef44dde2ee5d87",
+              "subject": "Fix bug in struct filter variable evaluation",
+              "date": "2021-04-11T14:10:12Z",
+              "author": "Frieder Schrempf",
+              "email": "dev@fris.de",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/0280da9a6b8efd1ff3fdf4a414ef44dde2ee5d87"
+            },
+            {
+              "id": "a17e8e15b709a621bf7307a14ee7c5f4d5742b66",
+              "subject": "Add more tests for struct filter variables",
+              "date": "2021-04-11T14:10:12Z",
+              "author": "Frieder Schrempf",
+              "email": "dev@fris.de",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/a17e8e15b709a621bf7307a14ee7c5f4d5742b66"
+            },
+            {
+              "id": "7784f3c15def7c2dbac2bf802d176c53b9e55e82",
+              "subject": "Add type hints for setUp() and tearDown() in unit tests",
+              "date": "2021-04-11T13:35:53Z",
+              "author": "Frieder Schrempf",
+              "email": "dev@fris.de",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/7784f3c15def7c2dbac2bf802d176c53b9e55e82"
+            },
+            {
+              "id": "5170ee2b0341e1426a8a314e0068c3ad9099cff3",
+              "subject": "Fix German translation for \"column not in table\" exception",
+              "date": "2021-04-01T11:31:20Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/5170ee2b0341e1426a8a314e0068c3ad9099cff3"
+            },
+            {
+              "id": "844a4f0155c582c9d438a57b851ad8fb0d074049",
+              "subject": "Add an event for custom aggregation table rendering",
+              "date": "2021-03-29T08:30:04Z",
+              "author": "Frieder Schrempf",
+              "email": "dev@fris.de",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/844a4f0155c582c9d438a57b851ad8fb0d074049"
+            },
+            {
+              "id": "b1ab837dcc4a9557c8cba9a80554067d07ef637c",
+              "subject": "Add an event for custom schema data rendering (#558)",
+              "date": "2021-03-08T19:11:09Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/b1ab837dcc4a9557c8cba9a80554067d07ef637c"
+            }
+          ]
+        },
+        "groupfolders": {
+          "authored": [
+            {
+              "id": "84b9ec891504a150725b51170223e537fff8d1b5",
+              "subject": "README.md: Add section 'references' and include links to app store an\u2026",
+              "date": "2021-11-25T13:49:36Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/nextcloud/groupfolders/commit/84b9ec891504a150725b51170223e537fff8d1b5"
+            },
+            {
+              "id": "d060e4404fe8abbdd5dff437f143d3bca846206b",
+              "subject": "Merge pull request #1416 from pierreozoux/issue_template",
+              "date": "2021-04-14T18:55:59Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/nextcloud/groupfolders/commit/d060e4404fe8abbdd5dff437f143d3bca846206b"
+            },
+            {
+              "id": "f4761bc33ac6d029c15960355c00f0f79d231239",
+              "subject": "Merge pull request #1415 from nextcloud/pierreozoux-patch-1",
+              "date": "2021-04-02T16:08:39Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/nextcloud/groupfolders/commit/f4761bc33ac6d029c15960355c00f0f79d231239"
+            },
+            {
+              "id": "611d6d301e995818f32c7ec095ec9c6093f9aad9",
+              "subject": "Fix dev build with updated webpack-cli (#1216)",
+              "date": "2021-01-05T10:13:38Z",
+              "author": "Frieder Schrempf",
+              "email": "dev@fris.de",
+              "link": "https://github.com/nextcloud/groupfolders/commit/611d6d301e995818f32c7ec095ec9c6093f9aad9"
+            },
+            {
+              "id": "1cfce0f5776bf74ff19c9e709749948695906435",
+              "subject": "Fix build with updated webpack-cli (#1213)",
+              "date": "2021-01-04T12:50:56Z",
+              "author": "Frieder Schrempf",
+              "email": "dev@fris.de",
+              "link": "https://github.com/nextcloud/groupfolders/commit/1cfce0f5776bf74ff19c9e709749948695906435"
+            }
+          ]
+        },
+        "hugo-theme-zen": {
+          "authored": [
+            {
+              "id": "2c65850e1a66fb78432800d043e38dbf1b1a4ffc",
+              "subject": "fixup! Don't show date information of post when no date is set",
+              "date": "2020-12-29T09:13:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/frjo/hugo-theme-zen/commit/2c65850e1a66fb78432800d043e38dbf1b1a4ffc"
+            },
+            {
+              "id": "4633d080179388944a281abd05daa8af5aa55101",
+              "subject": "Don't show date information of post when no date is set",
+              "date": "2020-12-28T10:17:43Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/frjo/hugo-theme-zen/commit/4633d080179388944a281abd05daa8af5aa55101"
+            },
+            {
+              "id": "f7fbd1e7f2f9be08ecca064d247a8cb74db41c7a",
+              "subject": "Move author and date information for post to common partials",
+              "date": "2020-12-28T10:14:39Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/frjo/hugo-theme-zen/commit/f7fbd1e7f2f9be08ecca064d247a8cb74db41c7a"
+            },
+            {
+              "id": "2de95d06c4e32f6cf816e5b2c1247fc95c4c4780",
+              "subject": "Add translations for 'Last modified' and 'Created'.",
+              "date": "2019-10-01T12:28:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/frjo/hugo-theme-zen/commit/2de95d06c4e32f6cf816e5b2c1247fc95c4c4780"
+            },
+            {
+              "id": "cc0ef06a17ff0d53022dfc98f5cf21599bbe8c9e",
+              "subject": "Add German language translation.",
+              "date": "2019-10-01T12:28:15Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/frjo/hugo-theme-zen/commit/cc0ef06a17ff0d53022dfc98f5cf21599bbe8c9e"
+            }
+          ]
+        },
+        "docsy": {
+          "authored": [
+            {
+              "id": "2683d22a4260efee4c2e10ec6180d95ef60454e6",
+              "subject": "Apply link hover color in link-variant mixin",
+              "date": "2020-04-13T18:19:34Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/google/docsy/commit/2683d22a4260efee4c2e10ec6180d95ef60454e6"
+            },
+            {
+              "id": "4145791576d8c650f63a9f1b34a436336744d852",
+              "subject": "Allow $td-block-space-{top|bottom}-base to be overridden",
+              "date": "2020-03-27T21:32:30Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/google/docsy/commit/4145791576d8c650f63a9f1b34a436336744d852"
+            }
+          ]
+        },
+        "KiCost": {
+          "authored": [
+            {
+              "id": "8b8c6ee9044c7434b3e86f53413141f2f862f9d4",
+              "subject": "Improve the selection of cut-tape parts over reels for DigiKey",
+              "date": "2019-12-27T10:35:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/hildogjr/KiCost/commit/8b8c6ee9044c7434b3e86f53413141f2f862f9d4"
+            },
+            {
+              "id": "a3fab7ea6cb1512c5afa9df85661c316f1c87f13",
+              "subject": "api_partinfo_kitspace.py: Improve the selection for different packagi\u2026",
+              "date": "2019-12-22T14:42:53Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/hildogjr/KiCost/commit/a3fab7ea6cb1512c5afa9df85661c316f1c87f13"
+            }
+          ]
+        },
+        "SermonSpeaker": {
+          "authored": [
+            {
+              "id": "584f029485eebd8b7e7a9d45c809c85d131bb5b8",
+              "subject": "filter filetypes for latest sermon view",
+              "date": "2017-02-11T20:15:30Z",
+              "author": "Frieder Schrempf",
+              "email": "fr.sc@online.de",
+              "link": "https://github.com/Bakual/SermonSpeaker/commit/584f029485eebd8b7e7a9d45c809c85d131bb5b8"
+            },
+            {
+              "id": "9802fd0f3ea0bdf224e3ce50b619188c6ea6bccc",
+              "subject": "hide play icon when there's no file to play",
+              "date": "2017-02-03T20:30:12Z",
+              "author": "Frieder Schrempf",
+              "email": "fr.sc@online.de",
+              "link": "https://github.com/Bakual/SermonSpeaker/commit/9802fd0f3ea0bdf224e3ce50b619188c6ea6bccc"
+            }
+          ]
+        }
+      }
     }
   },
-  "projects": {},
+  "projects": {
+    "Linux Kernel": {
+      "name": "Linux Kernel",
+      "url": "https://kernel.org/",
+      "giturl": "https://github.com/torvalds/linux",
+      "gitweburl": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=%COMMIT-ID%",
+      "description": "Free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "linux",
+        "owner": "torvalds"
+      }
+    },
+    "U-Boot": {
+      "name": "U-Boot",
+      "url": "https://docs.u-boot.org",
+      "giturl": "https://github.com/u-boot/u-boot",
+      "gitweburl": "https://source.denx.de/u-boot/u-boot/-/commit/%COMMIT-ID%",
+      "description": "\"Das U-Boot\" Bootloader",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "u-boot",
+        "owner": "u-boot"
+      }
+    },
+    "ESPuino": {
+      "name": "ESPuino",
+      "url": "https://github.com/biologist79/ESPuino",
+      "giturl": "https://github.com/biologist79/ESPuino",
+      "gitweburl": "https://github.com/biologist79/ESPuino/commit/%COMMIT-ID%",
+      "description": "RFID-controlled musicplayer powered by ESP32",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "ESPuino",
+        "owner": "biologist79"
+      }
+    },
+    "meta-linux-mainline": {
+      "name": "meta-linux-mainline",
+      "url": "https://github.com/betafive/meta-linux-mainline",
+      "giturl": "https://github.com/betafive/meta-linux-mainline",
+      "gitweburl": "https://github.com/betafive/meta-linux-mainline/commit/%COMMIT-ID%",
+      "description": null,
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "meta-linux-mainline",
+        "owner": "betafive"
+      }
+    },
+    "ChurchToolsAPI": {
+      "name": "ChurchToolsAPI",
+      "url": "https://github.com/bensteUEM/ChurchToolsAPI",
+      "giturl": "https://github.com/bensteUEM/ChurchToolsAPI",
+      "gitweburl": "https://github.com/bensteUEM/ChurchToolsAPI/commit/%COMMIT-ID%",
+      "description": "Collection of Python files to use the API for ChurchTools",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "ChurchToolsAPI",
+        "owner": "bensteUEM"
+      }
+    },
+    "nextcloud-async": {
+      "name": "nextcloud-async",
+      "url": "https://github.com/aaronsegura/nextcloud-async",
+      "giturl": "https://github.com/aaronsegura/nextcloud-async",
+      "gitweburl": "https://github.com/aaronsegura/nextcloud-async/commit/%COMMIT-ID%",
+      "description": "Async-capable python wrapper for Nextcloud APIs",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "nextcloud-async",
+        "owner": "aaronsegura"
+      }
+    },
+    "libubootenv": {
+      "name": "libubootenv",
+      "url": "https://github.com/sbabic/libubootenv",
+      "giturl": "https://github.com/sbabic/libubootenv",
+      "gitweburl": "https://github.com/sbabic/libubootenv/commit/%COMMIT-ID%",
+      "description": "Generic library and tools to access and modify U-Boot environment from User Space",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "libubootenv",
+        "owner": "sbabic"
+      }
+    },
+    "meta-freescale": {
+      "name": "meta-freescale",
+      "url": "https://github.com/Freescale/meta-freescale",
+      "giturl": "https://github.com/Freescale/meta-freescale",
+      "gitweburl": "https://github.com/Freescale/meta-freescale/%COMMIT-ID%",
+      "description": "Layer containing NXP hardware support metadata",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "meta-freescale",
+        "owner": "Freescale"
+      }
+    },
+    "docker-borgmatic": {
+      "name": "docker-borgmatic",
+      "url": "https://github.com/borgmatic-collective/docker-borgmatic",
+      "giturl": "https://github.com/borgmatic-collective/docker-borgmatic",
+      "gitweburl": "https://github.com/borgmatic-collective/docker-borgmatic/commit/%COMMIT-ID%",
+      "description": "Borgmatic in Docker",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "docker-borgmatic",
+        "owner": "borgmatic-collective"
+      }
+    },
+    "tasks": {
+      "name": "tasks",
+      "url": "https://tasks.org/",
+      "giturl": "https://github.com/tasks/tasks",
+      "gitweburl": "https://github.com/tasks/tasks/commit/%COMMIT-ID%",
+      "description": "Bringing Astrid Tasks back from the dead",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "tasks",
+        "owner": "tasks"
+      }
+    },
+    "dokuwiki-plugin-struct": {
+      "name": "dokuwiki-plugin-struct",
+      "url": "https://www.dokuwiki.org/plugin:struct",
+      "giturl": "https://github.com/cosmocode/dokuwiki-plugin-struct",
+      "gitweburl": "https://github.com/cosmocode/dokuwiki-plugin-struct/commit/%COMMIT-ID%",
+      "description": "A new structured data plugin",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "dokuwiki-plugin-struct",
+        "owner": "cosmocode"
+      }
+    },
+    "groupfolders": {
+      "name": "groupfolders",
+      "url": "https://github.com/nextcloud/groupfolders",
+      "giturl": "https://github.com/nextcloud/groupfolders",
+      "gitweburl": "https://github.com/nextcloud/groupfolders/commit/%COMMIT-ID%",
+      "description": "Admin-configured folders for Nextcloud",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "groupfolders",
+        "owner": "nextcloud"
+      }
+    },
+    "hugo-theme-zen": {
+      "name": "hugo-theme-zen",
+      "url": "https://github.com/frjo/hugo-theme-zen",
+      "giturl": "https://github.com/frjo/hugo-theme-zen",
+      "gitweburl": "https://github.com/frjo/hugo-theme-zen/commit/%COMMIT-ID%",
+      "description": "A fast and clean Hugo base theme with css-grid and Hugo pipes support.",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "hugo-theme-zen",
+        "owner": "frjo"
+      }
+    },
+    "docsy": {
+      "name": "docsy",
+      "url": "https://www.docsy.dev/",
+      "giturl": "https://github.com/google/docsy",
+      "gitweburl": "https://github.com/google/docsy/commit/%COMMIT-ID%",
+      "description": "A set of Hugo doc templates for launching open source content.",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "docsy",
+        "owner": "google"
+      }
+    },
+    "KiCost": {
+      "name": "KiCost",
+      "url": "https://hildogjr.github.io/KiCost",
+      "giturl": "https://github.com/hildogjr/KiCost",
+      "gitweburl": "https://github.com/hildogjr/KiCost/commit/%COMMIT-ID%",
+      "description": "Build cost spreadsheet for a KiCad project.",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "KiCost",
+        "owner": "hildogjr"
+      }
+    },
+    "SermonSpeaker": {
+      "name": "SermonSpeaker",
+      "url": "https://www.sermonspeaker.net/",
+      "giturl": "https://github.com/Bakual/SermonSpeaker",
+      "gitweburl": "https://github.com/Bakual/SermonSpeaker/commit/%COMMIT-ID%",
+      "description": "A free Joomla! component for churchs to share their sermons.",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "SermonSpeaker",
+        "owner": "Bakual"
+      }
+    }
+  },
   "document": {
     "title": "Frieder's Open Source Contributions",
     "author": {
