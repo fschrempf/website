@@ -21,13 +21,9 @@ body {
   letter-spacing: 0.2em;
 }
 
-.header__site-name * {
-  vertical-align: middle;
-  text-decoration: none;
-}
-
-.header__site-name :hover {
-  text-decoration: none;
+.header__site-name *, .header__site-link * {
+  vertical-align: middle !important;
+  text-decoration: none !important;
 }
 
 // The style for the search and language selector
