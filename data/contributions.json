@@ -1895,6 +1895,50 @@
               "link": "https://github.com/Bakual/SermonSpeaker/commit/9802fd0f3ea0bdf224e3ce50b619188c6ea6bccc"
             }
           ]
+        },
+        "contripy": {
+          "authored": [
+            {
+              "id": "dfa2322197c790e50bd1ed3ecd749599f71f8a83",
+              "subject": "Add requirements.txt for Python dependencies",
+              "date": "2024-02-05T15:36:09Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/dfa2322197c790e50bd1ed3ecd749599f71f8a83"
+            },
+            {
+              "id": "03e639a8ef73b46bb0921dc0d93634dea52f6c12",
+              "subject": "README.md: Minor improvements to headings and requirements list",
+              "date": "2024-02-05T15:36:09Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/03e639a8ef73b46bb0921dc0d93634dea52f6c12"
+            },
+            {
+              "id": "e7138f9de03da933646ba1ef5ddad620fe687eed",
+              "subject": "contripy: Use document metadata from config file instead of hardcoded\u2026",
+              "date": "2024-02-05T15:36:09Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/e7138f9de03da933646ba1ef5ddad620fe687eed"
+            },
+            {
+              "id": "6ac626e0cc57f1114bfad3bffbaa87839703f4c1",
+              "subject": "contripy: Use yaml.full_load() instead of deprecated yaml.load()",
+              "date": "2024-02-05T15:36:09Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/6ac626e0cc57f1114bfad3bffbaa87839703f4c1"
+            },
+            {
+              "id": "edd7adc97fb723eb29b87f897dcfc0c1777bfdf6",
+              "subject": "contripy: Print YAML parser errors and stop catching all exceptions",
+              "date": "2024-02-05T15:36:09Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/edd7adc97fb723eb29b87f897dcfc0c1777bfdf6"
+            }
+          ]
         }
       }
     }
@@ -2138,6 +2182,21 @@
       "repo": {
         "name": "SermonSpeaker",
         "owner": "Bakual"
+      }
+    },
+    "contripy": {
+      "name": "contripy",
+      "url": "https://github.com/hthiery/contripy/",
+      "giturl": "https://github.com/hthiery/contripy",
+      "gitweburl": "https://github.com/hthiery/contripy/commit/%COMMIT-ID%",
+      "description": null,
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "contripy",
+        "owner": "hthiery"
       }
     }
   },
