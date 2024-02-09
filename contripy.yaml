@@ -92,6 +92,11 @@ projects:
     giturl: https://github.com/Bakual/SermonSpeaker
     gitweburl: https://github.com/Bakual/SermonSpeaker/commit/%COMMIT-ID%
     parser: github
+  contripy:
+    url: https://github.com/hthiery/contripy/
+    giturl: https://github.com/hthiery/contripy
+    gitweburl: https://github.com/hthiery/contripy/commit/%COMMIT-ID%
+    parser: github
 
 authors:
   Frieder Schrempf:
