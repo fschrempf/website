@@ -29,7 +29,7 @@ pages:
   rules:
     - if: $RUN_CONTRIPY_BOT == "true"
     - changes:
-        - contripy.yml
+        - contripy.yaml
     - when: never
 
 contripy:
