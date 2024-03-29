@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2024-03-09"
+    "end": "2024-03-29"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,118 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "8458002b765c2768490bde9cb8f7665d2ffcf102",
+              "subject": "ARM: dts: imx6dl: Add support for Sielaff i.MX6 Solo board",
+              "date": "2024-02-05T09:37:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8458002b765c2768490bde9cb8f7665d2ffcf102"
+            },
+            {
+              "id": "6e489bd5aab648fe1bfd8f739e6e4246540b606a",
+              "subject": "dt-bindings: arm: fsl: Add Sielaff i.MX6 Solo board",
+              "date": "2024-02-05T09:36:49Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e489bd5aab648fe1bfd8f739e6e4246540b606a"
+            },
+            {
+              "id": "6f5e6d7306c0163d83f03815838cd6470872df7f",
+              "subject": "arm64: dts: imx8mm-kontron: Refactor devicetree for OSM-S module and \u2026",
+              "date": "2024-02-01T07:21:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6f5e6d7306c0163d83f03815838cd6470872df7f"
+            },
+            {
+              "id": "7e349e0fe31fd673d58786408e763ce7dfe81dac",
+              "subject": "arm64: dts: imx8mm-kontron: Add I2C EEPROM on OSM-S Kontron i.MX8MM",
+              "date": "2024-02-01T07:21:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7e349e0fe31fd673d58786408e763ce7dfe81dac"
+            },
+            {
+              "id": "0e8c45ef096c1eead6ac185ac6db5e8789ac9b9e",
+              "subject": "arm64: dts: imx8mm-kontron: Remove useless trickle-diode-disable from\u2026",
+              "date": "2024-02-01T07:21:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0e8c45ef096c1eead6ac185ac6db5e8789ac9b9e"
+            },
+            {
+              "id": "5798bb71648cb91d2c3274aff23390bf61eda77b",
+              "subject": "arm64: dts: imx8mm-kontron: Disable uneffective PUE bit in SDIO IOMUX",
+              "date": "2024-02-01T07:21:16Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5798bb71648cb91d2c3274aff23390bf61eda77b"
+            },
+            {
+              "id": "360b9dcf6572580f36688b43f26e5fe94405737c",
+              "subject": "arm64: dts: imx8mm-kontron: Fix OSM-S devicetrees to match latest har\u2026",
+              "date": "2024-02-01T07:21:13Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=360b9dcf6572580f36688b43f26e5fe94405737c"
+            },
+            {
+              "id": "8d0f39b7d04d864e89b84063b124fd10aa4b8809",
+              "subject": "arm64: dts: imx8mm-kontron: Fix interrupt for RTC on OSM-S i.MX8MM mo\u2026",
+              "date": "2024-02-01T07:21:10Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8d0f39b7d04d864e89b84063b124fd10aa4b8809"
+            },
+            {
+              "id": "008820524844326ffb3123cebceba1960c0ad0dc",
+              "subject": "arm64: dts: imx8mm-kontron: Disable pull resistors for SD card signal\u2026",
+              "date": "2024-02-01T07:21:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=008820524844326ffb3123cebceba1960c0ad0dc"
+            },
+            {
+              "id": "5a940ba3e4d7c8710c9073ff5d0ca4644d4da9db",
+              "subject": "arm64: dts: imx8mm-kontron: Disable pull resistors for SD card signal\u2026",
+              "date": "2024-02-01T07:21:04Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5a940ba3e4d7c8710c9073ff5d0ca4644d4da9db"
+            },
+            {
+              "id": "162aadaa0df8217b0cc49d919dd00022fef65e78",
+              "subject": "arm64: dts: imx8mm-kontron: Disable pullups for onboard UART signals \u2026",
+              "date": "2024-02-01T07:21:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=162aadaa0df8217b0cc49d919dd00022fef65e78"
+            },
+            {
+              "id": "c6d9b5672a0e2c4b1079a50d2fc8780c40cfd3eb",
+              "subject": "arm64: dts: imx8mm-kontron: Disable pullups for onboard UART signals \u2026",
+              "date": "2024-02-01T07:20:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c6d9b5672a0e2c4b1079a50d2fc8780c40cfd3eb"
+            },
+            {
+              "id": "f19e5bb91d53264d7dac5d845a4825afadf72440",
+              "subject": "arm64: dts: imx8mm-kontron: Disable pullups for I2C signals on SL/BL \u2026",
+              "date": "2024-02-01T07:20:56Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f19e5bb91d53264d7dac5d845a4825afadf72440"
+            },
+            {
+              "id": "96293af54f6aa859015d8ca40a1437d3115ad50c",
+              "subject": "arm64: dts: imx8mm-kontron: Disable pullups for I2C signals on OSM-S \u2026",
+              "date": "2024-02-01T07:20:26Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=96293af54f6aa859015d8ca40a1437d3115ad50c"
+            },
             {
               "id": "24af68a0ed53629bdde7b53ef8c2be72580d293b",
               "subject": "usb: misc: onboard_usb_hub: Add support for Cypress CY7C6563x",
@@ -1930,6 +2042,134 @@
         },
         "contripy": {
           "authored": [
+            {
+              "id": "2e3849d188de7b806e42da1b4ba195105d735cd7",
+              "subject": "Add container build and deployment via GitHub Actions",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/2e3849d188de7b806e42da1b4ba195105d735cd7"
+            },
+            {
+              "id": "79da85a9327a6964f3a19c726ed49060104535b8",
+              "subject": "Add Containerfile",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/79da85a9327a6964f3a19c726ed49060104535b8"
+            },
+            {
+              "id": "3f97af69262647dede0ee1b7afb6425ae2d4051c",
+              "subject": "README.md: Describe parser implementations",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/3f97af69262647dede0ee1b7afb6425ae2d4051c"
+            },
+            {
+              "id": "974c4b14bb2d13e78eec1e516f3216460bb19bf2",
+              "subject": "README.md: Update requirements",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/974c4b14bb2d13e78eec1e516f3216460bb19bf2"
+            },
+            {
+              "id": "581ede5ee4cddd259f8f81b241d759f797de041d",
+              "subject": "Make GitHub parser optional",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/581ede5ee4cddd259f8f81b241d759f797de041d"
+            },
+            {
+              "id": "c3a20da3f71142b2f6025cedffd99df57213bedb",
+              "subject": "Move classes to separate files",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/c3a20da3f71142b2f6025cedffd99df57213bedb"
+            },
+            {
+              "id": "2a4e91c9ec8dcfbe5ba6cdfafe52b37b67a31cee",
+              "subject": "contripy: Add workaround for GitHub API server 502 errors",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/2a4e91c9ec8dcfbe5ba6cdfafe52b37b67a31cee"
+            },
+            {
+              "id": "500755e9afe9f0c6af858ca9a9c9f20bebdb78cf",
+              "subject": "contripy: Implement update_project() for GitHubContributionParser",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/500755e9afe9f0c6af858ca9a9c9f20bebdb78cf"
+            },
+            {
+              "id": "ee3d140020dc4343728c74c65e63f06e6a8fa913",
+              "subject": "contripy: Make project description in config optional",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/ee3d140020dc4343728c74c65e63f06e6a8fa913"
+            },
+            {
+              "id": "87ad7f10f47e3e0db63b041d182695a80f8d925a",
+              "subject": "contripy: Add update_project() method to ContributionParser",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/87ad7f10f47e3e0db63b041d182695a80f8d925a"
+            },
+            {
+              "id": "ec94ac5f5ac0e1123a0c7100a845454a01c62240",
+              "subject": "contripy: Add GitHub GraphQL API contribution parser implementation",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/ec94ac5f5ac0e1123a0c7100a845454a01c62240"
+            },
+            {
+              "id": "1b764aa4aff037dbe28ac7cbeb9cf8df0f442c9a",
+              "subject": "contripy: Improve stats printing",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/1b764aa4aff037dbe28ac7cbeb9cf8df0f442c9a"
+            },
+            {
+              "id": "b05d1fc7b86d5b3649ba868858b204832a92492b",
+              "subject": "contripy: Support parser selection in project config",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/b05d1fc7b86d5b3649ba868858b204832a92492b"
+            },
+            {
+              "id": "054e7438486089b073db9e7610180c05b3dc7cbf",
+              "subject": "contripy: Extract project name and owner from GitHub URLs",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/054e7438486089b073db9e7610180c05b3dc7cbf"
+            },
+            {
+              "id": "c037b4abe0644fbfa36ebf9830fd118c8b6664e4",
+              "subject": "contripy: Move code for parsing Git repos to its own class",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/c037b4abe0644fbfa36ebf9830fd118c8b6664e4"
+            },
+            {
+              "id": "e7f9e708b08bdb7cac96bd3a874c7df6c6a4787a",
+              "subject": "contripy: Use dotenv and envyaml to parse configuration with env vari\u2026",
+              "date": "2024-03-29T06:19:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/e7f9e708b08bdb7cac96bd3a874c7df6c6a4787a"
+            },
             {
               "id": "dfa2322197c790e50bd1ed3ecd749599f71f8a83",
               "subject": "Add requirements.txt for Python dependencies",
