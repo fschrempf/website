@@ -14,7 +14,7 @@ test:
   script:
     - hugo
   except:
-    - master
+    - main
 
 pages:
   script:
@@ -23,7 +23,7 @@ pages:
     paths:
       - public
   only:
-    - master
+    - main
 
 .contripy-rules: &contripy-rules
   rules:
