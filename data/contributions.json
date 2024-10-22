@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2024-03-29"
+    "end": "2024-10-22"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,62 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "2b52fd6035b7e8896bad28ed54d183af38bcf570",
+              "subject": "arm64: dts: Add support for Kontron i.MX93 OSM-S SoM and BL carrier b\u2026",
+              "date": "2024-09-04T09:36:18Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2b52fd6035b7e8896bad28ed54d183af38bcf570"
+            },
+            {
+              "id": "b575d3bd08d2c46b2e9aa9668a8ac8a10af6e54c",
+              "subject": "dt-bindings: arm: fsl: Add Kontron i.MX93 OSM-S based boards",
+              "date": "2024-08-31T13:06:13Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b575d3bd08d2c46b2e9aa9668a8ac8a10af6e54c"
+            },
+            {
+              "id": "8060be2489f9bfa0c603373fa71cc2f93e46e462",
+              "subject": "dt-bindings: gpio: vf610: Allow gpio-line-names to be set",
+              "date": "2024-07-08T14:53:24Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8060be2489f9bfa0c603373fa71cc2f93e46e462"
+            },
+            {
+              "id": "ef0b29e744965e8abc14260503a559366219035c",
+              "subject": "regulator: dt-bindings: pca9450: Make interrupt optional",
+              "date": "2024-07-08T11:50:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ef0b29e744965e8abc14260503a559366219035c"
+            },
+            {
+              "id": "83808c54064eef620ad8645dfdcaffe125551532",
+              "subject": "regulator: pca9450: Make IRQ optional",
+              "date": "2024-07-08T11:50:20Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=83808c54064eef620ad8645dfdcaffe125551532"
+            },
+            {
+              "id": "3a9ba4e32230df6c48cda1fd5cbca6facacc74c2",
+              "subject": "dt-bindings: eeprom: at24: Add compatible for ONSemi N24S64B",
+              "date": "2024-07-03T09:57:52Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3a9ba4e32230df6c48cda1fd5cbca6facacc74c2"
+            },
+            {
+              "id": "d83c217778e7425d10105001150c5670e07f88fe",
+              "subject": "dt-bindings: eeprom: at24: Move compatible for Belling BL24C16A to pr\u2026",
+              "date": "2024-07-03T09:57:52Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d83c217778e7425d10105001150c5670e07f88fe"
+            },
             {
               "id": "8458002b765c2768490bde9cb8f7665d2ffcf102",
               "subject": "ARM: dts: imx6dl: Add support for Sielaff i.MX6 Solo board",
@@ -1594,6 +1650,54 @@
         },
         "ChurchToolsAPI": {
           "authored": [
+            {
+              "id": "257b06cb87a4cf82b3c66e40fb96387f384be61f",
+              "subject": "Implement [add/remove]_parent_group()",
+              "date": "2023-12-01T15:37:48Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/257b06cb87a4cf82b3c66e40fb96387f384be61f"
+            },
+            {
+              "id": "74759bdd656108e19524b4ff91aef34142ee6be1",
+              "subject": "Implement get_group_roles()",
+              "date": "2023-12-01T15:37:47Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/74759bdd656108e19524b4ff91aef34142ee6be1"
+            },
+            {
+              "id": "e3ee2591f8c9d15a473d409c2688b8f7386ae530",
+              "subject": "Implement [add/remove]_group_member()",
+              "date": "2023-12-01T15:37:47Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/e3ee2591f8c9d15a473d409c2688b8f7386ae530"
+            },
+            {
+              "id": "7b2481edbc53d743db18f71892cad29f180dfb1a",
+              "subject": "Implement [create/delete]_group()",
+              "date": "2023-12-01T15:37:46Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/7b2481edbc53d743db18f71892cad29f180dfb1a"
+            },
+            {
+              "id": "e2533a25334540644b9cd7eee6bbad62c4c9142b",
+              "subject": "Implement get_group_members()",
+              "date": "2023-12-01T15:37:46Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/e2533a25334540644b9cd7eee6bbad62c4c9142b"
+            },
+            {
+              "id": "ba41074b8c0667837394dbbb3d531df57a8782f8",
+              "subject": "Implement get_group_statistics()",
+              "date": "2023-12-01T15:37:45Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/bensteUEM/ChurchToolsAPI/commit/ba41074b8c0667837394dbbb3d531df57a8782f8"
+            },
             {
               "id": "2fa193cc86e3f32e317707a9e2f4f21468eacfe5",
               "subject": "Implement get_global_permissions()  - Fixes #76",
