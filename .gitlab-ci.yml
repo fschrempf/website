@@ -33,7 +33,7 @@ pages:
     - when: never
 
 contripy:
-  image: registry.gitlab.com/fschrempf/contripy/contripy:latest
+  image: ghcr.io/hthiery/contripy:master
   script:
     - /app/./contripy -c contripy.yaml -o data/contributions.json --from=2010-01-01
   <<: *contripy-rules
