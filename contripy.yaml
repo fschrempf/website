@@ -97,6 +97,31 @@ projects:
     giturl: https://github.com/hthiery/contripy
     gitweburl: https://github.com/hthiery/contripy/commit/%COMMIT-ID%
     parser: github
+  kas:
+    url: https://github.com/siemens/kas
+    giturl: https://github.com/siemens/kas
+    gitweburl: https://github.com/siemens/kas/commit/%COMMIT-ID%
+    parser: github
+  racer:
+    url: https://github.com/StuckAtPrototype/Racer
+    giturl: https://github.com/StuckAtPrototype/Racer
+    gitweburl: https://github.com/StuckAtPrototype/Racer/commit/%COMMIT-ID%
+    parser: github
+  slam.js:
+    url: https://github.com/fschrempf/slam.js
+    giturl: https://github.com/fschrempf/slam.js
+    gitweburl: https://github.com/fschrempf/slam.js/commit/%COMMIT-ID%
+    parser: github
+  simcom-lfota:
+    url: https://github.com/fschrempf/simcom-lfota
+    giturl: https://github.com/fschrempf/simcom-lfota
+    gitweburl: https://github.com/fschrempf/simcom-lfota/commit/%COMMIT-ID%
+    parser: github
+  py-neopixel-spidev:
+    url: https://github.com/fschrempf/py-neopixel-spidev
+    giturl: https://github.com/fschrempf/py-neopixel-spidev
+    gitweburl: https://github.com/fschrempf/py-neopixel-spidev/commit/%COMMIT-ID%
+    parser: github
 
 authors:
   Frieder Schrempf:
