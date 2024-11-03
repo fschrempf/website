@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2024-10-28"
+    "end": "2024-11-03"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -2315,6 +2315,442 @@
               "link": "https://github.com/hthiery/contripy/commit/edd7adc97fb723eb29b87f897dcfc0c1777bfdf6"
             }
           ]
+        },
+        "kas": {
+          "authored": [
+            {
+              "id": "9e026b615bf3f11f9691f63f31ae8719ad5d173d",
+              "subject": "dump-plugin: Improve help string for '--inplace' argument",
+              "date": "2024-10-25T09:55:55Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/siemens/kas/commit/9e026b615bf3f11f9691f63f31ae8719ad5d173d"
+            },
+            {
+              "id": "27376c3cadbfc02ddd3c02866da33fd4727cafbc",
+              "subject": "includehandler: Simplify _internal_dict_merge()",
+              "date": "2024-10-25T09:55:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/siemens/kas/commit/27376c3cadbfc02ddd3c02866da33fd4727cafbc"
+            },
+            {
+              "id": "f3521f82fa41c07ea8bdd8370a2ce045947165cc",
+              "subject": "kas-container: Fix engine detection when docker is an alias for podman",
+              "date": "2023-01-09T12:09:14Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/siemens/kas/commit/f3521f82fa41c07ea8bdd8370a2ce045947165cc"
+            }
+          ]
+        },
+        "racer": {
+          "authored": [
+            {
+              "id": "00480ab0d3511b628ff4ec7fb2a7f82ff625ad71",
+              "subject": "hardware: controller.kicad_pcb: Add thickness property to font nodes",
+              "date": "2024-10-24T17:16:52Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/00480ab0d3511b628ff4ec7fb2a7f82ff625ad71"
+            },
+            {
+              "id": "f656ef3c696dee3b76415840b5253768c92cd66c",
+              "subject": "hardware: sensors.kicad_pcb: Fix values of R1 and R2",
+              "date": "2024-10-24T17:15:22Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/f656ef3c696dee3b76415840b5253768c92cd66c"
+            },
+            {
+              "id": "9fad69a678fc261def04ab497708d8444a50dd19",
+              "subject": "hardware: sensors.kicad_pcb: Add thickness property to font nodes",
+              "date": "2024-10-24T17:13:54Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/9fad69a678fc261def04ab497708d8444a50dd19"
+            },
+            {
+              "id": "7df3ab09b5996803f049b4faddae71673b07819d",
+              "subject": "hardware: Add .gitignore file temporary KiCad files",
+              "date": "2024-10-24T17:11:29Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/7df3ab09b5996803f049b4faddae71673b07819d"
+            },
+            {
+              "id": "20f2ff4897d339270ed291997bb19d1fec8bb467",
+              "subject": "hardware: racer.kicad_pro: Update project file",
+              "date": "2024-10-24T17:11:29Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/20f2ff4897d339270ed291997bb19d1fec8bb467"
+            },
+            {
+              "id": "b5172ac227e0329a64239a02e8d434be354f6653",
+              "subject": "hardware: racer.kicad_pcb: Fix wrong value of R22",
+              "date": "2024-10-24T17:11:00Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/b5172ac227e0329a64239a02e8d434be354f6653"
+            },
+            {
+              "id": "154b2386ede7c3e8373268d71082d0afb885f6b2",
+              "subject": "hardware: racer.kicad_pcb: Use the correct schematic filename in 'she\u2026",
+              "date": "2024-10-24T17:10:48Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/154b2386ede7c3e8373268d71082d0afb885f6b2"
+            },
+            {
+              "id": "c3946dfbbcb9eab27d89202a536e1fce9b0ef0a7",
+              "subject": "hardware: racer.kicad_pcb: Add thickness property to font nodes",
+              "date": "2024-10-24T17:10:47Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/StuckAtPrototype/Racer/commit/c3946dfbbcb9eab27d89202a536e1fce9b0ef0a7"
+            }
+          ]
+        },
+        "slam.js": {
+          "authored": [
+            {
+              "id": "6c2025e3a0ea2ac3e5405ea83ccaaab3dbb57b89",
+              "subject": "Merge pull request #11 from fschrempf/dependabot/npm_and_yarn/lodash-\u2026",
+              "date": "2021-01-01T10:42:58Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/fschrempf/slam.js/commit/6c2025e3a0ea2ac3e5405ea83ccaaab3dbb57b89"
+            },
+            {
+              "id": "3f4c24a8fac57cdb965598c32e8ffb7347883736",
+              "subject": "Merge pull request #10 from fschrempf/dependabot/npm_and_yarn/jquery-\u2026",
+              "date": "2021-01-01T10:42:26Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/fschrempf/slam.js/commit/3f4c24a8fac57cdb965598c32e8ffb7347883736"
+            },
+            {
+              "id": "0de1ef4f6ff99a8bf034b905ba955ad7e351771d",
+              "subject": "README.md: Fix typo and improve format",
+              "date": "2019-10-27T12:09:47Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/0de1ef4f6ff99a8bf034b905ba955ad7e351771d"
+            },
+            {
+              "id": "d82dd35a822274a126cb8d8f5e69ca16d1be1a73",
+              "subject": "README.md: Add \"2. Esslinger Preacher Slam\" to list of events",
+              "date": "2019-10-27T12:04:52Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/d82dd35a822274a126cb8d8f5e69ca16d1be1a73"
+            },
+            {
+              "id": "7d7769ca5cc8a082be921dec1c11df95173dc710",
+              "subject": "package-lock.json: Sync dependencies",
+              "date": "2019-10-25T18:32:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/7d7769ca5cc8a082be921dec1c11df95173dc710"
+            },
+            {
+              "id": "0a2a37df758b08ca73d7077cbdf424f4c5098e86",
+              "subject": "control.js: Also prevent message loops when state messages come from \u2026",
+              "date": "2019-10-25T10:30:12Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/0a2a37df758b08ca73d7077cbdf424f4c5098e86"
+            },
+            {
+              "id": "712abb63ec1bb53b4f353373214d18cf981bdcc1",
+              "subject": "slamlib.js: Add crossed card div and hide zero score in chart",
+              "date": "2019-10-25T09:45:20Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/712abb63ec1bb53b4f353373214d18cf981bdcc1"
+            },
+            {
+              "id": "54110cedab5c7633445cd6cdc1463002cb2f8477",
+              "subject": "client.js: Prevent state message loops by temporarily disabling the l\u2026",
+              "date": "2019-10-25T09:45:20Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/54110cedab5c7633445cd6cdc1463002cb2f8477"
+            },
+            {
+              "id": "5db249a2ff061c3a1404a4d7a996dcb9716f936f",
+              "subject": "Revert \"control.js: Remove debouncing of messages\"",
+              "date": "2019-10-25T08:22:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/5db249a2ff061c3a1404a4d7a996dcb9716f936f"
+            },
+            {
+              "id": "c7a9de1e65e55dcbcda9302fae911381107ec844",
+              "subject": "control.js: Remove debouncing of messages",
+              "date": "2019-10-20T20:19:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/c7a9de1e65e55dcbcda9302fae911381107ec844"
+            },
+            {
+              "id": "68e94e30f4e083862b0fa64cf28a652deaf9b7c2",
+              "subject": "fixup! control.js: Fix sorting in ratings grid",
+              "date": "2019-10-20T16:48:58Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/68e94e30f4e083862b0fa64cf28a652deaf9b7c2"
+            },
+            {
+              "id": "ad79031f61d2a8f58f002ecb1185b8619cfe0220",
+              "subject": "control.js: Fix sorting in ratings grid",
+              "date": "2019-10-20T16:16:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/ad79031f61d2a8f58f002ecb1185b8619cfe0220"
+            },
+            {
+              "id": "7622a604c9686399d87ba3e7eeef320a94c53d03",
+              "subject": "fixup! control.js: Fix the dropdown round selection by saving round o\u2026",
+              "date": "2019-10-20T16:16:09Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/7622a604c9686399d87ba3e7eeef320a94c53d03"
+            },
+            {
+              "id": "5082d31fb00ef26806caa7f344996075ae382522",
+              "subject": "control.js: Fix the dropdown round selection by saving round object",
+              "date": "2019-10-20T14:23:44Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/5082d31fb00ef26806caa7f344996075ae382522"
+            },
+            {
+              "id": "91b96ad96da458ee9377cd7ba1071ec08cb061d6",
+              "subject": "slamlib.js: Fix crossed ratings when all ratings have the same value",
+              "date": "2019-10-20T14:02:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/91b96ad96da458ee9377cd7ba1071ec08cb061d6"
+            },
+            {
+              "id": "99f23f1f41bce322ac912f8c76ab0ad2885a5a67",
+              "subject": "Add the feature to cross out the highest and lowest rating",
+              "date": "2019-10-11T20:40:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/99f23f1f41bce322ac912f8c76ab0ad2885a5a67"
+            },
+            {
+              "id": "f75e3a4dc1a12322ae836b2e8d31a1cc48887082",
+              "subject": "slamlib.js: Prevent showing old score value if score is zeroed",
+              "date": "2019-10-11T18:14:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/f75e3a4dc1a12322ae836b2e8d31a1cc48887082"
+            },
+            {
+              "id": "314f0d921ae650617a2419df467cc05983087fa2",
+              "subject": "Use fork of lowdb-api to workaround issue",
+              "date": "2019-10-11T17:59:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/314f0d921ae650617a2419df467cc05983087fa2"
+            },
+            {
+              "id": "9b058a2f18f6a2e3cd6ceb45f221dbdcc7b4e050",
+              "subject": "control.js: Avoid selecting undefined rounds and trigger update after\u2026",
+              "date": "2019-10-11T17:49:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/9b058a2f18f6a2e3cd6ceb45f221dbdcc7b4e050"
+            },
+            {
+              "id": "e582b7d4147d3314287f7ee5cc46d2e199bad558",
+              "subject": "Avoid key presses from text inputs being forwarded to reveal.js",
+              "date": "2019-10-11T13:42:25Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/e582b7d4147d3314287f7ee5cc46d2e199bad558"
+            },
+            {
+              "id": "3c99b9ed93fef556cfc32e2025848c8961e16a5c",
+              "subject": "slamlib.js: Do not fill score counter with zero value",
+              "date": "2019-10-11T12:37:32Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/3c99b9ed93fef556cfc32e2025848c8961e16a5c"
+            },
+            {
+              "id": "e789aadf6735f2a2829e011e4b6d6df94921cc88",
+              "subject": "README.md: Fix formatting",
+              "date": "2019-09-08T12:55:14Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/e789aadf6735f2a2829e011e4b6d6df94921cc88"
+            },
+            {
+              "id": "5de1c325c1c2c735435b02146a89dc6c0c9155bd",
+              "subject": "README.md: Add links and instructions",
+              "date": "2019-09-08T12:37:27Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/5de1c325c1c2c735435b02146a89dc6c0c9155bd"
+            },
+            {
+              "id": "488c0e0dfbaeb4f417f71407a45994e3fc430d77",
+              "subject": "index.js: Check for different module paths to export frontend deps",
+              "date": "2019-09-08T10:20:16Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/488c0e0dfbaeb4f417f71407a45994e3fc430d77"
+            },
+            {
+              "id": "0f39ff71ae57f9f8733af4fe328729b1f4defac3",
+              "subject": "Add reveal.js as a dependency",
+              "date": "2019-09-08T10:07:25Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/0f39ff71ae57f9f8733af4fe328729b1f4defac3"
+            },
+            {
+              "id": "28e43ddee309a95d2ae55d1faf300c3a626b1613",
+              "subject": "Initial commit for slam.js",
+              "date": "2019-09-07T18:06:43Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/slam.js/commit/28e43ddee309a95d2ae55d1faf300c3a626b1613"
+            }
+          ]
+        },
+        "simcom-lfota": {
+          "authored": [
+            {
+              "id": "8e55865566fe7d689c94b0b52f2d11b36ba6a30d",
+              "subject": "lfota.py: Add SPDX tag and copyright note",
+              "date": "2022-11-30T08:02:46Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/fschrempf/simcom-lfota/commit/8e55865566fe7d689c94b0b52f2d11b36ba6a30d"
+            },
+            {
+              "id": "9a788f3d29537fe08ee36cafb2016d5302015b3c",
+              "subject": "Initial commit for SIMCom local firmware update CLI tool",
+              "date": "2022-11-29T16:45:21Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/fschrempf/simcom-lfota/commit/9a788f3d29537fe08ee36cafb2016d5302015b3c"
+            }
+          ]
+        },
+        "py-neopixel-spidev": {
+          "authored": [
+            {
+              "id": "7c362eea79ec620a1bce1b06f7e9c462cb725866",
+              "subject": "setup.py: Fix OS classifier",
+              "date": "2020-12-29T10:34:44Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/7c362eea79ec620a1bce1b06f7e9c462cb725866"
+            },
+            {
+              "id": "6afc0088861b32bb7188301c4c3c04f8c4910fa6",
+              "subject": "Move examples to subdirectory",
+              "date": "2020-12-29T10:14:06Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/6afc0088861b32bb7188301c4c3c04f8c4910fa6"
+            },
+            {
+              "id": "d3824f93190207805b38fb7567f2171aa9996f7b",
+              "subject": ".gitignore: Ignore build and dist directories",
+              "date": "2020-12-29T10:12:34Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/d3824f93190207805b38fb7567f2171aa9996f7b"
+            },
+            {
+              "id": "640a228a09cf4d9b942f1d922403606c85fe4523",
+              "subject": "setup.py: Add runtime dependencies",
+              "date": "2020-12-29T09:47:18Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@online.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/640a228a09cf4d9b942f1d922403606c85fe4523"
+            },
+            {
+              "id": "f7dd0239798e92c3d4193d7cc983dd6493c33734",
+              "subject": "Delete pypi-publish.yml",
+              "date": "2020-12-29T09:32:18Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/f7dd0239798e92c3d4193d7cc983dd6493c33734"
+            },
+            {
+              "id": "23de58daaad7b3757f48f777f5112eccc1fd2da9",
+              "subject": "Create python-publish.yml",
+              "date": "2020-12-29T09:31:16Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/23de58daaad7b3757f48f777f5112eccc1fd2da9"
+            },
+            {
+              "id": "68b8c266893eb2f47247b8b0dd0c59ecea9a96b5",
+              "subject": "Update pypi-publish.yml",
+              "date": "2020-12-28T23:35:12Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/68b8c266893eb2f47247b8b0dd0c59ecea9a96b5"
+            },
+            {
+              "id": "a3f371cb078df5692008d45cae2fb9771025b0d8",
+              "subject": "Create pypi-publish.yml",
+              "date": "2020-12-28T23:32:37Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/a3f371cb078df5692008d45cae2fb9771025b0d8"
+            },
+            {
+              "id": "cffaaca1ab22edbd6f13aa58e7ab2afe1a500ad4",
+              "subject": "Allow to set LED frequency",
+              "date": "2020-11-05T11:29:38Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/cffaaca1ab22edbd6f13aa58e7ab2afe1a500ad4"
+            },
+            {
+              "id": "3418307624340fe2ef39bd1cc79c78264848f022",
+              "subject": "Move thirdparty licenses to separate directory and update README",
+              "date": "2020-07-15T09:49:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/3418307624340fe2ef39bd1cc79c78264848f022"
+            },
+            {
+              "id": "9179ed9738495a5a58f92c2f9a39264face29758",
+              "subject": "Add setup.py for packaging information",
+              "date": "2020-07-15T09:47:47Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/9179ed9738495a5a58f92c2f9a39264face29758"
+            },
+            {
+              "id": "da90bbfe1e7a986856dfc92e1f27dfd58f2573af",
+              "subject": "README.md: Add thanks to authors and contributors of original code",
+              "date": "2020-07-14T13:49:48Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/da90bbfe1e7a986856dfc92e1f27dfd58f2573af"
+            },
+            {
+              "id": "a921facd4195ea2de5d033229bbf1d108c44baf9",
+              "subject": "Initial commit",
+              "date": "2020-07-14T13:44:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/a921facd4195ea2de5d033229bbf1d108c44baf9"
+            }
+          ]
         }
       }
     }
@@ -2573,6 +3009,81 @@
       "repo": {
         "name": "contripy",
         "owner": "hthiery"
+      }
+    },
+    "kas": {
+      "name": "kas",
+      "url": "https://github.com/siemens/kas",
+      "giturl": "https://github.com/siemens/kas",
+      "gitweburl": "https://github.com/siemens/kas/commit/%COMMIT-ID%",
+      "description": "Setup tool for bitbake based projects",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "kas",
+        "owner": "siemens"
+      }
+    },
+    "racer": {
+      "name": "racer",
+      "url": "https://github.com/StuckAtPrototype/Racer",
+      "giturl": "https://github.com/StuckAtPrototype/Racer",
+      "gitweburl": "https://github.com/StuckAtPrototype/Racer/commit/%COMMIT-ID%",
+      "description": null,
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "Racer",
+        "owner": "StuckAtPrototype"
+      }
+    },
+    "slam.js": {
+      "name": "slam.js",
+      "url": "https://github.com/fschrempf/slam.js",
+      "giturl": "https://github.com/fschrempf/slam.js",
+      "gitweburl": "https://github.com/fschrempf/slam.js/commit/%COMMIT-ID%",
+      "description": "Kleinkunst Competition Interactive Slides (using reveal.js)",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "slam.js",
+        "owner": "fschrempf"
+      }
+    },
+    "simcom-lfota": {
+      "name": "simcom-lfota",
+      "url": "https://github.com/fschrempf/simcom-lfota",
+      "giturl": "https://github.com/fschrempf/simcom-lfota",
+      "gitweburl": "https://github.com/fschrempf/simcom-lfota/commit/%COMMIT-ID%",
+      "description": "Small Python CLI tool to perform firmware updates via UART on SIMCom A76xxE LTE modules",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "simcom-lfota",
+        "owner": "fschrempf"
+      }
+    },
+    "py-neopixel-spidev": {
+      "name": "py-neopixel-spidev",
+      "url": "https://github.com/fschrempf/py-neopixel-spidev",
+      "giturl": "https://github.com/fschrempf/py-neopixel-spidev",
+      "gitweburl": "https://github.com/fschrempf/py-neopixel-spidev/commit/%COMMIT-ID%",
+      "description": "A Python module to interface addressable WS2812 (aka NeoPixel) LEDs via the SPIdev driver in Linux",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "py-neopixel-spidev",
+        "owner": "fschrempf"
       }
     }
   },
