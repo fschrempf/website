@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2024-11-18"
+    "end": "2024-11-28"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,62 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "33e18fc47118097e51a58cdfdcb688ffd5998d52",
+              "subject": "arm64: dts: imx8mm-kontron: Add DL (Display-Line) overlay with LVDS s\u2026",
+              "date": "2024-10-22T01:07:11Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=33e18fc47118097e51a58cdfdcb688ffd5998d52"
+            },
+            {
+              "id": "3885c18fdb2dcbce82782ffe0321da4767db0f1b",
+              "subject": "arm64: dts: imx8mm-kontron: Add support for display bridges on BL i.M\u2026",
+              "date": "2024-10-22T01:06:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3885c18fdb2dcbce82782ffe0321da4767db0f1b"
+            },
+            {
+              "id": "6fe1ced5ccab71d1bb3e8204a1842ea4b877dd03",
+              "subject": "arm64: dts: Add support for Kontron i.MX8MP SMARC module and eval car\u2026",
+              "date": "2024-10-16T03:55:30Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6fe1ced5ccab71d1bb3e8204a1842ea4b877dd03"
+            },
+            {
+              "id": "946ab10e3f40fdb8d6cbce4eb38c42e718163ff3",
+              "subject": "arm64: dts: Add support for Kontron OSM-S i.MX8MP SoM and BL carrier \u2026",
+              "date": "2024-10-16T03:55:30Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=946ab10e3f40fdb8d6cbce4eb38c42e718163ff3"
+            },
+            {
+              "id": "452032289853ae907efdc09719da01060b0b577b",
+              "subject": "dt-bindings: arm: fsl: Add Kontron i.MX8MP OSM-S based boards",
+              "date": "2024-10-16T03:55:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=452032289853ae907efdc09719da01060b0b577b"
+            },
+            {
+              "id": "15bda06bc93fca828e5f11ca6b773fed19e45b8e",
+              "subject": "dt-bindings: display: panel-lvds: Add compatible for Jenson BL-JT6005\u2026",
+              "date": "2024-10-09T07:47:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=15bda06bc93fca828e5f11ca6b773fed19e45b8e"
+            },
+            {
+              "id": "763dc2cdeb2ac5a5067972b614f9f0603f716f9b",
+              "subject": "dt-bindings: vendor-prefixes: Add Jenson Display",
+              "date": "2024-10-09T07:47:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=763dc2cdeb2ac5a5067972b614f9f0603f716f9b"
+            },
             {
               "id": "2b52fd6035b7e8896bad28ed54d183af38bcf570",
               "subject": "arm64: dts: Add support for Kontron i.MX93 OSM-S SoM and BL carrier b\u2026",
