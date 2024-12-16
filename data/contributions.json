@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2024-12-02"
+    "end": "2024-12-16"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -3012,7 +3012,7 @@
       "url": "https://www.docsy.dev/",
       "giturl": "https://github.com/google/docsy",
       "gitweburl": "https://github.com/google/docsy/commit/%COMMIT-ID%",
-      "description": "A set of Hugo doc templates for launching open source content.",
+      "description": "Hugo theme for open source documentation",
       "parser": "github",
       "skip_users": null,
       "only_users": null,
