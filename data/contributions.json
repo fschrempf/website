@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-03-10"
+    "end": "2025-03-31"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,86 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6",
+              "subject": "regulator: pca9450: Handle hardware with fixed SD_VSEL for LDO5",
+              "date": "2025-03-03T13:38:23Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6"
+            },
+            {
+              "id": "39e4189d9d63a0b6fc15458ce0136e99ecdfb1b8",
+              "subject": "arm64: dts: imx8mp-kontron: Add support for reading SD_VSEL signal",
+              "date": "2025-02-25T00:32:56Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=39e4189d9d63a0b6fc15458ce0136e99ecdfb1b8"
+            },
+            {
+              "id": "427ad6e2117f7161a19b0a641b167723461a822f",
+              "subject": "arm64: dts: imx93-kontron: Fix SD card IO voltage control",
+              "date": "2025-02-25T00:32:56Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=427ad6e2117f7161a19b0a641b167723461a822f"
+            },
+            {
+              "id": "8472751c4d96b558d60d0f6aede6b24b64bcb3c9",
+              "subject": "arm64: dts: imx8mm-kontron: Add support for reading SD_VSEL signal",
+              "date": "2025-02-25T00:32:56Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8472751c4d96b558d60d0f6aede6b24b64bcb3c9"
+            },
+            {
+              "id": "66d8e76e8e85a30fbf9809837e07e15a8c5ccb8b",
+              "subject": "regulator: pca9450: Remove duplicate code in probe",
+              "date": "2025-02-19T14:33:11Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=66d8e76e8e85a30fbf9809837e07e15a8c5ccb8b"
+            },
+            {
+              "id": "f5aab0438ef17f01c5ecd25e61ae6a03f82a4586",
+              "subject": "regulator: pca9450: Fix enable register for LDO5",
+              "date": "2025-02-03T00:39:04Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f5aab0438ef17f01c5ecd25e61ae6a03f82a4586"
+            },
+            {
+              "id": "3ce6f4f943ddd9edc03e450a2a0d89cb025b165b",
+              "subject": "regulator: pca9450: Fix control register for LDO5",
+              "date": "2025-02-03T00:39:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3ce6f4f943ddd9edc03e450a2a0d89cb025b165b"
+            },
+            {
+              "id": "c73be62caabbec6629689c705aea65e5ce364d5d",
+              "subject": "Revert \"regulator: pca9450: Add SD_VSEL GPIO for LDO5\"",
+              "date": "2025-02-03T00:39:02Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c73be62caabbec6629689c705aea65e5ce364d5d"
+            },
+            {
+              "id": "b5ec74c2aec76fbdff9bc16951455602e11902bf",
+              "subject": "arm64: dts: imx8mp-skov-reva: Use hardware signal for SD card VSELECT",
+              "date": "2025-02-03T00:39:01Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b5ec74c2aec76fbdff9bc16951455602e11902bf"
+            },
+            {
+              "id": "f9cbf56b0a1966d977df87d15a5bdbff2c342062",
+              "subject": "dt-bindings: regulator: pca9450: Add properties for handling LDO5",
+              "date": "2025-02-03T00:39:00Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f9cbf56b0a1966d977df87d15a5bdbff2c342062"
+            },
             {
               "id": "33e18fc47118097e51a58cdfdcb688ffd5998d52",
               "subject": "arm64: dts: imx8mm-kontron: Add DL (Display-Line) overlay with LVDS s\u2026",
