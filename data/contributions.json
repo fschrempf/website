@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-05-12"
+    "end": "2025-05-26"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -2454,6 +2454,38 @@
         },
         "kas": {
           "authored": [
+            {
+              "id": "67b7813b544d301aaadd148117ab27e0c4b7a038",
+              "subject": "tests: includehandler: Extend tests to check parsed config file list",
+              "date": "2025-05-08T16:55:38Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/siemens/kas/commit/67b7813b544d301aaadd148117ab27e0c4b7a038"
+            },
+            {
+              "id": "d247a4d39fb4ac914d31cdd0de34d6c4beac4329",
+              "subject": "Collect list of configuration files when parsing configuration",
+              "date": "2025-05-08T16:53:24Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/siemens/kas/commit/d247a4d39fb4ac914d31cdd0de34d6c4beac4329"
+            },
+            {
+              "id": "0175be72ef53f1720f218b086514bdd5e96a93a5",
+              "subject": "includehandler: Mark lockfiles",
+              "date": "2025-05-08T16:52:41Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/siemens/kas/commit/0175be72ef53f1720f218b086514bdd5e96a93a5"
+            },
+            {
+              "id": "a9e99c6048012c5dbcf91f18dadfca53dad3fa27",
+              "subject": "includehandler: Introduce ConfigFile class",
+              "date": "2025-05-08T16:49:24Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/siemens/kas/commit/a9e99c6048012c5dbcf91f18dadfca53dad3fa27"
+            },
             {
               "id": "9e026b615bf3f11f9691f63f31ae8719ad5d173d",
               "subject": "dump-plugin: Improve help string for '--inplace' argument",
