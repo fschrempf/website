@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-07-21"
+    "end": "2025-07-29"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -1062,6 +1062,30 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "4a9d6b2e1d963899cac443d931d29fa23a47ff23",
+              "subject": "imx: power-domain: Fix crash due to uninitialized 'id' field",
+              "date": "2025-07-24T10:59:22Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/4a9d6b2e1d963899cac443d931d29fa23a47ff23"
+            },
+            {
+              "id": "25140f89086a7c0ae399377848569f80efdfeb53",
+              "subject": "configs: imx6dl_sielaff: Set CONFIG_SDP_LOADADDR to fix SDP boot",
+              "date": "2025-07-24T10:58:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/25140f89086a7c0ae399377848569f80efdfeb53"
+            },
+            {
+              "id": "7056aad69624611690f5880be35edf99db632ca0",
+              "subject": "imx6dl-sielaff: Convert to OF_UPSTREAM",
+              "date": "2025-07-24T10:58:59Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/7056aad69624611690f5880be35edf99db632ca0"
+            },
             {
               "id": "91cd41ecda3e1f2aa7d6dce2f8011112c56023d8",
               "subject": "board: imx6dl-sielaff: spl.c: Remove multiline string",
