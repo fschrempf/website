@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-07-29"
+    "end": "2025-08-04"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,14 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "201e41980eb8bd5103a54e1dd7881087d0e9dafc",
+              "subject": "ARM: dts: imx6ul-kontron-sl-common: Fix QSPI NAND node name",
+              "date": "2025-07-11T08:21:48Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=201e41980eb8bd5103a54e1dd7881087d0e9dafc"
+            },
             {
               "id": "c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6",
               "subject": "regulator: pca9450: Handle hardware with fixed SD_VSEL for LDO5",
