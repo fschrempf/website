@@ -122,6 +122,16 @@ projects:
     giturl: https://github.com/fschrempf/py-neopixel-spidev
     gitweburl: https://github.com/fschrempf/py-neopixel-spidev/commit/%COMMIT-ID%
     parser: github
+  py-spidev:
+    url: https://github.com/doceme/py-spidev
+    giturl: https://github.com/doceme/py-spidev
+    gitweburl: https://github.com/doceme/py-spidev/commit/%COMMIT-ID%
+    parser: github
+  MeshCore:
+    url: https://github.com/meshcore-dev/MeshCore
+    giturl: https://github.com/meshcore-dev/MeshCore
+    gitweburl: https://github.com/meshcore-dev/MeshCore/commit/%COMMIT-ID%
+    parser: github
 
 authors:
   Frieder Schrempf:
