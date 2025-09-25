@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-09-22"
+    "end": "2025-09-25"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -2951,6 +2951,18 @@
               "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/a921facd4195ea2de5d033229bbf1d108c44baf9"
             }
           ]
+        },
+        "MeshCore": {
+          "authored": [
+            {
+              "id": "0dfd2bcbb89f8d7f250dd84887a394e603f039e5",
+              "subject": "README.md: Explain that companion nodes do not repeat messages",
+              "date": "2025-09-08T21:04:32Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/0dfd2bcbb89f8d7f250dd84887a394e603f039e5"
+            }
+          ]
         }
       }
     }
@@ -3284,6 +3296,36 @@
       "repo": {
         "name": "py-neopixel-spidev",
         "owner": "fschrempf"
+      }
+    },
+    "py-spidev": {
+      "name": "py-spidev",
+      "url": "https://github.com/doceme/py-spidev",
+      "giturl": "https://github.com/doceme/py-spidev",
+      "gitweburl": "https://github.com/doceme/py-spidev/commit/%COMMIT-ID%",
+      "description": null,
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "py-spidev",
+        "owner": "doceme"
+      }
+    },
+    "MeshCore": {
+      "name": "MeshCore",
+      "url": "https://github.com/meshcore-dev/MeshCore",
+      "giturl": "https://github.com/meshcore-dev/MeshCore",
+      "gitweburl": "https://github.com/meshcore-dev/MeshCore/commit/%COMMIT-ID%",
+      "description": "A new lightweight, hybrid routing mesh protocol for packet radios",
+      "parser": "github",
+      "skip_users": null,
+      "only_users": null,
+      "branch": "master",
+      "repo": {
+        "name": "MeshCore",
+        "owner": "meshcore-dev"
       }
     }
   },
