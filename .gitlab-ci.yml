@@ -1,5 +1,5 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo/hugo_extended:0.121.1
+image: docker.io/hugomods/hugo:base-0.150.0
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
