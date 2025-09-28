@@ -1,15 +1,43 @@
 // sass-lint:disable no-css-comments, no-color-hex, no-color-literals
 
+:root {
+  --overpass:        OverpassRegular, sans-serif;
+  --overpass-bold:   OverpassBold, sans-serif;
+  --overpass-heavy:  OverpassHeavy, sans-serif;
+  --overpass-mono:   OverpassMono, sans-serif;
+
+  --ff-body: var(--overpass);
+  --ff-headings: var(--overpass-bold);
+  --ff-alt: var(--system-ui);
+  --ff-monospace: var(--overpass-mono);
+
+  /* Font weights. */
+  --fw-headings: 500;
+  --fw-bolder: 700;
+  --fw-bold: 500;
+  --fw-medium: 400;
+  --fw-normal: 300;
+  --fw-light: 200;
+  --fw-lighter: 100;
+}
+
 // Site custom styles
 body {
   background-color: #fff;
 
   header {
     padding-block-end: 0 !important;
+    margin-block: 0 var(--spacing-xxs);
   }
 
-  footer {
-    margin-top: var(--gutters);
+  .footer {
+    border-block-start: 0;
+    padding-block: 0;
+
+    div {
+      border-block-start: 2px solid var(--color-border);
+      padding-block: var(--gutters);
+    }
   }
 }
 
@@ -45,12 +73,19 @@ body {
 
   ul {
     border-top: 2px solid;
-    //border-bottom: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    gap: 0;
   }
 
   li {
     @include margin-top(0.5);
     @include margin-bottom(0.5);
+    list-style-type: none;
+    list-style-image: none;
   }
 
   a {
@@ -66,7 +101,7 @@ body {
     }
 
     &:active,
-    &.active {
+    &[aria-current] {
       background-color: var(--color-brand);
       text-decoration: none;
     }
@@ -131,19 +166,3 @@ body {
     }
   }
 }
-
-/*
-.main-menu li a {
-    text-decoration: none;
-    background-color: #818181;
-}
-
-.main-menu li a.active {
-    text-decoration: none;
-    background-color: #333;
-}
-
-.main-menu li a:hover {
-    text-decoration: none;
-}
-*/

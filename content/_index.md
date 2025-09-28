@@ -1,4 +1,5 @@
 ---
+menus: main
 title: About
 links_comm:
   - text: E-Mail

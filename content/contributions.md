@@ -1,4 +1,5 @@
 ---
+menus: main
 title: FOSS Contributions
 layout: contributions
 ---
