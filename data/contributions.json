@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-09-25"
+    "end": "2025-09-29"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -2949,6 +2949,58 @@
               "author": "Frieder Schrempf",
               "email": "frieder.schrempf@kontron.de",
               "link": "https://github.com/fschrempf/py-neopixel-spidev/commit/a921facd4195ea2de5d033229bbf1d108c44baf9"
+            }
+          ]
+        },
+        "py-spidev": {
+          "authored": [
+            {
+              "id": "fcb5fc5eed3dfb89b4a9a6ee31d6343b1f90116e",
+              "subject": "CONTRIBUTING.md: Create minimal contribution guide",
+              "date": "2025-09-25T15:43:18Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/doceme/py-spidev/commit/fcb5fc5eed3dfb89b4a9a6ee31d6343b1f90116e"
+            },
+            {
+              "id": "3c68d58d3733bf85b7c7589cbab118f979de4fcb",
+              "subject": "CHANGELOG.md: Limit line length to 79 characters",
+              "date": "2025-09-25T15:43:17Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/doceme/py-spidev/commit/3c68d58d3733bf85b7c7589cbab118f979de4fcb"
+            },
+            {
+              "id": "29b0e3337284010b425ace0869c304c5eff4de46",
+              "subject": "README.md: Add note for settings depending on driver support",
+              "date": "2025-09-25T15:43:16Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/doceme/py-spidev/commit/29b0e3337284010b425ace0869c304c5eff4de46"
+            },
+            {
+              "id": "9ce41bf5727cd7d8c38563918f18196a437fe2b1",
+              "subject": "README.md: Align heading syntax",
+              "date": "2025-09-25T15:43:15Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/doceme/py-spidev/commit/9ce41bf5727cd7d8c38563918f18196a437fe2b1"
+            },
+            {
+              "id": "43357d553b74c2a8a0fbe8ab6ad59e426f634708",
+              "subject": "README.md: Reformat long lines",
+              "date": "2025-09-25T15:43:14Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/doceme/py-spidev/commit/43357d553b74c2a8a0fbe8ab6ad59e426f634708"
+            },
+            {
+              "id": "6ec30e87182b1b82e510bdbdeba65f4eeebd412e",
+              "subject": "Add settings for editors to limit line-length in Markdown files",
+              "date": "2025-09-25T15:43:13Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/doceme/py-spidev/commit/6ec30e87182b1b82e510bdbdeba65f4eeebd412e"
             }
           ]
         },
