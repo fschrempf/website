@@ -1,0 +1,42 @@
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: docker
+    container:
+      image: docker.io/hugomods/hugo:node-git-0.150.0
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+      - run: hugo --baseURL="https://fris.de/"
+      - uses: actions/upload-artifact@v3
+        with:
+          name: web-data
+          path: public/
+
+  deploy:
+    runs-on: docker
+    needs: build
+    if: forge.ref == 'refs/heads/main'
+    container:
+      image: docker.io/hugomods/hugo:node-git-0.150.0
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: fschrempf/pages
+          token: ${{ secrets.PAT }}
+      - run: rm -rf *
+      - name: Download contributions
+        uses: actions/download-artifact@v3
+        with:
+          name: web-data
+          path: .
+      - run: |
+          printf 'fris.de\nwww.fris.de\nfschrempf.codeberg.page' > .domains
+          git config --global user.email "web-update-bot@fschrempf.codeberg.org"
+          git config --global user.name "Web Update Bot"
+          git add .
+          git diff-index --quiet --cached HEAD || git commit -m "Web Update Bot: Update website"
+          git push

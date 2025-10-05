@@ -1,0 +1,46 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * 5"
+
+jobs:
+  contripy:
+    runs-on: docker
+    container:
+      image: ghcr.io/hthiery/contripy:master
+    env:
+      GITHUB_APITOKEN: ${{ secrets.GH_APITOKEN }}
+    steps:
+      - name: Install node
+        run: |
+          apt update
+          apt install -y nodejs
+      - uses: actions/checkout@v4
+      - run: /app/./contripy -c contripy.yaml -o data/contributions.json --from=2010-01-01
+      - uses: actions/upload-artifact@v3
+        with:
+          name: contripy-data
+          path: data/contributions.json
+
+  commit-contributions:
+    runs-on: docker
+    needs: contripy
+    container:
+      image: docker.io/node:24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+      - name: Download contributions
+        uses: actions/download-artifact@v3
+        with:
+          name: contripy-data
+          path: data
+      - run: |
+          git config --global user.email "contripy-bot@fschrempf.codeberg.org"
+          git config --global user.name "Contripy Bot"
+          git status || true
+          ! git diff --exit-code || exit 0
+          git add .
+          git commit -m "Contripy Bot: Update contributions data"
+          git push
