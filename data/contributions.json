@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-09-29"
+    "end": "2025-10-06"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,62 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "c94737568b290e0547bff344046f02df49ed6373",
+              "subject": "arm64: dts: imx93-kontron: Fix USB port assignment",
+              "date": "2025-08-22T03:04:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c94737568b290e0547bff344046f02df49ed6373"
+            },
+            {
+              "id": "3daaf3d026d86a401121cc37fce03890bd32a10d",
+              "subject": "arm64: dts: imx93-kontron: Add RTC interrupt signal",
+              "date": "2025-08-22T03:04:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3daaf3d026d86a401121cc37fce03890bd32a10d"
+            },
+            {
+              "id": "384de84ae08b2e71aaf3432f412f97d979f1ac7e",
+              "subject": "arm64: dts: imx8mp-kontron: Fix USB hub reset",
+              "date": "2025-08-22T03:04:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=384de84ae08b2e71aaf3432f412f97d979f1ac7e"
+            },
+            {
+              "id": "0153bcd37c61fdfd4953bc3e2953f00a19577e2a",
+              "subject": "arm64: dts: imx8mp-kontron: Fix GPIO labels for latest BL board",
+              "date": "2025-08-22T03:04:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0153bcd37c61fdfd4953bc3e2953f00a19577e2a"
+            },
+            {
+              "id": "5971fb6bacafd0b8d9086d084472b8d737dfb903",
+              "subject": "arm64: dts: imx8mm-kontron: Name USB regulators according to OSM scheme",
+              "date": "2025-08-22T03:04:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5971fb6bacafd0b8d9086d084472b8d737dfb903"
+            },
+            {
+              "id": "b00b83913a50217331e26334c4f9eb50e6a746e9",
+              "subject": "arm64: dts: imx8mm-kontron: Sort reg nodes alphabetically",
+              "date": "2025-08-22T03:04:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b00b83913a50217331e26334c4f9eb50e6a746e9"
+            },
+            {
+              "id": "4fc4ff0240e6ecbdb33c2a716091ae81e88e3e5d",
+              "subject": "arm64: dts: imx8mm-kontron: Remove unused regulator",
+              "date": "2025-08-22T03:04:18Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4fc4ff0240e6ecbdb33c2a716091ae81e88e3e5d"
+            },
             {
               "id": "201e41980eb8bd5103a54e1dd7881087d0e9dafc",
               "subject": "ARM: dts: imx6ul-kontron-sl-common: Fix QSPI NAND node name",
