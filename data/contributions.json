@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-10-06"
+    "end": "2025-10-10"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -1126,6 +1126,198 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "7f9362ef7fb80071d6c7f6f1926bce221ca34f32",
+              "subject": "imx: kontron-sl-mx8mm: Convert to OF_UPSTREAM",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/7f9362ef7fb80071d6c7f6f1926bce221ca34f32"
+            },
+            {
+              "id": "c5ab46695cd7d1c9687b86e3b3eeccaba03b7af5",
+              "subject": "imx: kontron-sl-mx8mm: Autostart fastboot if booted from USB",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/c5ab46695cd7d1c9687b86e3b3eeccaba03b7af5"
+            },
+            {
+              "id": "de704144fff9fad946e7aa62d526ee601b371c3b",
+              "subject": "imx: kontron-sl-mx8mm: Enable USB hub on BL i.MX8MM OSM-S board",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/de704144fff9fad946e7aa62d526ee601b371c3b"
+            },
+            {
+              "id": "16ead099eb38697a3f9d65ebbec7ce0a8a280e34",
+              "subject": "imx: kontron-sl-mx8mm: Enable standard boot and disable legacy distro\u2026",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/16ead099eb38697a3f9d65ebbec7ce0a8a280e34"
+            },
+            {
+              "id": "194c747442ac2d80176e2c488446ec70d79c3e83",
+              "subject": "imx: kontron-sl-mx8mm: Enable multiple useful commands, drivers and f\u2026",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/194c747442ac2d80176e2c488446ec70d79c3e83"
+            },
+            {
+              "id": "d31ca9e2598f0bafb7b8e83e7de1e19d51768bf3",
+              "subject": "imx: kontron-sl-mx8mm: Export current env config to devicetree",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/d31ca9e2598f0bafb7b8e83e7de1e19d51768bf3"
+            },
+            {
+              "id": "83a18f82417137a8cd40dd3718ad21ecfdc03aa3",
+              "subject": "imx: kontron-sl-mx8mm: Use eMMC boot part for environment if booting \u2026",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/83a18f82417137a8cd40dd3718ad21ecfdc03aa3"
+            },
+            {
+              "id": "6679a9404084f03afa790c310174969ac50d6306",
+              "subject": "imx: kontron-sl-mx8mm: Add support for EEPROM on OSM-S module",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/6679a9404084f03afa790c310174969ac50d6306"
+            },
+            {
+              "id": "0d0c00ace4046024d727341232d012e780fa8da5",
+              "subject": "imx: kontron-sl-mx8mm: Enable fixed regulators",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/0d0c00ace4046024d727341232d012e780fa8da5"
+            },
+            {
+              "id": "a9b865dd468944e01d88137ebbba7c855645eb18",
+              "subject": "imx: kontron-sl-mx8mm: Remove deprecation warning for old modules",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/a9b865dd468944e01d88137ebbba7c855645eb18"
+            },
+            {
+              "id": "c1cd4f3806b8873ce96c46572e7aaacd419307f4",
+              "subject": "imx: kontron-sl-mx8mm: Enable SDP support for loading via USB",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/c1cd4f3806b8873ce96c46572e7aaacd419307f4"
+            },
+            {
+              "id": "4d5a28e4f9befe437f5962fbc3100057d88fc4f0",
+              "subject": "imx: kontron-sl-mx8mm: Increase CONFIG_SPL_MAX_SIZE",
+              "date": "2025-10-07T11:58:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/4d5a28e4f9befe437f5962fbc3100057d88fc4f0"
+            },
+            {
+              "id": "1f87a8ac6b3d1823b908615ff210065683fda805",
+              "subject": "imx: kontron-sl-mx6ul: Switch to OF_UPSTREAM",
+              "date": "2025-09-05T12:03:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/1f87a8ac6b3d1823b908615ff210065683fda805"
+            },
+            {
+              "id": "9e26426ceb0aacc52b3cf693fdeac3b13cb8e6f9",
+              "subject": "imx: kontron-sl-mx6ul: Enable watchdog and sysreset",
+              "date": "2025-09-05T12:03:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/9e26426ceb0aacc52b3cf693fdeac3b13cb8e6f9"
+            },
+            {
+              "id": "048fdda977abe8ebb51dfab7450f7a5b80465059",
+              "subject": "imx: kontron-sl-mx6ul: Enable second ethernet interface",
+              "date": "2025-09-05T12:03:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/048fdda977abe8ebb51dfab7450f7a5b80465059"
+            },
+            {
+              "id": "8addeb94c72bfac9561a1bae3844a94c05cefb47",
+              "subject": "imx: kontron-sl-mx6ul: Set CONFIG_SDP_LOADADDR to fix SDP boot",
+              "date": "2025-09-05T12:03:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/8addeb94c72bfac9561a1bae3844a94c05cefb47"
+            },
+            {
+              "id": "7118d961cccdb3cf86f3e2eebf19c476bba5aca9",
+              "subject": "imx: kontron-sl-mx6ul: Enable standard boot and disable legacy distro\u2026",
+              "date": "2025-09-05T12:03:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/7118d961cccdb3cf86f3e2eebf19c476bba5aca9"
+            },
+            {
+              "id": "eb314cb566abe0c6eb675c9c857a0cd1bb8c5cf9",
+              "subject": "imx: kontron-sl-mx6ul: Fix include statements for local header",
+              "date": "2025-09-05T12:03:28Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/eb314cb566abe0c6eb675c9c857a0cd1bb8c5cf9"
+            },
+            {
+              "id": "dc0a12fecea789de83015319f3e9aeddd0a824a2",
+              "subject": "arm: dts: imx8mp-dhcom-som: Remove deprecated sd-vsel-gpios",
+              "date": "2025-09-01T02:33:06Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/dc0a12fecea789de83015319f3e9aeddd0a824a2"
+            },
+            {
+              "id": "925f63b0209483cd04b014cc8b5deab1f20267b7",
+              "subject": "arm: dts: imx8mp-data-modul-edm-sbc: Remove deprecated sd-vsel-gpios",
+              "date": "2025-09-01T02:33:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/925f63b0209483cd04b014cc8b5deab1f20267b7"
+            },
+            {
+              "id": "281829f5ca1645c3bffa130d04753a1a76b64dfb",
+              "subject": "pmic: pca9450: Handle hardware with fixed SD_VSEL for LDO5",
+              "date": "2025-09-01T02:33:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/281829f5ca1645c3bffa130d04753a1a76b64dfb"
+            },
+            {
+              "id": "addfe4544630a96a1cd03daf822a196af42b7a73",
+              "subject": "pmic: pca9450: Fix control register for LDO5",
+              "date": "2025-09-01T02:33:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/addfe4544630a96a1cd03daf822a196af42b7a73"
+            },
+            {
+              "id": "8a04fbd9afd635d37c9afc1b56d014d134861e29",
+              "subject": "pmic: pca9450: Fix enable register for LDO5",
+              "date": "2025-09-01T02:33:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/8a04fbd9afd635d37c9afc1b56d014d134861e29"
+            },
+            {
+              "id": "b7360bd9e8e05dcfd1b4e5fd1c996aabf919e180",
+              "subject": "Revert \"pmic: pca9450: Add optional SD_VSEL GPIO for LDO5\"",
+              "date": "2025-09-01T02:33:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/b7360bd9e8e05dcfd1b4e5fd1c996aabf919e180"
+            },
             {
               "id": "4a9d6b2e1d963899cac443d931d29fa23a47ff23",
               "subject": "imx: power-domain: Fix crash due to uninitialized 'id' field",
