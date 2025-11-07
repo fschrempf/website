@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-10-24"
+    "end": "2025-11-07"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -1126,6 +1126,54 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "306c3caf81a34d94a13037a6f5772b64b54fe082",
+              "subject": "imx: kontron-sl-mx8mm: Add support for reading HW UIDs",
+              "date": "2025-11-04T15:46:11Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/306c3caf81a34d94a13037a6f5772b64b54fe082"
+            },
+            {
+              "id": "5b4d3c81719d0e2d6ddef022c8ec904caa5a01d8",
+              "subject": "imx: kontron-sl-mx6ul: Add support for reading HW UIDs",
+              "date": "2025-11-04T15:46:11Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/5b4d3c81719d0e2d6ddef022c8ec904caa5a01d8"
+            },
+            {
+              "id": "f00b09abbf18b9cc91311b0330f4f49fc1917019",
+              "subject": "imx: kontron: Add common function to get HW UIDs from OTPs",
+              "date": "2025-11-04T15:46:10Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/f00b09abbf18b9cc91311b0330f4f49fc1917019"
+            },
+            {
+              "id": "0089270b45ba89188d75a680da8add2e2f62d209",
+              "subject": "imx: kontron-sl-mx6ul: Enable CONFIG_BOARD_LATE_INIT to fix auto fast\u2026",
+              "date": "2025-11-04T15:46:10Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/0089270b45ba89188d75a680da8add2e2f62d209"
+            },
+            {
+              "id": "7aa1efa622dfa31c99b86997a7da97bcd553715f",
+              "subject": "imx: kontron-sl-mx8mm: Implement spl_board_loader_name()",
+              "date": "2025-11-04T15:45:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/7aa1efa622dfa31c99b86997a7da97bcd553715f"
+            },
+            {
+              "id": "03584081047df5b5f24f4a0f6c1b0645036bf73e",
+              "subject": "imx: kontron-sl-mx8mm: Adjust offset for U-Boot proper in case of eMM\u2026",
+              "date": "2025-11-04T15:45:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/03584081047df5b5f24f4a0f6c1b0645036bf73e"
+            },
             {
               "id": "7f9362ef7fb80071d6c7f6f1926bce221ca34f32",
               "subject": "imx: kontron-sl-mx8mm: Convert to OF_UPSTREAM",
