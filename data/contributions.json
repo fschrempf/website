@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-11-21"
+    "end": "2025-12-05"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -3310,6 +3310,70 @@
         },
         "MeshCore": {
           "authored": [
+            {
+              "id": "7723a4cb34e5a8b380e378fb2c2170975dc85efe",
+              "subject": "variants: Heltec T114: Enable DC/DC regulator",
+              "date": "2025-11-22T14:05:12Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/7723a4cb34e5a8b380e378fb2c2170975dc85efe"
+            },
+            {
+              "id": "5235516dc7033f69d285eb91a86b49fce3378636",
+              "subject": "variants: XIAO NRF52: Enable status LED",
+              "date": "2025-11-22T14:05:09Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/5235516dc7033f69d285eb91a86b49fce3378636"
+            },
+            {
+              "id": "048bd268a100bb1aad4dbfaff0a5d51cff242695",
+              "subject": "companion: ui: Respect LED_STATE_ON for status LED",
+              "date": "2025-11-22T14:05:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/048bd268a100bb1aad4dbfaff0a5d51cff242695"
+            },
+            {
+              "id": "4a8dcb4906ba4452e6fc0e99898bb5cd67d4cad3",
+              "subject": "variants: XIAO NRF52: Support power-off via user button",
+              "date": "2025-11-22T14:05:07Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/4a8dcb4906ba4452e6fc0e99898bb5cd67d4cad3"
+            },
+            {
+              "id": "c76d337a00e6db7ef110e25366bd9a9b8726f5cb",
+              "subject": "variants: XIAO NRF52: Enable user button",
+              "date": "2025-11-22T14:05:06Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/c76d337a00e6db7ef110e25366bd9a9b8726f5cb"
+            },
+            {
+              "id": "11f119a7fb7f868d276d495abd7c8755db234e08",
+              "subject": "variants: XIAO NRF52: Enable DC/DC regulator",
+              "date": "2025-11-22T14:05:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/11f119a7fb7f868d276d495abd7c8755db234e08"
+            },
+            {
+              "id": "b9b82fcf1bfa57ce4978b9e3e466343dc79e156f",
+              "subject": "variants: WisMesh Tag: Enable status LED",
+              "date": "2025-11-22T14:05:04Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/b9b82fcf1bfa57ce4978b9e3e466343dc79e156f"
+            },
+            {
+              "id": "0f565323a092fbf13354a1d908e9564694c0f113",
+              "subject": "variants: WisMesh Tag: Enable DC/DC regulator",
+              "date": "2025-11-22T14:05:02Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/0f565323a092fbf13354a1d908e9564694c0f113"
+            },
             {
               "id": "0dfd2bcbb89f8d7f250dd84887a394e603f039e5",
               "subject": "README.md: Explain that companion nodes do not repeat messages",
