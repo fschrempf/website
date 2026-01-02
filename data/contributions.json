@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2025-12-12"
+    "end": "2026-01-02"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -3258,6 +3258,38 @@
         },
         "py-spidev": {
           "authored": [
+            {
+              "id": "34e2013e75418b9566b56b8e4f40864d3c00dde7",
+              "subject": "Merge pull request #146 from yochem/modern-packaging",
+              "date": "2025-12-19T15:32:01Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/doceme/py-spidev/commit/34e2013e75418b9566b56b8e4f40864d3c00dde7"
+            },
+            {
+              "id": "d5663f15f23802b81bcb5a6f6b2eb752977a19b3",
+              "subject": "Merge pull request #141 from fschrempf/feature/idle-low-flag",
+              "date": "2025-12-19T15:09:04Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/doceme/py-spidev/commit/d5663f15f23802b81bcb5a6f6b2eb752977a19b3"
+            },
+            {
+              "id": "16a3b80bfb6881cc810c6af396e77953c68145f9",
+              "subject": "README.md: Add note on kernel version requirements",
+              "date": "2025-09-29T07:20:46Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/doceme/py-spidev/commit/16a3b80bfb6881cc810c6af396e77953c68145f9"
+            },
+            {
+              "id": "689b0164bec1e6732b6a537d5939c84e4cf3c941",
+              "subject": "Prepare support for 32-bit mode flags",
+              "date": "2025-09-29T07:15:35Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://github.com/doceme/py-spidev/commit/689b0164bec1e6732b6a537d5939c84e4cf3c941"
+            },
             {
               "id": "fcb5fc5eed3dfb89b4a9a6ee31d6343b1f90116e",
               "subject": "CONTRIBUTING.md: Create minimal contribution guide",
