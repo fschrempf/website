@@ -7,7 +7,7 @@ jobs:
   contripy:
     runs-on: docker
     container:
-      image: ghcr.io/hthiery/contripy:master
+      image: ghcr.io/fschrempf/contripy:pyproject-toml
     env:
       GITHUB_APITOKEN: ${{ secrets.GH_APITOKEN }}
     steps:
@@ -16,7 +16,7 @@ jobs:
           apt update
           apt install -y nodejs
       - uses: actions/checkout@v4
-      - run: /app/./contripy -c contripy.yaml -o data/contributions.json --from=2010-01-01
+      - run: contripy -c contripy.yaml -o data/contributions.json --from=2010-01-01
       - uses: actions/upload-artifact@v3
         with:
           name: contripy-data
