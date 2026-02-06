@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-02-02"
+    "end": "2026-02-06"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -2642,6 +2642,30 @@
         },
         "contripy": {
           "authored": [
+            {
+              "id": "cadec2f005ec7a6ce2a7eb1358e662cdc4786f5f",
+              "subject": "GitHubContributionParser: Fix incorrect pagination cursor",
+              "date": "2026-02-02T15:07:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/cadec2f005ec7a6ce2a7eb1358e662cdc4786f5f"
+            },
+            {
+              "id": "5402c498661e87f1569c13f718deb0d5ba6054a2",
+              "subject": "Rework to generate package using pyproject.toml and setuptools",
+              "date": "2026-02-02T15:07:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/5402c498661e87f1569c13f718deb0d5ba6054a2"
+            },
+            {
+              "id": "8e85dc081e40f4480fc9ade5f03479f42559df56",
+              "subject": "Add LICENSE",
+              "date": "2026-02-02T15:07:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/hthiery/contripy/commit/8e85dc081e40f4480fc9ade5f03479f42559df56"
+            },
             {
               "id": "2e3849d188de7b806e42da1b4ba195105d735cd7",
               "subject": "Add container build and deployment via GitHub Actions",
