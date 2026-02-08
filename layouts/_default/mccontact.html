@@ -1,0 +1,26 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+
+{{ define "main" -}}
+
+<main class="main layout__main">
+<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
+<div class="content meshcore-content">
+
+<h1>{{ .Page.Title }}</h1>
+<h2>{{ .Params.name }}</h2>
+<h3>{{ .Params.key }}</h3>
+
+{{ $link := printf "meshcore://contact/add?name=%s&public_key=%s&type=1"
+.Params.name .Params.key }}
+{{ $opts := dict
+"level" "medium"
+  "scale" 4
+}}
+{{ with images.QR $link $opts }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+{{ end }}
+
+</div>
+</article>
+</main>
+{{ end }}

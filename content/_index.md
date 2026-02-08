@@ -11,6 +11,9 @@ links_comm:
   - text: Mastodon
     url: https://mastodon.social/@frisch
     icon: mastodon.svg
+  - text: MeshCore
+    url: ./meshcore
+    icon: meshcore.svg
 links:
   - text: GitHub
     url: https://github.com/fschrempf
