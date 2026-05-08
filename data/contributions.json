@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-04-17"
+    "end": "2026-05-08"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,38 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "93190b6eab824454223e355477d7ef621d1d8dae",
+              "subject": "arm64: dts: imx8mp-kontron: Use GPIO/IRQ defines in DL devicetree",
+              "date": "2026-03-13T18:18:43Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=93190b6eab824454223e355477d7ef621d1d8dae"
+            },
+            {
+              "id": "d2ce84eecf081056b1d18d7524de52f849281ba7",
+              "subject": "arm64: dts: imx8mp-kontron: Drop vmmc-supply to fix SD card on SMARC \u2026",
+              "date": "2026-03-13T18:18:42Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d2ce84eecf081056b1d18d7524de52f849281ba7"
+            },
+            {
+              "id": "058c53476dde9937877e93d964a283bbb5e1e4c7",
+              "subject": "arm64: dts: imx8mp-kontron: Fix touch reset configuration on DL devices",
+              "date": "2026-03-13T18:18:42Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=058c53476dde9937877e93d964a283bbb5e1e4c7"
+            },
+            {
+              "id": "10663044bee592ba049a2aa37f4431fbdf93b739",
+              "subject": "dt-bindings: rtc: microcrystal,rv3028: Allow to specify vdd-supply",
+              "date": "2026-03-13T09:27:08Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=10663044bee592ba049a2aa37f4431fbdf93b739"
+            },
             {
               "id": "6504297872c7a5d0d06247970d32940eba26b8b3",
               "subject": "arm64: dts: imx8mp-kontron: Fix USB OTG role switching",
