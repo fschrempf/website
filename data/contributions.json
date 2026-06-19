@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-06-05"
+    "end": "2026-06-19"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,22 @@
       "projects": {
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "5b19ca527471903920d713bc48518a036a95bf6b",
+              "subject": "arm64: dts: imx8mp-kontron: Fix GPIO for display power switch",
+              "date": "2026-06-05T17:21:00Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5b19ca527471903920d713bc48518a036a95bf6b"
+            },
+            {
+              "id": "95f5bc1632ab8f243e517357b5da0dd28d1c6c92",
+              "subject": "arm64: dts: imx8mp-kontron: Reduce EERAM SPI clock frequency",
+              "date": "2026-06-05T17:17:24Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=95f5bc1632ab8f243e517357b5da0dd28d1c6c92"
+            },
             {
               "id": "93190b6eab824454223e355477d7ef621d1d8dae",
               "subject": "arm64: dts: imx8mp-kontron: Use GPIO/IRQ defines in DL devicetree",
@@ -1166,6 +1182,14 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "8377214282d00989722e1ff0ea83e6234f99564d",
+              "subject": "imx: kontron-sl-mx6ul: Enable CONFIG_DM_MDIO to fix boot abort",
+              "date": "2026-06-04T20:23:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/8377214282d00989722e1ff0ea83e6234f99564d"
+            },
             {
               "id": "8cad37db3667cf1bff8c36b15e17c63e53786873",
               "subject": "imx: Add support for Kontron i.MX93 OSM-S SoM and BL carrier board",
