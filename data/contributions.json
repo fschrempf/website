@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-06-19"
+    "end": "2026-07-24"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -1182,6 +1182,22 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "b61c4f2a322228383a6fa6db8fd8308718939418",
+              "subject": "imx: kontron-sl-mx8mm: Enable the watchdog at boot",
+              "date": "2026-06-27T02:02:46Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/b61c4f2a322228383a6fa6db8fd8308718939418"
+            },
+            {
+              "id": "0757f40c89c7429fd33306d17cbf3b85358421b7",
+              "subject": "imx: kontron-sl-mx6ul: Enable I2C support",
+              "date": "2026-06-05T15:55:12Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/0757f40c89c7429fd33306d17cbf3b85358421b7"
+            },
             {
               "id": "8377214282d00989722e1ff0ea83e6234f99564d",
               "subject": "imx: kontron-sl-mx6ul: Enable CONFIG_DM_MDIO to fix boot abort",
