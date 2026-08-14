@@ -5,6 +5,9 @@
 {{ $author := "Frieder Schrempf" }}
 {{ $visible_commits_per_project := 10 }}
 
+{{/* Contributions made with these e-mail addresses were part of paid work. */}}
+{{ $paid_emails := slice "frieder.schrempf@kontron.de" "frieder.schrempf@exceet.de" }}
+
 <main class="main layout__main">
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
 <div class="content contributions-content">
@@ -40,6 +43,10 @@
         data-project-id="{{ $project_index }}">
         {{ $date := time.Format "2006-01-06" .date }}
         {{ printf "%s:" $date}}
+        {{ if in $paid_emails (lower (default "" .email)) }}
+        <span class="contribution-paid" title="Contributed as part of paid work"
+            aria-label="Contributed as part of paid work">&euro;</span>
+        {{ end }}
         {{ with .link }}
             <a href="{{ . }}" target="_blank">
         {{ end }}

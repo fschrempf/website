@@ -166,6 +166,31 @@ body {
     }
   }
 }
+
+// Marks contributions that were made as part of paid work.
+.contribution-paid {
+  --contribution-paid-size: 1.35em;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  inline-size: var(--contribution-paid-size);
+  block-size: var(--contribution-paid-size);
+  // The euro glyph carries more whitespace on its left side, so geometric
+  // centering makes it look shifted to the right. Shrinking the content box on
+  // the trailing side nudges the glyph back to optical center.
+  padding-inline-end: 0.12em;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  font-size: 0.8em;
+  line-height: 1;
+  font-weight: var(--fw-bold);
+  // Keep the circle from stretching the line box of the list item.
+  vertical-align: middle;
+  margin-block-start: -0.2em;
+}
+
 .meshcore-content {
   text-align: center;
   line-break: anywhere;
