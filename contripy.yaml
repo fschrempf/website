@@ -9,6 +9,12 @@ parser:
     token: ${GITHUB_APITOKEN}
 
 projects:
+  meta-ked-bsp:
+    description: Kontron Electronics GmbH Yocto BSP
+    url: https://git.kontron-electronics.de/sw/ked/meta-ked-bsp
+    giturl: https://git.kontron-electronics.de/sw/ked/meta-ked-bsp
+    gitweburl: https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/%COMMIT-ID%
+    parser: git
   Linux Kernel:
     description: Free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel
     url: https://kernel.org/
