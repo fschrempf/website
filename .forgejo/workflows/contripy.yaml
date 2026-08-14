@@ -41,6 +41,44 @@ jobs:
           git config --global user.name "Contripy Bot"
           git status || true
           ! git diff --exit-code || exit 0
+
+          # If the only change is data/contributions.json and the only
+          # difference in it is the "period"/"end" property, don't commit.
+          if [ "$(git diff --name-only)" = "data/contributions.json" ]; then
+            git show HEAD:data/contributions.json > /tmp/contributions-old.json
+            cat > /tmp/compare-contributions.js <<'EOF'
+          const fs = require("fs");
+
+          const canonical = (value) => {
+            if (Array.isArray(value)) return value.map(canonical);
+            if (value && typeof value === "object") {
+              return Object.keys(value)
+                .sort()
+                .reduce((acc, key) => {
+                  acc[key] = canonical(value[key]);
+                  return acc;
+                }, {});
+            }
+            return value;
+          };
+
+          const load = (path) => {
+            const data = JSON.parse(fs.readFileSync(path, "utf8"));
+            if (data && typeof data.period === "object" && data.period !== null) {
+              delete data.period.end;
+            }
+            return JSON.stringify(canonical(data));
+          };
+
+          const [oldPath, newPath] = process.argv.slice(2);
+          process.exit(load(oldPath) === load(newPath) ? 0 : 1);
+          EOF
+            if node /tmp/compare-contributions.js /tmp/contributions-old.json data/contributions.json; then
+              echo "Only 'period/end' changed, nothing to commit"
+              exit 0
+            fi
+          fi
+
           git add .
           git commit -m "Contripy Bot: Update contributions data"
           git push
