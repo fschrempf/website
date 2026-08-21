@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-08-14"
+    "end": "2026-08-21"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,230 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "6b8184e6ff5fdb35c88c708c858b43586410c811",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: udev-extraconf: Sync mount.sh with upstream",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/6b8184e6ff5fdb35c88c708c858b43586410c811"
+            },
+            {
+              "id": "66cbeb21cbd222bf94dcbf6deb31daa1d8ff4df8",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: Fix deprecated LICENSE strings",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/66cbeb21cbd222bf94dcbf6deb31daa1d8ff4df8"
+            },
+            {
+              "id": "c35785bfc6363d72958ade13468bbc39a683bb15",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: Remove ddcutil recipe",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/c35785bfc6363d72958ade13468bbc39a683bb15"
+            },
+            {
+              "id": "0d8236566a9566ce9d95ae891f75a2fd18f275ff",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-ked-minimal: Fix IMAGE_ROOTFS_EXTRA_SPACE comment",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/0d8236566a9566ce9d95ae891f75a2fd18f275ff"
+            },
+            {
+              "id": "39f0aa01b3a432d55166510b16e440a18b123ae5",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-ked-minimal: Remove vardepsexclude for non-existent deploy task",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/39f0aa01b3a432d55166510b16e440a18b123ae5"
+            },
+            {
+              "id": "83ae4945365e8864bf13d81f047f7068fad86715",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: linux-serial-test: Remove unused checksums",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/83ae4945365e8864bf13d81f047f7068fad86715"
+            },
+            {
+              "id": "86e985322ccd77136d527c01c570498a512d3744",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: ktnstress: Remove overwritten FILES:",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/86e985322ccd77136d527c01c570498a512d3744"
+            },
+            {
+              "id": "5926b75427a5a18291ef67c45cd0255a3bfe1e27",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: os-release: Drop non-working and invasive variables",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/5926b75427a5a18291ef67c45cd0255a3bfe1e27"
+            },
+            {
+              "id": "2b5f6e0c0201eed8414671ad8d696f53728a71c6",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: layer.conf: Remove deprecated hardcoded git credentials",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/2b5f6e0c0201eed8414671ad8d696f53728a71c6"
+            },
+            {
+              "id": "954f95d198373171c01bbdc3452606feb68ca369",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: layer.conf: Remove deprecated EXCEET_* variables",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/954f95d198373171c01bbdc3452606feb68ca369"
+            },
+            {
+              "id": "2adf7004c263312ba53c305d2b4b101deb6c0450",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-ked-minimal: Remove unused mrvl vendor driver packages",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/2adf7004c263312ba53c305d2b4b101deb6c0450"
+            },
+            {
+              "id": "455eb93e208a5e5481ddae7456d5464ce5eae67d",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-ked-test: Move meta-multimedia packages to layer-specific bbappend",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/455eb93e208a5e5481ddae7456d5464ce5eae67d"
+            },
+            {
+              "id": "13f683b4611b63c85e16d7cfc4c7543b2b09a745",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-ked-minimal: Remove unused platform-specific include",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/13f683b4611b63c85e16d7cfc4c7543b2b09a745"
+            },
+            {
+              "id": "8a8c65f8cc265e3480a4d1b1a5a015559afe4077",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: Remove image-ked-sparkle",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/8a8c65f8cc265e3480a4d1b1a5a015559afe4077"
+            },
+            {
+              "id": "2858be43f95001bc84e8432509abd2fef8bc7046",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-bootloader: u-boot-ktn: Remove deprecated recipe backports",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/2858be43f95001bc84e8432509abd2fef8bc7046"
+            },
+            {
+              "id": "3cae6c829296a43a9077ccc174e4094c6aed3167",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-bootloader: u-boot-ktn: Remove unused checksums",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/3cae6c829296a43a9077ccc174e4094c6aed3167"
+            },
+            {
+              "id": "f4668f30e2d6f9d22bd2fbb982d846f27b969022",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-kernel: linux-ktn-common.inc: Remove deprecated SRCPV",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/f4668f30e2d6f9d22bd2fbb982d846f27b969022"
+            },
+            {
+              "id": "7c73767b7fb8b6600de77e0d6a64eddbaa301678",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-kernel: layer.conf: Remove duplicate BBFILES",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/7c73767b7fb8b6600de77e0d6a64eddbaa301678"
+            },
+            {
+              "id": "17f62764d4143a3c0bdba828ce1dcde7243bb5d7",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-ti: u-boot-ti-ked: Remove unused checksums",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/17f62764d4143a3c0bdba828ce1dcde7243bb5d7"
+            },
+            {
+              "id": "4242c8cbcd2d2cf197cf06271f697e087dfef5f8",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-ti: layer.conf: Remove unused commented line",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/4242c8cbcd2d2cf197cf06271f697e087dfef5f8"
+            },
+            {
+              "id": "23feae3298ca9f160866a04053a92254a844d5e5",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: layer.conf: Remove unused commented line",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/23feae3298ca9f160866a04053a92254a844d5e5"
+            },
+            {
+              "id": "3ef6f4b1912c7b5359a71701fe1c18102fa4f120",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: Remove deprecated platform-specific abboot class",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/3ef6f4b1912c7b5359a71701fe1c18102fa4f120"
+            },
+            {
+              "id": "cdefc1d2c01e0488387d2343fe6620ef0044236d",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: Remove unused local.conf.sample",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/cdefc1d2c01e0488387d2343fe6620ef0044236d"
+            },
+            {
+              "id": "6cec5496c1b9e7144dcf9691b4c8b8186c9402da",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "kas: inc: ti.yml: Remove unsed variable",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/6cec5496c1b9e7144dcf9691b4c8b8186c9402da"
+            },
+            {
+              "id": "b349e650fe7cc73d926646d653ada5cf993e484e",
+              "date": "2026-08-19",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "tests: Improve the readability of the test log",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/b349e650fe7cc73d926646d653ada5cf993e484e"
+            },
+            {
+              "id": "8a6477d220369b149449f8e5507fe9f7b22c0ee9",
+              "date": "2026-08-19",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "tests: Enable colored logs",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/8a6477d220369b149449f8e5507fe9f7b22c0ee9"
+            },
+            {
+              "id": "a32ed19a7f0be624a1037362a72a745a9df38ba7",
+              "date": "2026-08-19",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "tests: Create ASCII console logs",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/a32ed19a7f0be624a1037362a72a745a9df38ba7"
+            },
+            {
+              "id": "b07cd4190d3a05d51ffd48af1a45f9a5c1d7f136",
+              "date": "2026-08-19",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "tests: pytest.ini: Add a timestamp instead of the labgrid step logger prefix",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/b07cd4190d3a05d51ffd48af1a45f9a5c1d7f136"
+            },
             {
               "id": "bbc1e7ae960c15b5f4410bc1103c1fcc6d8b7316",
               "date": "2026-08-13",
@@ -4784,6 +5008,14 @@
         },
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "9c269fe7eae8cb60d8d6c326dd8955818722fae9",
+              "subject": "arm64: dts: imx93-kontron: set memory node to 0x80000000/1GiB",
+              "date": "2026-06-29T21:05:13Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9c269fe7eae8cb60d8d6c326dd8955818722fae9"
+            },
             {
               "id": "5b19ca527471903920d713bc48518a036a95bf6b",
               "subject": "arm64: dts: imx8mp-kontron: Fix GPIO for display power switch",
