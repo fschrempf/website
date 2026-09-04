@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-08-21"
+    "end": "2026-09-04"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,62 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "917670236da0792b9b6d269f078c1931f90e6333",
+              "date": "2026-08-26",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: inc: package.yml: Package CycloneDX SBOMs",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/917670236da0792b9b6d269f078c1931f90e6333"
+            },
+            {
+              "id": "786697b9b6d38fecbe39f139ddd1a6f6cbad2088",
+              "date": "2026-08-26",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "Generate CycloneDX SBOMs using meta-cyclonedx",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/786697b9b6d38fecbe39f139ddd1a6f6cbad2088"
+            },
+            {
+              "id": "0c5d5b4501e6103f1914eed82d0c506c5e87b541",
+              "date": "2026-08-25",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-ti: linux-ti-ked: Update SRCREV",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/0c5d5b4501e6103f1914eed82d0c506c5e87b541"
+            },
+            {
+              "id": "2143d43990a0b0289b07af59f629488ec89a77b2",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: optee-os: Add missing memory and etzpc nodes in DT",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/2143d43990a0b0289b07af59f629488ec89a77b2"
+            },
+            {
+              "id": "6e658fff48ef3cc12df728b99d9ec6340b6c81a6",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: trusted-firmware-a: Fix optee-os dependency",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/6e658fff48ef3cc12df728b99d9ec6340b6c81a6"
+            },
+            {
+              "id": "d0e836d0fa5b9bd305d6db732a6a12e84c4037b6",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-kernel: arm.cfg: Add missing CONFIG_SMP",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/d0e836d0fa5b9bd305d6db732a6a12e84c4037b6"
+            },
+            {
+              "id": "eeb4a1c92945b4a8822b84cd014c717fc8fab0a9",
+              "date": "2026-08-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-kernel: linux-ktn-common.inc: Fix localversion for recipes not using KTN_SRC_ID",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/eeb4a1c92945b4a8822b84cd014c717fc8fab0a9"
+            },
             {
               "id": "6b8184e6ff5fdb35c88c708c858b43586410c811",
               "date": "2026-08-20",
@@ -211,6 +267,14 @@
               "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/6cec5496c1b9e7144dcf9691b4c8b8186c9402da"
             },
             {
+              "id": "28525e5f33a467a4333860378f02aa18548982c2",
+              "date": "2026-08-19",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: Remove unused TFA_BOOT_UART_BASE for i.MX93",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/28525e5f33a467a4333860378f02aa18548982c2"
+            },
+            {
               "id": "b349e650fe7cc73d926646d653ada5cf993e484e",
               "date": "2026-08-19",
               "author": "Frieder Schrempf",
@@ -243,6 +307,38 @@
               "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/b07cd4190d3a05d51ffd48af1a45f9a5c1d7f136"
             },
             {
+              "id": "f1eeee60fd460d59f223674ad42f10ee011c1d7f",
+              "date": "2026-08-18",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: mcore-firmware-stm32mp1: Update SRCREV",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/f1eeee60fd460d59f223674ad42f10ee011c1d7f"
+            },
+            {
+              "id": "aa19176441ce17afb3b938546d5ee307d0f8394c",
+              "date": "2026-08-18",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-ti: u-boot-ti-ked: Upgrade to v2026.01",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/aa19176441ce17afb3b938546d5ee307d0f8394c"
+            },
+            {
+              "id": "7c779d03f3490af94f65d173dd11f06ce47f6ec1",
+              "date": "2026-08-18",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: mcore-firmware-imx: Update SRCREV",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/7c779d03f3490af94f65d173dd11f06ce47f6ec1"
+            },
+            {
+              "id": "af3a080f2062cafba8aec874f3155419976e82f3",
+              "date": "2026-08-13",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: common.yml: Use kas 5.4 by default",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/af3a080f2062cafba8aec874f3155419976e82f3"
+            },
+            {
               "id": "bbc1e7ae960c15b5f4410bc1103c1fcc6d8b7316",
               "date": "2026-08-13",
               "author": "Frieder Schrempf",
@@ -273,6 +369,30 @@
               "email": "frieder.schrempf@kontron.de",
               "subject": "meta-ked: Disable wic fstab append and fix boot",
               "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/8675698d68302f3c2b00b7efae8606331eb5c3b6"
+            },
+            {
+              "id": "5c4062ca75bd5435c10d899b15669b19b14b6c22",
+              "date": "2026-08-11",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "kas: common.yml: Set BB_HASHSERVE_DB_DIR",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/5c4062ca75bd5435c10d899b15669b19b14b6c22"
+            },
+            {
+              "id": "889cd0c8d6a893c9def4aec45918a3efef7d0103",
+              "date": "2026-08-11",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "Update to Yocto 6.0 (Wrynose)",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/889cd0c8d6a893c9def4aec45918a3efef7d0103"
+            },
+            {
+              "id": "b8db141368cd478d9519069a48c87fdbd22e2578",
+              "date": "2026-08-11",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "Replace deprecated 'debug-tweaks'",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/b8db141368cd478d9519069a48c87fdbd22e2578"
             },
             {
               "id": "5a20c0540c314b9bf74731989d0994635114982a",
@@ -769,6 +889,14 @@
               "email": "frieder.schrempf@kontron.de",
               "subject": "tests: conf: Add blank line before 'spi_nands'",
               "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/84e9481bcd7063e1f24a66d99398ab26290d6cdb"
+            },
+            {
+              "id": "6f78939574b33d810e02cb0df43597684ea6e1f3",
+              "date": "2026-04-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: kontron-mx8mp.conf: Enable IMX219 camera overlays",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/6f78939574b33d810e02cb0df43597684ea6e1f3"
             },
             {
               "id": "b1890a0712adedc862a3930096521c5ca3920043",
