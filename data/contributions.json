@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-09-04"
+    "end": "2026-09-11"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,14 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "1cff5846fe3903767a79b849fdd6e3fa09f0ed18",
+              "date": "2026-09-09",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: u-boot-ktn: Adjust touchscreen node names",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/1cff5846fe3903767a79b849fdd6e3fa09f0ed18"
+            },
             {
               "id": "917670236da0792b9b6d269f078c1931f90e6333",
               "date": "2026-08-26",
@@ -6308,6 +6316,14 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "9b21f43a228918aabb2508cb670c217dd899580f",
+              "subject": "ddr: imx: Reload the training firmware for every PHY configuration",
+              "date": "2026-09-06T00:46:52Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/9b21f43a228918aabb2508cb670c217dd899580f"
+            },
             {
               "id": "b61c4f2a322228383a6fa6db8fd8308718939418",
               "subject": "imx: kontron-sl-mx8mm: Enable the watchdog at boot",
