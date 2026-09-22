@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-09-11"
+    "end": "2026-09-22"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,126 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "b32cbbdc3d3a01bbce11bad53ef7906318d5ae62",
+              "date": "2026-09-22",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-bootloader: u-boot-ktn: Update SRCREV",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/b32cbbdc3d3a01bbce11bad53ef7906318d5ae62"
+            },
+            {
+              "id": "b4a7ba4bc56f8c4d3c612511636cd9134ca63998",
+              "date": "2026-09-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: ked.conf: Remove workaround for CycloneDX citations",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/b4a7ba4bc56f8c4d3c612511636cd9134ca63998"
+            },
+            {
+              "id": "a56b12437b7075678c54f1b360b0b5b6a4faf7d9",
+              "date": "2026-09-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "kas: inc: common.lock.yml: Update meta-cyclonedx",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/a56b12437b7075678c54f1b360b0b5b6a4faf7d9"
+            },
+            {
+              "id": "9e6e7eda4520b36e81b31c6b3ac4ee809d330921",
+              "date": "2026-09-16",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "docs: Add some information on SBOM generation",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/9e6e7eda4520b36e81b31c6b3ac4ee809d330921"
+            },
+            {
+              "id": "48ae1209763d11caa67ded61a2085cf6813b0675",
+              "date": "2026-09-16",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Add jobs to upload SBOM to Dependency-Track",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/48ae1209763d11caa67ded61a2085cf6813b0675"
+            },
+            {
+              "id": "312bda74775d465ac2fb2eb0e5ab6994b5544b48",
+              "date": "2026-09-16",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: inc: package.yml: Store PLATFORM in manifest file",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/312bda74775d465ac2fb2eb0e5ab6994b5544b48"
+            },
+            {
+              "id": "c32f1094429beb0dfee283d0dc9978ab19f757c3",
+              "date": "2026-09-16",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: ked.conf: Disable CycloneDX citations",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/c32f1094429beb0dfee283d0dc9978ab19f757c3"
+            },
+            {
+              "id": "e62413e2d3212dcf678682ad614e1da590f21fe6",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: ked.conf: Add boot firmware to CYCLONEDX_EXTRA_RUNTIME_RECIPES",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/e62413e2d3212dcf678682ad614e1da590f21fe6"
+            },
+            {
+              "id": "a847aad0947d5d32f568b34aea75a28721d3fd24",
+              "date": "2026-09-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "docs: kernel.md: Add note about backports for upstream kernel",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/a847aad0947d5d32f568b34aea75a28721d3fd24"
+            },
+            {
+              "id": "09777cebf21571408f71e5ce4cb9ba55ccb137d6",
+              "date": "2026-09-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: container-build.yml: Remove kas 3.3",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/09777cebf21571408f71e5ce4cb9ba55ccb137d6"
+            },
+            {
+              "id": "a9c98ab462cd0cecf684ea56d6c8f682ae50a51b",
+              "date": "2026-09-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Add build tests for upstream kernel",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/a9c98ab462cd0cecf684ea56d6c8f682ae50a51b"
+            },
+            {
+              "id": "0ff15d655d6f669ae49b5c3a4cf60d13fc0f45e5",
+              "date": "2026-09-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "Kconfig: Add menu for kernel selection",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/0ff15d655d6f669ae49b5c3a4cf60d13fc0f45e5"
+            },
+            {
+              "id": "edb3fa02ebd684a1b3e085dff6dd238a67e0bfc5",
+              "date": "2026-09-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: Define upstream devicetrees",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/edb3fa02ebd684a1b3e085dff6dd238a67e0bfc5"
+            },
+            {
+              "id": "e4c13921aa0c14a6ff11e5e82fdcb22a8fec7984",
+              "date": "2026-09-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-kernel: Add class to select valid devicetrees for upstream kernel",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/e4c13921aa0c14a6ff11e5e82fdcb22a8fec7984"
+            },
+            {
+              "id": "7c9f2e91e9f76c1a8994e42ef83a875d7ceba938",
+              "date": "2026-09-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "kas: inc: Provide LTS and stable options for upstream kernel",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/7c9f2e91e9f76c1a8994e42ef83a875d7ceba938"
+            },
             {
               "id": "1cff5846fe3903767a79b849fdd6e3fa09f0ed18",
               "date": "2026-09-09",
@@ -5144,6 +5264,14 @@
         },
         "Linux Kernel": {
           "authored": [
+            {
+              "id": "3d743adf090cd4c9a2120c1e02b0482e88aa0d2d",
+              "subject": "spi: fsl-qspi: Reprogram the clock rate when the operation frequency \u2026",
+              "date": "2026-09-17T18:46:29Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3d743adf090cd4c9a2120c1e02b0482e88aa0d2d"
+            },
             {
               "id": "9c269fe7eae8cb60d8d6c326dd8955818722fae9",
               "subject": "arm64: dts: imx93-kontron: set memory node to 0x80000000/1GiB",
