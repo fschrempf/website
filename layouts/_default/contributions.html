@@ -41,7 +41,7 @@
     {{ range $i, $commit := $project.authored }}
     <li class='{{ if gt (add $i 1) $visible_commits_per_project }}hidden list-item-truncated{{ end }}'
         data-project-id="{{ $project_index }}">
-        {{ $date := time.Format "2006-01-06" .date }}
+        {{ $date := time.Format "2006-01-02" .date }}
         {{ printf "%s:" $date}}
         {{ if in $paid_emails (lower (default "" .email)) }}
         <span class="contribution-paid" title="Contributed as part of paid work"
