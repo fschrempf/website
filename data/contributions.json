@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-09-22"
+    "end": "2026-10-13"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,62 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "f93c900f47d5c629929b4258a1359e3750b21bab",
+              "date": "2026-10-13",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Don't build the upstream kernels in testing pipelines",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/f93c900f47d5c629929b4258a1359e3750b21bab"
+            },
+            {
+              "id": "f7b1afcbefef7d7cc8ba81e755d2078ebc6d0124",
+              "date": "2026-10-08",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-configuration.bbclass: Further fixes",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/f7b1afcbefef7d7cc8ba81e755d2078ebc6d0124"
+            },
+            {
+              "id": "6a14fdb35cb2e0c036a00404dc35e0944ad2c8ba",
+              "date": "2026-10-08",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-configuration.bbclass: Fix IMAGE_CONFIGFILES_INSTALL",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/6a14fdb35cb2e0c036a00404dc35e0944ad2c8ba"
+            },
+            {
+              "id": "596a9c94fdfd3b645bfee053f8281ff8eb26cf2b",
+              "date": "2026-10-06",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: inc: build.yml: Use explicit list for variables in cienv file",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/596a9c94fdfd3b645bfee053f8281ff8eb26cf2b"
+            },
+            {
+              "id": "ba6ea617f786b370b17375f2df07a0a569868dc0",
+              "date": "2026-10-06",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-ci-buildinfo.bbclass: Improve variable parsing",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/ba6ea617f786b370b17375f2df07a0a569868dc0"
+            },
+            {
+              "id": "94971cee6258ca20aea4cef08d67ddf922eee250",
+              "date": "2026-10-06",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: image-ci-buildinfo.bbclass: Use DEPLOY_DIR instead of PWD",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/94971cee6258ca20aea4cef08d67ddf922eee250"
+            },
+            {
+              "id": "1bfedea7299d60c362c236ee2111ec3770a11f0d",
+              "date": "2026-10-06",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: inc: build.yml: Pass bitbake scheduler limits via site.conf",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/1bfedea7299d60c362c236ee2111ec3770a11f0d"
+            },
             {
               "id": "b32cbbdc3d3a01bbce11bad53ef7906318d5ae62",
               "date": "2026-09-22",
@@ -6451,6 +6507,30 @@
               "author": "Frieder Schrempf",
               "email": "frieder.schrempf@kontron.de",
               "link": "https://source.denx.de/u-boot/u-boot/-/commit/9b21f43a228918aabb2508cb670c217dd899580f"
+            },
+            {
+              "id": "f0ddc167f547eede89d34e3f22a1fbd646f39d58",
+              "subject": "board: imx6dl-sielaff: Enable environment on SD card",
+              "date": "2026-08-14T19:19:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/f0ddc167f547eede89d34e3f22a1fbd646f39d58"
+            },
+            {
+              "id": "768053b2922cf8b413ca9ada6677f22bc62c215c",
+              "subject": "board: imx6dl-sielaff: Remove board_boot_order() workaround",
+              "date": "2026-08-14T19:19:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/768053b2922cf8b413ca9ada6677f22bc62c215c"
+            },
+            {
+              "id": "834b6bc0aee8e1e04d67a0852867358a6f6b7bcd",
+              "subject": "ARM: imx: Support detection of ECSPI recovery mode on i.MX6",
+              "date": "2026-08-14T19:19:51Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/834b6bc0aee8e1e04d67a0852867358a6f6b7bcd"
             },
             {
               "id": "b61c4f2a322228383a6fa6db8fd8308718939418",
