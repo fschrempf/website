@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-10-13"
+    "end": "2026-10-23"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,62 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "12d43a7cdf2ddec7d266c3789b8229200ed3150f",
+              "date": "2026-10-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Add SRCREV update job for u-boot-ktn",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/12d43a7cdf2ddec7d266c3789b8229200ed3150f"
+            },
+            {
+              "id": "a54fc9d2ebbf1723999ebefd54fb1c1e6cd7afb8",
+              "date": "2026-10-14",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Add a job template for SRCREV updater",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/a54fc9d2ebbf1723999ebefd54fb1c1e6cd7afb8"
+            },
+            {
+              "id": "7fd4d11d433c2aac8367f3a8056abbec2291dd70",
+              "date": "2026-10-13",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "layers: meta-ked-stm32mp: mcore-autoload: Drop prebuilt firmware",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/7fd4d11d433c2aac8367f3a8056abbec2291dd70"
+            },
+            {
+              "id": "9a3d632fc85827546db224f58b8e9f9aaafec04e",
+              "date": "2026-10-13",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "layers: meta-ked: mcore-autoload: Fix empty demos package",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/9a3d632fc85827546db224f58b8e9f9aaafec04e"
+            },
+            {
+              "id": "9f3afe3aa6c61a93951053555c8a712bef0853ea",
+              "date": "2026-10-13",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "layers: meta-ked-stm32mp: Start built echo firmware by default",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/9f3afe3aa6c61a93951053555c8a712bef0853ea"
+            },
+            {
+              "id": "c14be138f1e40adb3b9738fd8fc1a76e6106139c",
+              "date": "2026-10-13",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "layers: meta-ked: mcore-autoload: Kill reader in rpmsg1 script",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/c14be138f1e40adb3b9738fd8fc1a76e6106139c"
+            },
+            {
+              "id": "1a89070ee1b0ad4a442b14e4cc399b279ebd5c85",
+              "date": "2026-10-13",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "layers: meta-ked: mcore-autoload: Fix config handling and startup",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/1a89070ee1b0ad4a442b14e4cc399b279ebd5c85"
+            },
             {
               "id": "f93c900f47d5c629929b4258a1359e3750b21bab",
               "date": "2026-10-13",
@@ -5321,6 +5377,46 @@
         "Linux Kernel": {
           "authored": [
             {
+              "id": "ed7c97953012ab2bd025fd93fb86dc233456c7fc",
+              "subject": "arm64: dts: imx8mm-kontron: Describe the ethernet PHY LEDs",
+              "date": "2026-09-23T20:18:16Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ed7c97953012ab2bd025fd93fb86dc233456c7fc"
+            },
+            {
+              "id": "fda9ea633a8d6d49f2165ec05016a769821da3b3",
+              "subject": "arm64: dts: imx93-kontron: Adjust GPIO4_IO29 usage",
+              "date": "2026-09-23T20:18:16Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fda9ea633a8d6d49f2165ec05016a769821da3b3"
+            },
+            {
+              "id": "38d4b42e4a2af5066b602867042c10c699bd08ad",
+              "subject": "spi: dw: Use the rx-sample-delay-ns value parsed by the core",
+              "date": "2026-09-21T12:15:05Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=38d4b42e4a2af5066b602867042c10c699bd08ad"
+            },
+            {
+              "id": "631a5633638136add14406d5bc18ca113492cd77",
+              "subject": "spi: Parse the rx-sample-delay-ns peripheral property in the core",
+              "date": "2026-09-21T12:15:04Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=631a5633638136add14406d5bc18ca113492cd77"
+            },
+            {
+              "id": "2c68b2403acd1cbf0b19c71dab9858cd2ca6bbb5",
+              "subject": "spi: dt-bindings: Clarify what rx-sample-delay-ns describes",
+              "date": "2026-09-21T12:15:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=2c68b2403acd1cbf0b19c71dab9858cd2ca6bbb5"
+            },
+            {
               "id": "3d743adf090cd4c9a2120c1e02b0482e88aa0d2d",
               "subject": "spi: fsl-qspi: Reprogram the clock rate when the operation frequency \u2026",
               "date": "2026-09-17T18:46:29Z",
@@ -8812,6 +8908,22 @@
         },
         "MeshCore": {
           "authored": [
+            {
+              "id": "9d0e2f2fac116845c07d1f71e9357dae25b60f06",
+              "subject": "Merge branch 'dev' into dev",
+              "date": "2026-09-15T20:59:09Z",
+              "author": "Frieder Schrempf",
+              "email": "34034373+fschrempf@users.noreply.github.com",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/9d0e2f2fac116845c07d1f71e9357dae25b60f06"
+            },
+            {
+              "id": "3984b872ca4a0b4c7bddb48e089e52e608f1dc3b",
+              "subject": "Disable NRF52 undervoltage bootlock feature",
+              "date": "2026-04-22T17:56:57Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder@fris.de",
+              "link": "https://github.com/meshcore-dev/MeshCore/commit/3984b872ca4a0b4c7bddb48e089e52e608f1dc3b"
+            },
             {
               "id": "4f46ec75dda7a4ed850f3dc42b426432d8256b33",
               "subject": "Remove NRF52BoardOTA class and integrate it into NRF52Board",
