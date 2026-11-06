@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-10-23"
+    "end": "2026-11-06"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,110 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "6ff0497fc2870e670dbc5eda789aecfde5ba3703",
+              "date": "2026-11-05",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "kas: shared-cache.yml: Use HTTPS sstate mirror",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/6ff0497fc2870e670dbc5eda789aecfde5ba3703"
+            },
+            {
+              "id": "d0aae6395d44a03c26280d62246ce8f618695429",
+              "date": "2026-11-04",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Add reporting for nightly test pipeline",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/d0aae6395d44a03c26280d62246ce8f618695429"
+            },
+            {
+              "id": "84c262114ac344b6f16723bb6f745890399fc392",
+              "date": "2026-11-04",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "tests: eMMC: Allow a lower bus clock on the STM32MP15",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/84c262114ac344b6f16723bb6f745890399fc392"
+            },
+            {
+              "id": "dc5ca329dcee13d11214168e61f64eb173feda4c",
+              "date": "2026-11-04",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: trusted-firmware-a: Clock SDMMC1/2 from HCLK6",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/dc5ca329dcee13d11214168e61f64eb173feda4c"
+            },
+            {
+              "id": "e6c387769c8bfacd8386ace7d07644b884a521b7",
+              "date": "2026-11-04",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-stm32mp: trusted-firmware-a: Move peripheral clock sources to st,pkcs",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/e6c387769c8bfacd8386ace7d07644b884a521b7"
+            },
+            {
+              "id": "ab2350a209fb95468ae936e860c1c5711da0a64f",
+              "date": "2026-11-03",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "tests: Add eMMC bus tests",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/ab2350a209fb95468ae936e860c1c5711da0a64f"
+            },
+            {
+              "id": "d2f4b10f78313c8c87b621cbcedbf82732665cb9",
+              "date": "2026-10-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "docs: Link the CI builds page from the overview",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/d2f4b10f78313c8c87b621cbcedbf82732665cb9"
+            },
+            {
+              "id": "46bc3e164c9de06a968a5ea4f061305da402cf28",
+              "date": "2026-10-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Keep weekly artifacts for a week and refresh the docs after schedules",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/46bc3e164c9de06a968a5ea4f061305da402cf28"
+            },
+            {
+              "id": "4f99994864f890fc79333352a46ed6c4b798437a",
+              "date": "2026-10-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Build full images with the upstream kernels weekly",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/4f99994864f890fc79333352a46ed6c4b798437a"
+            },
+            {
+              "id": "1ab88e0c7854470543e3e1e691001f9c7c3eaca1",
+              "date": "2026-10-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Add builds with optional features and group build jobs by trigger",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/1ab88e0c7854470543e3e1e691001f9c7c3eaca1"
+            },
+            {
+              "id": "45984dd676df243f14079c45c68d8095f639eb8b",
+              "date": "2026-10-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "kas: Move the optional features to kas/features",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/45984dd676df243f14079c45c68d8095f639eb8b"
+            },
+            {
+              "id": "aca60b785b92f7ed700a96eb4fc61ead387f96fd",
+              "date": "2026-10-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "kas: Make the Qt6 graphics stack an optional feature",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/aca60b785b92f7ed700a96eb4fc61ead387f96fd"
+            },
+            {
+              "id": "3dfb3baea28d016f48df86457e9f06cd3091d26b",
+              "date": "2026-10-21",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: Move the mesa etnaviv configuration out of meta-ked-graphics",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/3dfb3baea28d016f48df86457e9f06cd3091d26b"
+            },
             {
               "id": "12d43a7cdf2ddec7d266c3789b8229200ed3150f",
               "date": "2026-10-14",
@@ -6596,6 +6700,30 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "15c7f1d15d4b0de8dbc59bf5e1081a00d6c77cc4",
+              "subject": "imx: kontron-osm-s-mx8mp: Remove DDR reinit workaround",
+              "date": "2026-10-24T23:28:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/15c7f1d15d4b0de8dbc59bf5e1081a00d6c77cc4"
+            },
+            {
+              "id": "ae03528affd320209b22750c2fe767f47813d11e",
+              "subject": "ddr: imx: Recreate the power-on state before repeating ddr_init()",
+              "date": "2026-10-24T23:28:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/ae03528affd320209b22750c2fe767f47813d11e"
+            },
+            {
+              "id": "619e8efe6f57d0fe64afdadbb98b61163c591311",
+              "subject": "ddr: imx: Use the correct GPC registers for the i.MX8MP DDRMIX",
+              "date": "2026-10-24T23:28:19Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/619e8efe6f57d0fe64afdadbb98b61163c591311"
+            },
             {
               "id": "9b21f43a228918aabb2508cb670c217dd899580f",
               "subject": "ddr: imx: Reload the training firmware for every PHY configuration",
