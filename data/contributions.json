@@ -1,7 +1,7 @@
 {
   "period": {
     "start": "2010-01-01",
-    "end": "2026-11-06"
+    "end": "2026-11-20"
   },
   "authors": {
     "Frieder Schrempf": {
@@ -18,6 +18,38 @@
       "projects": {
         "meta-ked-bsp": {
           "authored": [
+            {
+              "id": "5777513f1ce5c881490c273ff92bccad02457589",
+              "date": "2026-11-17",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Mount the mirrors share with SMB3 POSIX extensions",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/5777513f1ce5c881490c273ff92bccad02457589"
+            },
+            {
+              "id": "850ee1060da0106df11bba722c1b351dc59faf1f",
+              "date": "2026-11-12",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: nightly-report: Read the pipeline with a token",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/850ee1060da0106df11bba722c1b351dc59faf1f"
+            },
+            {
+              "id": "9d77de3702008e47eada76c7406cf1dc8d1e3ff2",
+              "date": "2026-11-12",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: Add a gate for experimental features",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/9d77de3702008e47eada76c7406cf1dc8d1e3ff2"
+            },
+            {
+              "id": "93bb425a5a8dec63e0c4be230e05ea8f0c6fe3a7",
+              "date": "2026-11-12",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "ci: Run podman jobs on the privileged autoscale runner",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/93bb425a5a8dec63e0c4be230e05ea8f0c6fe3a7"
+            },
             {
               "id": "6ff0497fc2870e670dbc5eda789aecfde5ba3703",
               "date": "2026-11-05",
@@ -121,6 +153,30 @@
               "email": "frieder.schrempf@kontron.de",
               "subject": "meta-ked: Move the mesa etnaviv configuration out of meta-ked-graphics",
               "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/3dfb3baea28d016f48df86457e9f06cd3091d26b"
+            },
+            {
+              "id": "917dfb584eaaa2f048753ef06ebddc2345ddc9f2",
+              "date": "2026-10-20",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: Add preliminary DT for Kontron OSM-M i.MX952",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/917dfb584eaaa2f048753ef06ebddc2345ddc9f2"
+            },
+            {
+              "id": "c817b01152751d209584786d00b97628b9a4487c",
+              "date": "2026-10-19",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-graphics: qt6-config: Use common gpu override",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/c817b01152751d209584786d00b97628b9a4487c"
+            },
+            {
+              "id": "04e37327c22c51c7ec653eff15428ebe7eaa569e",
+              "date": "2026-10-19",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "Introduce common machine override for platforms with GPU support",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/04e37327c22c51c7ec653eff15428ebe7eaa569e"
             },
             {
               "id": "12d43a7cdf2ddec7d266c3789b8229200ed3150f",
@@ -289,6 +345,102 @@
               "email": "frieder.schrempf@kontron.de",
               "subject": "meta-ked: ked.conf: Disable CycloneDX citations",
               "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/c32f1094429beb0dfee283d0dc9978ab19f757c3"
+            },
+            {
+              "id": "0ef9f1afa47ead7aa7c969efeb657b7ce746571a",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "docs: kernel.md: Extend description for experimental vendor kernel",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/0ef9f1afa47ead7aa7c969efeb657b7ce746571a"
+            },
+            {
+              "id": "4ed5a3bc2e1210aaf5c8c2cd80b12851056c9a4f",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "Add preliminary support for i.MX952",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/4ed5a3bc2e1210aaf5c8c2cd80b12851056c9a4f"
+            },
+            {
+              "id": "836556a3fbd8fa22cb27c08639190b0a48e48e61",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-kernel: cfg: net.cfg: Enable NET_SCHED for TSN support",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/836556a3fbd8fa22cb27c08639190b0a48e48e61"
+            },
+            {
+              "id": "26877b3c9b507f39d523e7f115d5532d5a554968",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-bootloader: Add recipe for v2026.10",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/26877b3c9b507f39d523e7f115d5532d5a554968"
+            },
+            {
+              "id": "02b1b3d788a49b9a440812e1d0d1e12778959ca9",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: Add recipe for linux-imx lf-6.18.y",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/02b1b3d788a49b9a440812e1d0d1e12778959ca9"
+            },
+            {
+              "id": "00ee88fc8e46c2bd32054325a65ad7cb9e062679",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: Add recipe for i.MX Optional Executable Image",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/00ee88fc8e46c2bd32054325a65ad7cb9e062679"
+            },
+            {
+              "id": "4f6ed90aee937635b4beb61f962d945861c2ca21",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: Add recipe for i.MX System Manager",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/4f6ed90aee937635b4beb61f962d945861c2ca21"
+            },
+            {
+              "id": "361ac4ed23c550bbc03f215b116eed8d3bb27323",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: Add recipe for NXP downstream TF-A",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/361ac4ed23c550bbc03f215b116eed8d3bb27323"
+            },
+            {
+              "id": "e2b2f1dfd389b5c7c0f3a3135ad87bccf7f83cc4",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-kernel: kernel-devicetree-upstream.bbclass: Improve error message",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/e2b2f1dfd389b5c7c0f3a3135ad87bccf7f83cc4"
+            },
+            {
+              "id": "c0bd8e32168d40f6b298c713c549e45965975f8e",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked: ked.conf: Pin bootloader",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/c0bd8e32168d40f6b298c713c549e45965975f8e"
+            },
+            {
+              "id": "04c0813e21e7e49884d6ceabd4f6d9d4e89e477d",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: firmware-ele-imx: Update to v2.0.6",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/04c0813e21e7e49884d6ceabd4f6d9d4e89e477d"
+            },
+            {
+              "id": "97f517e79ccd5dc4df3b5786f1c9e43936310ae8",
+              "date": "2026-09-15",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "subject": "meta-ked-imx: imx-boot-firmware-files: Update to v8.32 and remove unused HDMI firmware",
+              "link": "https://git.kontron-electronics.de/sw/ked/meta-ked-bsp/-/commit/97f517e79ccd5dc4df3b5786f1c9e43936310ae8"
             },
             {
               "id": "e62413e2d3212dcf678682ad614e1da590f21fe6",
@@ -6700,6 +6852,118 @@
         },
         "U-Boot": {
           "authored": [
+            {
+              "id": "fb90e3bbcdcabd9d49395164841fca5bd6b79332",
+              "subject": "test: blk: Check that partition devices are unbound on remove",
+              "date": "2026-11-12T16:46:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/fb90e3bbcdcabd9d49395164841fca5bd6b79332"
+            },
+            {
+              "id": "8db5c462b4e178163db8561c9e710ce67033a67f",
+              "subject": "blk: Unbind partition devices when removing a block device",
+              "date": "2026-11-12T16:46:03Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/8db5c462b4e178163db8561c9e710ce67033a67f"
+            },
+            {
+              "id": "a44a9004c1cd79ac638e6804258242be036c0d88",
+              "subject": "test: boot: Test the RAUC built-in boot command",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/a44a9004c1cd79ac638e6804258242be036c0d88"
+            },
+            {
+              "id": "7107800ed761a77e51f89f7217f62cf9f09e5fbf",
+              "subject": "test: boot: Test finding the RAUC partitions by name",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/7107800ed761a77e51f89f7217f62cf9f09e5fbf"
+            },
+            {
+              "id": "17defa32cbe0afdd83178150a20cee24769e0fb0",
+              "subject": "test: fs_helper: Support GPT in DiskHelper",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/17defa32cbe0afdd83178150a20cee24769e0fb0"
+            },
+            {
+              "id": "3cf09c8b5033c85310e4a8f77874731b19da0995",
+              "subject": "bootstd: rauc: Optionally boot with a built-in command",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/3cf09c8b5033c85310e4a8f77874731b19da0995"
+            },
+            {
+              "id": "4ca14703dc38a33110619ff1b41671dde2714548",
+              "subject": "bootstd: rauc: Optionally find the partitions by name",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/4ca14703dc38a33110619ff1b41671dde2714548"
+            },
+            {
+              "id": "48dd34a34ebf33a58bad7b51882a7e26c97ce719",
+              "subject": "bootstd: rauc: Only set the RAUC variables for a RAUC device",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/48dd34a34ebf33a58bad7b51882a7e26c97ce719"
+            },
+            {
+              "id": "acf2c9b7952f4e93b585f2387672645c9fdaa51e",
+              "subject": "test: boot: Test booting a RAUC bootflow twice",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/acf2c9b7952f4e93b585f2387672645c9fdaa51e"
+            },
+            {
+              "id": "046d25230db117bd037035aa4ec00c62ab8abdae",
+              "subject": "test: boot: Restore the bootdev order if the RAUC test fails",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/046d25230db117bd037035aa4ec00c62ab8abdae"
+            },
+            {
+              "id": "20b5083334c6e5c6c617cb4fce34c6c4e8e18ac4",
+              "subject": "bootstd: rauc: Free the boot script of a failed boot attempt",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/20b5083334c6e5c6c617cb4fce34c6c4e8e18ac4"
+            },
+            {
+              "id": "ffc23ed61795699070bdd5d0b401b1b390ae192d",
+              "subject": "bootstd: rauc: Fix overflow of the BOOT_x_LEFT name buffer",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/ffc23ed61795699070bdd5d0b401b1b390ae192d"
+            },
+            {
+              "id": "c41bafb348c31025b13d545d9c8cb884565644ed",
+              "subject": "bootstd: rauc: Fix leak of the active slot name",
+              "date": "2026-11-12T16:44:50Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/c41bafb348c31025b13d545d9c8cb884565644ed"
+            },
+            {
+              "id": "ba04ce9bf8917fc445011af06bc52a19480f6ffe",
+              "subject": "bootstd: rauc: Initialise desc in distro_rauc_scan_parts()",
+              "date": "2026-11-12T16:44:49Z",
+              "author": "Frieder Schrempf",
+              "email": "frieder.schrempf@kontron.de",
+              "link": "https://source.denx.de/u-boot/u-boot/-/commit/ba04ce9bf8917fc445011af06bc52a19480f6ffe"
+            },
             {
               "id": "15c7f1d15d4b0de8dbc59bf5e1081a00d6c77cc4",
               "subject": "imx: kontron-osm-s-mx8mp: Remove DDR reinit workaround",
